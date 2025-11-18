@@ -40,4 +40,4 @@
 6. ¡Hostea un servidor local y disfruta!  
 No olvides revisar el:
 
-👉 **[Manual de uso](docs/manual.md)**
+👉 **[Manual de uso](manual.md)**

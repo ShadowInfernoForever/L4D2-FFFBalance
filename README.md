@@ -34,6 +34,7 @@ FFForever-Balance es un proyecto dedicado a mejorar de forma profunda la jugabil
 - Compatibilidad para 4 y 8 jugadores  
 - Modos casuales, competitivos y caóticos  
 - Integración con contenido adicional (zcontent bundles)
+- Leé más en [Características Principales](docs/features.md)
 
 Hecho con dedicación y pasión al juego.
 
@@ -43,14 +44,13 @@ Hecho con dedicación y pasión al juego.
 
 - [**Shadow / ShadowInferno**](https://steamcommunity.com/profiles/76561198021481327/) – Developer & Maintainer
 
-# Contribuidores
+# 🔥 Contribuidores
 
-- [MrSlenderTOP](https://steamcommunity.com/profiles/76561197992537591) — Hoster, sugerencias, spotter de bugs
+- [MrSlenderTOP](https://steamcommunity.com/profiles/76561198976623705/) — Hoster, sugerencias, spotter de bugs
 - [Actras_DK](https://steamcommunity.com/profiles/76561198886957675/) — Hoster
 - [-|Tuc](https://steamcommunity.com/id/Tucu22/) — Hoster
 - [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Ideas y sugerencias
-- [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/)
-- [Rafriki](https://steamcommunity.com/id/Rafriki1894/)
+- [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/) - Hoster?
 
 Gracias a todos los testers y a la comunidad por su apoyo constante.
 
