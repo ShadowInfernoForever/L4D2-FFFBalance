@@ -16,13 +16,13 @@
 
 Contributors
 
-[Shadow] •
-[MrSlenderTOP] •
-[Actras_DK] •
-[-|Tuc] •
-[Luca4808] •
-[DJ master 3000/Juanito_kpo4270] •
-[Rafriki]
+- [Shadow]
+- [MrSlenderTOP]
+- [Actras_DK]
+- [-|Tuc]
+- [Luca4808]
+- [DJ master 3000/Juanito_kpo4270]
+- [Rafriki]
 
 # Version History
 
