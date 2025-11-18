@@ -3,13 +3,13 @@
 > [go back to README](../README.md 'go back to Table of Content')
 
 <!-- steam link shortcuts -->
-[Shadow]: https://steamcommunity.com/profiles/76561198021481327/
-[MrSlenderTOP]: http://steamcommunity.com/profiles/76561197992537591
-[Actras_DK]: https://steamcommunity.com/profiles/76561198886957675/
-[-|Tuc]: https://steamcommunity.com/id/Tucu22/
-//# [Luca4808]: https://steamcommunity.com/id/Synth-Dingo/
-//# [DJ master 3000/Juanito_kpo4270]: https://steamcommunity.com/profiles/76561199081627245/
-//# [Rafriki]: https://steamcommunity.com/id/Rafriki1894/
+\[Shadow]: https://steamcommunity.com/profiles/76561198021481327/
+\[MrSlenderTOP]: http://steamcommunity.com/profiles/76561197992537591
+\[Actras_DK]: https://steamcommunity.com/profiles/76561198886957675/
+\[-|Tuc]: https://steamcommunity.com/id/Tucu22/
+\[Luca4808]: https://steamcommunity.com/id/Synth-Dingo/
+\[DJ master 3000/Juanito_kpo4270]: https://steamcommunity.com/profiles/76561199081627245/
+\[Rafriki]: https://steamcommunity.com/id/Rafriki1894/
 <!-- add other people :D!!! -->
 
 # Version History
