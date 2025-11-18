@@ -17,6 +17,19 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 10.71 - 18/11/2025
+
+-------------------------------------------------------------------------------
+## v10.71
+#Fixes & Removal of Useless Stuff
+- Fixed an error with l4d2_weapon_attributes
+- Removed Not Used stuff in protected_plugins_list.txt
+- Removed Not used plugins in plugins folder
+- Added Lilac.Log
+- Fixed Typo in Readme.MD
+
+-------------------------------------------------------------------------------
+
 ## VERSION 10.7 - 18/11/2025
 
 -------------------------------------------------------------------------------
