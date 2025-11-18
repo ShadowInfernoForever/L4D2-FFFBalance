@@ -1,0 +1,136 @@
+"Phrases"
+{
+	"LoginMessage"
+	{
+		"#format"	"{1:s},{2:i},{3:i},{4:i}"
+		"en"	"{red}[Rank] {default} Welcome {red}{1}, {default}you played on this server for {2} days {3} hours and {4} minutes."
+		"es"	"{red}[Rango] {default} Bienvenido {red}{1}, {default}has jugado en este servidor por {2} días {3} horas y {4} minutos."
+	}
+	
+	"SeeOtherPlayer"
+	{
+		"#format"	"{1:s},{2:i},{3:i},{4:i},{5:i}"
+		"en"  	"{1} played for {2}M {3}d {4}h {5}m"
+		"es"  	"{1} ha jugado por {2}M {3}d {4}h {5}m"
+	}
+
+	"WelcomeMonths"
+	{
+		"#format" 	"{1:s},{2:i},{3:i},{4:i},{5:i}"
+		"en"  	"Welcome {1}, you played for {2}M {3}d {4}h {5}m"
+		"es"  	"Bienvenido {1}, has jugado por {2}M {3}d {4}h {5}m"
+	}
+
+	"WelcomeDays"
+	{
+		"#format" 	"{1:s},{2:i},{3:i},{4:i}"
+		"en"  	"Welcome {1}, you played for {2}d {3}h {4}m"
+		"es"  	"Bienvenido {1}, has jugado por {2}d {3}h {4}m"
+	}
+
+    "Rank"
+    {
+        "#format"       "{1:s}" 
+        "en"            "Rank: {1}"
+        "es"            "Rango: {1}"
+    }
+	
+	"Score"
+	{
+		"#format"	"{1:i}"
+		"en"		"Score: {1}"
+		"es"		"Puntuación: {1}"
+	}
+	
+	"CommonKilled"
+	{
+		"#format"	"{1:i}"
+		"en"		"Common infected killed: {1}"
+		"es"		"Infectados comunes eliminados: {1}"
+	}
+	
+	"SpecialKilled"
+	{
+		"#format"	"{1:i}"
+		"en"		"Special infected killed: {1}"
+		"es"		"Infectados especiales eliminados: {1}"
+	}
+	
+	"Headshots"
+	{
+		"#format"	"{1:i}"
+		"en"		"Headshots: {1}"
+		"es"		"Tiros a la cabeza: {1}"
+	}
+	
+	"HeadshotsPerKill"
+	{
+		"#format"	"{1:.2f}"
+		"en"		"Headshot per kill: {1}"
+		"es"		"Tiros a la cabeza por eliminación: {1}"
+	}
+	
+	"HeadshotDamage"
+	{
+		"#format"	"{1:i}"
+		"en"		"Total headshot damage: {1}"
+		"es"		"Daño total por tiros a la cabeza: {1}"
+	}
+"Desconocido"
+{
+    "es" "Desconocido"
+}
+"newborn"
+{
+    "es" "Recién Nacido"
+}
+"rookie_level1"
+{
+    "es" "Futuro Cadáver"
+}
+"rookie_level2"
+{
+    "es" "Carne Fresca"
+}
+"rookie_level3"
+{
+    "es" "I Carne de Cañón"
+}
+"rookie_level4"
+{
+    "es" "II Condenado"
+}
+"medium_level1"
+{
+    "es" "III Superviviente Afligido"
+}
+"medium_level2"
+{
+    "es" "IV Cazador de la Plaga"
+}
+"medium_level3"
+{
+    "es" "V Hereje Errante"
+}
+"medium_level4"
+{
+    "es" "VI El Sin Redención"
+}
+"high_level1"
+{
+    "es" "VII Portador del Juicio"
+}
+"high_level2"
+{
+    "es" "VIII Mano del Apocalipsis"
+}
+"high_level3"
+{
+    "es" "IX Heraldo del Fuego"
+}
+"high_level4"
+{
+    "es" "X Señor de la Ruina"
+}
+
+}

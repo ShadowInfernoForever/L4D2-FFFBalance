@@ -1,0 +1,98 @@
+﻿"Phrases"
+{
+    "Menu_Match_Title"
+    {
+        "en" "Select Match Mode"
+        "es" "Seleccionar Modo de Juego"
+    }
+
+    "NoConfigsFound"
+    {
+        "en" "[{olive}Matchvote{default}] No configurations found for this mode."
+        "es" "[{olive}Matchvote{default}] No se encontraron configuraciones para este modo."
+    }
+
+    "Menu_SelectConfig"
+    {
+        "en" "Select Match config:"
+        "es" "Seleccionar configuración de Juego:"
+    }
+
+    "FileNotExist"
+    {
+        "en" "[{red}✖{default}] File {green}%s.cfg{default} does not exist!"
+        "es" "[{red}✖{default}] El archivo {green}%s.cfg{default} no existe!"
+    }
+
+    "SpectatorNotAllowed"
+    {
+        "en" "[{red}✖{default}] Mode votes {red}are not allowed for spectators{default}."
+        "es" "[{red}✖{default}] Las votaciones de modo {red}no se permiten a espectadores{default}."
+    }
+
+    "VoteAlreadyRunning"
+    {
+        "en" "[{red}✖{default}] {red}You cannot start a vote {default}until the current one ends."
+        "es" "[{red}✖{default}] {red}No puedes empezar un voto {default}hasta que termine el actual."
+    }
+
+    "VoteDelayWait"
+    {
+        "en" "[{red}✖{default}] You must wait {red}%d{default} seconds before starting {olive}a new vote {red}↻"
+        "es" "[{red}✖{default}] Debes esperar {red}%d{default} segundos para empezar {olive}un nuevo voto {red}↻"
+    }
+
+    "VoteNotAllowed"
+    {
+        "en" "[{red}✖{default}] Vote not allowed{default}. Not enough {green}%d{default} players."
+        "es" "[{red}✖{default}] Voto no permitido{default}. Faltan {green}%d{default} jugadores."
+    }
+
+    "Vote_ChangeMode"
+    {
+        "en" "Change mode: '%s'"
+        "es" "Cambiar modo: '%s'"
+    }
+
+    "Vote_PassLoading"
+    {
+        "en" "☑ Loading... ↻"
+        "es" "☑ Cargando... ↻"
+    }
+
+    "ChangingModeSoon"
+    {
+        "en" "[{green}✔{default}] Changing mode in 3 seconds ↻"
+        "es" "[{green}✔{default}] Cambiando modo en 3 segundos ↻"
+    }
+
+    "PlayerVotedMode"
+    {
+        "en" "[{green}•{default}] %N voted for mode: {green}%s"
+        "es" "[{green}•{default}] %N votó por el modo: {green}%s"
+    }
+
+    "CurrentMode"
+    {
+        "en" "[{green}•{default}] The current match mode is: {green}%s{default}"
+        "es" "[{green}•{default}] El modo de juego actual es: {green}%s{default}"
+    }
+
+    "NoModeChosen"
+    {
+        "en" "[{olive}•{default}] No match mode has been voted or found."
+        "es" "[{olive}•{default}] Ningún modo ha votado o se ha encontrado."
+    }
+
+    "Cmd_ServerOnly"
+    {
+        "en" "[TS] This command cannot be used by server."
+        "es" "[TS] Este comando no puede ser usado por el servidor."
+    }
+
+    "Cmd_Disabled"
+    {
+        "en" "This command is disabled."
+        "es" "Este comando está deshabilitado."
+    }
+}

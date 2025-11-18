@@ -1,0 +1,183 @@
+//# Dependency
+left4dhooks
+
+ThirdPersonShoulder_Detect
+sourcescramble_manager
+sounds
+sceneprocessor
+lagpreventor
+l4d2witchprecache
+l4d2pause
+l4d2_wskin_rng
+l4d2_weaponrules
+l4d2_weapon_attributes
+l4d2_unlock_finales
+l4d2_undoff-fix
+l4d2_trigger_flow_fix
+l4d2_time_controller
+l4d2_steady_boost
+l4d2_sound_manipulation
+l4d2_sky_nexus_custom_ladders
+l4d2_si_stumble_grenade_launcher
+l4d2_shadow_removal
+l4d2_riotcopheadshot
+l4d2_random_si_model
+l4d2_pounce_damage
+l4d2_pickup
+l4d2_melee_spawn_control
+l4d2_ghost_warp
+l4d2_gascan_anouncer
+l4d2_fireworks_noise_block
+drop_secondary
+pill_passer
+l4d2_lagcomp_manager
+l4d_start_safe_area
+l4d2_spec_stays_spec
+l4d2_m2_control_eq
+l4d2_sniper_precache
+[FF] Command Utilities
+
+//# AirStrike
+l4d2_airstrike.core
+l4d2_airstrike.triggers
+l4d2_airstrike.no_mercy
+l4d2_airstrike.dead_air
+
+//# L4D2 Additions
+l4d_use_priority
+l4d_selfie_camera
+l4d_screen_shake
+l4d_restart_without_changelevel
+l4d_pounceprotect
+l4d_plane_crash
+l4d_incapped_pickup
+l4d_grenade_throw
+l4d_console_spam
+l4d_chainsaw_buff
+l4d_ammo_previous
+l4d_bash_kills
+
+//# Player & Gamemode Management
+playermanagement
+l4d2_fix_team_shuffle
+
+//# Specialized Plugins
+_[L4D2]Survivor_Legs
+[L4D2]Adrenaline_Recovery
+[L4D2] Sceneprocessor
+[L4D2] Scene Adjustments
+[L4D2] Pause
+[L4D2] Melee Weapon Grunts
+[HoE] ladderguns
+boomer_horde_equalizer_refactored
+l4d2_sniper_bodyshot
+[L4D2] snipertracers
+[FF] Versus Killsound
+l4d2_fireworks
+code_patcher
+attachments_api
+vscript_replacer
+l4d_static_punch_getup
+jockey_pounce_damage
+caster_system
+caster_assister
+
+//# Sourcemod Core Plugins
+playercommands
+funvotes
+clientprefs
+basevotes
+basecommands
+basecomm
+basechat
+basebans
+adminmenu
+admin-flatfile
+adminhelp
+
+//#Tools – Modding
+sm_acvar
+
+//# Anti-Cheating and DDoS Protection
+lilac
+blockstatus
+
+//# Match Features
+builtinvotes_revote
+friendlyfire_vote
+match_vote
+
+
+
+
+//# //////////////
+//# PLUGINS/FIXES
+//# //////////////
+
+//# General Fixes
+fixes/l4d_votepoll_fix
+fixes/physics_object_pushfix
+fixes/l4d_freely_round_end
+fixes/TickrateFixes
+fixes/l4d2_tickrate_enabler
+fixes/l4d2_fix_team_shuffle
+fixes/l4d_return_thrown_items
+fixes/l4d_game_files_precacher
+fixes/l4d2_collision_adjustments
+fixes/l4d_unlock_versus_shove
+
+//# Survivors
+fixes/noteam_nudging-fix
+fixes/l4d2_ellis_hunter_bandaid_fix
+fixes/Defib_Fix
+fixes/l4d_fix_shove_duration
+fixes/survivor_afk_fix
+fixes/double_getup
+fixes/l4d2_undoff-fix
+fixes/l4d2_fix_rocketjump
+
+//# Infected
+fixes/Charger_Collision_patch
+fixes/l4d2_tank_charger_m2_fix
+fixes/l4d2_unsilent_jockey
+fixes/l4d2_unsilent_smoker
+fixes/staggersolver-fix
+fixes/Hunter_pounce_alignment_fix
+fixes/l4d2_ai_damagefix
+fixes/l4d2_jockey_hitbox_fix
+fixes/l4d2_tongue_float_fix
+fixes/l4d-infectedequalizer-fix
+fixes/l4d_stuckzombiemeleefix
+fixes/l4d2_jockey_skeet-fix
+fixes/l4d2_spit_spread_patch
+fixes/l4d2_tongue_timer-fix
+fixes/l4d2_trigger_flow_fix
+fixes/l4d_sweep_fist_patch
+fixes/rock_stumble_block
+fixes/l4d2_smoker_attic_fix
+fixes/l4d_rock_lagcomp
+fixes/witch_pipebomb_exploit_fix_&_death_optmizer
+fixes/l4d2_tank_flying_incap
+fixes/l4d_pounceprotect
+fixes/l4d_unrestrict_panic_battlefield
+fixes/smart_ai_rock
+fixes/zombie_spawn_fix
+
+//# Common Infected
+fixes/l4d_fix_nextbot_collision
+fixes/l4d_fix_common_shove
+fixes/l4d2_shove_fix
+
+//# Witch
+fixes/witch_vision_fix
+fixes/witch_hit_to_animation_fix
+fixes/witch_allow_in_safezone
+
+//# Weaponry
+fixes/firebulletsfix
+fixes/l4d_hold_shove_n_switch_fix
+fixes/l4d_revive_reload_interrupt
+fixes/l4d2_sgfix
+fixes/l4d2_clipsizereload_fix
+fixes/lfd_both_fixSG552
+fixes/l4d2_melee_damage_control

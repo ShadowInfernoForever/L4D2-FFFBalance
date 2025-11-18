@@ -1,0 +1,3 @@
+https://forums.alliedmods.net/showthread.php?p=1729015
+
+sm_modlist - te muestra todos los modelos del mapa, similar a !ent

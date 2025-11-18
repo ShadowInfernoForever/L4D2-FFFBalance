@@ -1,0 +1,163 @@
+//--------------------------------------------------
+
+// To Customize The Texts Color, Use The Following:
+
+// default (white) - {default}
+// turquoise - {lightgreen}
+// orange - {green}
+// olive - {olive}
+
+// -------------------------------------------------
+
+
+"Phrases"
+{
+	"Loaders Connecting"
+	{
+		"en"			"Los jugadores se conectan, porfavor espera ..."
+	}
+
+	"Ready Up Countdown"
+	{
+		"#format"		"{1:d}"
+		"en"			"Tiempo de preparación: {1}"
+	}
+
+	"Round Begin Countdown"
+	{
+		"#format"		"{1:d}"
+		"en"			"La Ronda Comienza En: {1}"
+	}
+
+	"Move Out"
+	{
+		"en"			""
+	}
+
+	"Leavers Message"
+	{
+		"en"			"Los jugadores no están listos, espera porfavor ..."
+	}
+
+	"Round Started"
+	{
+		"en"			"[Lock] Error: round already started."
+	}
+
+	"Saferoom Locked"
+	{
+		"en"			"[Lock] Error: The safe area is already locked."
+	}
+
+	"Saferoom Unlocked"
+	{
+		"en"			"[Lock] Error: The safe area is already unlocked."
+	}
+
+	"Ready Up Time Ended"
+	{
+		"en"			"[Lock] Error: ready up time has ended."
+	}
+
+	"Admin Locks"
+	{
+		"#format"		"{1:N}"
+		"en"			"[Lock] Admin {1} has locked the safe area."
+	}
+
+	"Admin Unlocks"
+	{
+		"#format"		"{1:N}"
+		"en"			"[Lock] Admin {1} has unlocked the safe area."
+	}
+
+	"Spectator Ready"
+	{
+		"en"			"[Lock] Error: you need to join a team to use this command."
+	}
+
+	"You Are Ready"
+	{
+		"en"			"[Lock] Error: you are ready."
+	}
+
+	"You Are Unready"
+	{
+		"en"			"[Lock] Error: you are unready."
+	}
+
+	"Ready Up Limit"
+	{
+		"en"			"[Lock] Error: you can't use this command anymore."
+	}
+
+	"Admin Controls"
+	{
+		"en"			"[Lock] Error: admin is controlling safe area."
+
+	"Player Is Ready"
+	{
+		"en"			"Estás Listo."
+	}
+
+	"Player Is Unready"
+	{
+		"en"			"No estás listo."
+	}
+
+	"Notify Survivors Ready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The survivor team is ready ({1}/{2} - {3})."
+	}
+
+	"Notify Infected Ready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The infected team is ready ({1}/{2} - {3})."
+
+	}
+
+	"Notify Survivors Unready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The survivor team is unready ({1}/{2} - {3})."
+	}
+
+	"Notify Infected Unready"
+	{
+		"#format"		"{1:d},{2:d},{3:.1f%%}"
+		"en"			"[Lock] The infected team is unready ({1}/{2} - {3})."
+	}
+
+	"Menu Title"
+	{
+		"en"			"¿Estás Listo para empezar?"
+	}
+
+	"Menu Ready"
+	{
+		"en"			"Listo"
+
+	}
+
+	"Menu Unready"
+	{
+		"en"			"No-Listo"
+	}
+
+	"Menu Survivor"
+	{
+		"en"			"Superviviente"
+	}
+
+	"Menu Infected"
+	{
+		"en"			"Infectado"
+	}
+
+	"Menu Close"
+	{
+		"en"			"Cerrar"
+	}
+}

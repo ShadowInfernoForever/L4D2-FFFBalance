@@ -1,0 +1,102 @@
+﻿"Phrases"
+{
+    "Menu_FF_Title"
+    {
+        "en" "Select Friendly Fire Mode"
+        "es" "Seleccionar Modo de Fuego Amigo"
+    }
+
+    "NoConfigsFound"
+    {
+        "en" "[{olive}Matchvote{default}] No configurations found for this mode."
+        "es" "[{olive}Matchvote{default}] No se encontraron configuraciones para este modo."
+    }
+
+    "Menu_SelectConfig"
+    {
+        "en" "Select %s config:"
+        "es" "Seleccionar configuración de %s:"
+    }
+
+    "FileNotExist"
+    {
+        "en" "[{red}✖{default}] File {green}%s.cfg{default} does not exist!"
+        "es" "[{red}✖{default}] El archivo {green}%s.cfg{default} no existe!"
+    }
+
+    "SpectatorNotAllowed"
+    {
+        "en" "[{red}✖{default}] Mode votes {red}are not allowed for spectators{default}."
+        "es" "[{red}✖{default}] Las votaciones de modo {red}no se permiten a espectadores{default}."
+    }
+
+    "VoteAlreadyRunning"
+    {
+        "en" "[{red}✖{default}] {red}You cannot start a vote {default}until the current one ends."
+        "es" "[{red}✖{default}] {red}No puedes empezar un voto {default}hasta que termine el actual."
+    }
+
+    "VoteDelayWait"
+    {
+        "en" "[{red}✖{default}] You must wait {red}%d{default} seconds before starting {olive}a new vote {red}↻"
+        "es" "[{red}✖{default}] Debes esperar {red}%d{default} segundos para empezar {olive}un nuevo voto {red}↻"
+    }
+
+    "VoteNotAllowed"
+    {
+        "en" "[{red}✖{default}] Vote not allowed{default}. Not enough {green}%d{default} players."
+        "es" "[{red}✖{default}] Voto no permitido{default}. Faltan {green}%d{default} jugadores."
+    }
+
+    "Vote_ChangeMode"
+    {
+        "en" "Change mode: '%s'"
+        "es" "Cambiar modo: '%s'"
+    }
+
+    "Vote_PassLoading"
+    {
+        "en" "☑ Loading... ↻"
+        "es" "☑ Cargando... ↻"
+    }
+
+    "ChangingFFSoon"
+    {
+        "en" "{olive}[{green}✔{olive}]{default} Changing FF in {olive}3{default} seconds {olive}↻"
+        "es" "{olive}[{green}✔{olive}]{default} Cambiando el FF en {olive}3{default} segundos {olive}↻"
+    }
+
+    "PlayerVotedMode"
+    {
+        "en" "{olive}[{green}•{default}{olive}] {blue}%N{default} voted for mode: {green}%s"
+        "es" "{olive}[{green}•{default}{olive}] {blue}%N{default} votó por el modo: {green}%s"
+    }
+
+    "FriendlyFire_Percent"
+    {
+        "en" "Friendly Fire: %.0f%%"
+        "es" "Fuego amigo: %.0f%%"
+    }
+    "FriendlyFire_On"
+    {
+        "en" "Friendly Fire is ENABLED"
+        "es" "Fuego amigo ACTIVADO"
+    }
+    "FriendlyFire_Off"
+    {
+        "en" "Friendly Fire is DISABLED"
+        "es" "Fuego amigo DESACTIVADO"
+    }
+
+    "Cmd_ServerOnly"
+    {
+        "en" "[TS] This command cannot be used by server."
+        "es" "[TS] Este comando no puede ser usado por el servidor."
+    }
+
+    "Cmd_Disabled"
+    {
+        "en" "This command is disabled."
+        "es" "Este comando está deshabilitado."
+    }
+}

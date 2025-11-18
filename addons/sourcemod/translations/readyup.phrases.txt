@@ -1,0 +1,127 @@
+"Phrases"
+{
+// The following uses bracket style color tags (see colors.inc)
+	"PanelHide"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {red}off{default}"
+		"es"		"{olive}Readyup{default}] el Panel esta {red}desactivado{default}"
+	}
+	
+	"PanelShow"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {blue}on{default}"
+		"es"     "[{olive}Readyup{default}] el Panel esta {blue}activado{default}"
+	}
+	
+	"ForceStartAdmin"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{green}!{default}] {blue}Game {default}start is {green}forced {default}by {blue}Admin {default}({olive}{1}{default})"
+		"es"		"[{green}!{default}] {blue}El juego {default}ha sido {green}forzado {default}por el {blue}Administrador {default}({olive}{1}{default})"
+	}
+	
+	"VoteInProgress"
+	{
+		"en"		"[{olive}Readyup{default}] There's {olive}a vote {green}in progress{default}."
+		"es"		"[{olive}Readyup{default}] hay una{olive} votación en{green} progreso{default}."
+	}
+	
+	"VoteDelay"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}Readyup{default}] Wait for another {blue}{1}s {default}to call a vote."
+		"es"		"[{olive}Readyup{default}] espera otros {blue}{1}segundos {default}para llamar a un voto."
+	}
+	
+	"Player marked unready"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {default}Countdown {green}cancelled! {default}({teamcolor}{1} {default}marked {green}unready{default})"
+		"es"		"{default}[{green}!{default}] {default}Cuenta regresiva {green}cancelada! {default}({teamcolor}{1} {default}marcó {green}no listo{default})"
+	}
+	
+	"Player switched team"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {olive}switched team{default})"
+		"es"		"{default}[{green}!{default}] {green}Cuenta regresiva cancelada! {default}({teamcolor}{1} {olive}cambió de equipo{default})"
+	}
+	
+	"Player disconnected"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}disconnected{default})"
+		"es"		"{default}[{green}!{default}] {green}Cuenta regresiva cancelada! {default}({teamcolor}{1} {green}se desconectó{default})"
+	}
+	
+	"Admin aborted"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Force Start Aborted! {default}({olive}{1} {green}issued{default})"
+		"es"		"{default}[{green}!{default}] {green}Inicio forzado cancelado! {default}({olive}{1} {green}lo anuló{default})"
+	}
+	
+	
+// The following are not allowed to use any color tag
+	"HintReady"
+	{
+		"en"		"You are ready.\nSay !unready / Press F2 to unready."
+		"es"		"Estás listo.\nEscribe !unready / Presiona F2 para no estar listo."
+	}
+	
+	"HintUnready"
+	{
+		"en"		"You are not ready.\nSay !ready / Press F1 to ready up."
+		"es"		"No estás listo.\nEscribe !ready / Presiona F1 para ponerte listo."
+	}
+	
+	"LiveCountdownBegin"
+	{
+		"en"		"Going live!\nSay !unready / Press F2 to cancel"
+		"es"		"¡Comienza la partida!\nEscribe !unready / Presiona F2 para cancelar"
+	}
+	
+	"LiveCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Live in: {1}\nSay !unready / Press F2 to cancel"
+		"es"		"Comienza en: {1}\nEscribe !unready / Presiona F2 para cancelar"
+	}
+	
+	"LiveCountdownCancelled"
+	{
+		"en"		"Countdown Cancelled!"
+		"es"		"¡Cuenta regresiva cancelada!"
+	}
+	
+	"RoundIsLive"
+	{
+		"en"		"Round is live!"
+		"es"		"¡La ronda está en curso!"
+	}
+	
+	"InitiateAutoStart"
+	{
+		"en"		"Game will automatically start!"
+		"es"		"¡El juego comenzará automáticamente!"
+	}
+	
+	"AutoStartCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Game starts in: {1}"
+		"es"		"El juego comienza en: {1}"
+	}
+	
+	"AutoStartWaiting"
+	{
+		"en"		"Waiting for loading players..."
+		"es"		"Esperando a que los jugadores carguen..."
+	}
+	
+	"AutoStartNotEnoughPlayers"
+	{
+		"en"		"More players are required..."
+		"es"		"Se requieren más jugadores..."
+	}
+}

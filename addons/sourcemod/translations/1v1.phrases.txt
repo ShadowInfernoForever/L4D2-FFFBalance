@@ -1,0 +1,20 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"[{olive}1v1{default}]"
+	}
+	"HealthRemaining"
+	{
+		"#format"   "{1:s},{2:s},{3:d}" // 1:sNombre 2:NombresDeInfectados[iZclass] 3:saludRestante
+		"es"		"{red}{1}{default} ({green}{2}{default}) tenía {olive}{3}{default} de salud restante!"
+	}
+	"AI"
+	{
+		"es"		"IA"
+	}
+	"UMad"
+	{
+		"es"		"No tienes que estar enojado..."
+	}
+}

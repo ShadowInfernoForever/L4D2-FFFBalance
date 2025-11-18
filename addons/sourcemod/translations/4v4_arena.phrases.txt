@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"action_through_team_cant"
+	{
+		"en"		"¡Este compañero no es de tu equipo！"
+	}
+	"action_team_joined_yellow"
+	{
+		"en"		"Estás en el equipo Amarillo."
+	}
+	"action_team_joined_green"
+	{
+		"en"		"Estás en el equipo Verde."
+	}
+}

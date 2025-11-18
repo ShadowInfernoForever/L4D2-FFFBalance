@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Flare Cmd Ground"
+	{
+		"ru"		"Вы можете разместить сигнальную шашку написав {green}!flare{default} в чате."
+	}
+	"Flare Cmd Attach"
+	{
+		"ru"		"Вы можете разместить другую сигнальную шашку написав {green}!flareme{default} в чате."
+	}
+	"Flare Incapped"
+	{
+		"ru"		"Вы можете использовать {green}!flare{default} только когда находитесь на земле."
+	}
+	"Flare Intro"
+	{
+		"ru"		"Создайте сигнальную шашку: {green}!flare{default} или {green}!flareme{default}. Выберете цвет red, green, blue, purple, orange, yellow, white. Пр: {green}!flare red{default}."
+	}
+	"Flare Invalid Args"
+	{
+		"ru"		"Недопустимые аргументы: {green}!flareclient <#userid|name> [R G B] [R G B]{default} (3 RGB значения 0-255)."
+	}
+	"Flare Invalid Now"
+	{
+		"ru"		"Невозможно выполнить команду. Неправильный режим игры, раунд закончен или плагин выключен."
+	}
+	"Flare Invalid Place"
+	{
+		"ru"		"Нельзя разместить сигнальную шашку, попробуйте снова, напишите {green}!flare{default} в чат."
+	}
+	"Flare Invalid Target"
+	{
+		"ru"		"Неправильная цель: Другая команда или уже нет в живых."
+	}
+	"Flare Max"
+	{
+		"ru"		"Пожалуйста, подождите, достигнуто максимальное кол-во сигнальных ракет."
+	}
+	"Flare Usage"
+	{
+		"ru"		"Помощь: {green}!flare{default} <R G B> Выберете цвет из 3 RGB значений 0-255: красный, зеленый, синий. Пр: {green}!flare 255 0 0{default}."
+	}
+	"Flare Wait"
+	{
+		"ru"		"Пожалуйста, подождите, перед тем как использовать команды {green}!flare{default} и {green}!flareme{default}."
+	}
+}

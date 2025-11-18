@@ -1,0 +1,320 @@
+"Phrases"
+{
+    "Medkit"
+    {
+        "en"    "Medkit!"
+        "es"    "Botiquín!"
+    }
+    "Defibrillator"
+    {
+        "en"    "Defibrillator!"
+        "es"    "Desfibrilador!"
+    }
+    "PainPills"
+    {
+        "en"    "Pain Pills!"
+        "es"    "Píldoras Analgésicas!"
+    }
+    "Adrenaline"
+    {
+        "en"    "Adrenaline!"
+        "es"    "Adrenalina!"
+    }
+    "BileJar"
+    {
+        "en"    "Bile Jar!"
+        "es"    "Frasco de Bilis!"
+    }
+    "Molotov"
+    {
+        "en"    "Molotov!"
+        "es"    "Cóctel Molotov!"
+    }
+    "PipeBomb"
+    {
+        "en"    "Pipe Bomb!"
+        "es"    "Bomba Casera!"
+    }
+    "LaserSightBox"
+    {
+        "en"    "Laser Sights!"
+        "es"    "Miras Láser!"
+    }
+    "IncendiaryAmmoPack"
+    {
+        "en"    "Incendiary Ammo!"
+        "es"    "Balas Incendiarias!"
+    }
+    "ExplosiveAmmoPack"
+    {
+        "en"    "Explosive Ammo!"
+        "es"    "Balas Explosivas!"
+    }
+    "AmmoPile"
+    {
+        "en"    "Ammo!"
+        "es"    "Munición!"
+    }
+    "Chainsaw"
+    {
+        "en"    "Chainsaw!"
+        "es"    "Motosierra!"
+    }
+    "Glock26"
+    {
+        "en"    "Glock 26!"
+        "es"    "Glock 26!"
+    }
+    "P220"
+    {
+        "en"    "SIG Sauer P220!"
+        "es"    "SIG Sauer P220!"
+    }
+    "DesertEagle"
+    {
+        "en"    "Desert Eagle Mark VII!"
+        "es"    "Desert Eagle Mark VII!"
+    }
+    "ChromeShotgun"
+    {
+        "en"    "Remington 870 Marine Magnum!"
+        "es"    "Remington 870 Marine Magnum!"
+    }
+    "PumpShotgun"
+    {
+        "en"    "Remington 870 Police Magnum!"
+        "es"    "Remington 870 Police Magnum!"
+    }
+    "Uzi"
+    {
+        "en"    "IMI Uzi!"
+        "es"    "IMI Uzi!"
+    }
+    "Mac10"
+    {
+        "en"   "Mac-10!"
+        "es"   "Mac-10!"
+    }
+    "MP5"
+    {
+        "en"    "H&K MP5N!"
+        "es"    "H&K MP5N!"
+    }
+    "M16"
+    {
+        "en"    "M16A2!"
+        "es"    "M16A2!"
+    }
+    "SG552"
+    {
+        "en"    "SIG SG-552!"
+        "es"    "SIG SG-552!"
+    }
+    "AK47"
+    {
+        "en"    "AKMN!"
+        "es"    "AKMN!"
+    }
+    "SCAR"
+    {
+        "en"    "FN SCAR-L!"
+        "es"    "FN SCAR-L!"
+    }
+    "SPAS12"
+    {
+        "en"    "Franchi SPAS-12!"
+        "es"    "Franchi SPAS-12!"
+    }
+    "AutoShotgun"
+    {
+        "en"    "Benelli M4!"
+        "es"    "Benelli M4!"
+    }
+    "HuntingRifle"
+    {
+        "en"    "Ruger Mini-14!"
+        "es"    "Ruger Mini-14!"
+    }
+    "MilitarySniper"
+    {
+        "en"    "G3SG/1!"
+        "es"    "G3SG/1!"
+    }
+    "ScoutSniper"
+    {
+        "en"    "Steyr Scout!"
+        "es"    "Steyr Scout!"
+    }
+    "AWP"
+    {
+        "en"    "AWM!"
+        "es"    "AWM!"
+    }
+    "GrenadeLauncher"
+    {
+        "en"    "Grenade Launcher!"
+        "es"    "Lanzagranadas M79!"
+    }
+    "M60"
+    {
+        "en"    "M60!"
+        "es"    "M60!"
+    }
+    "GasCan"
+    {
+        "en"    "Gas Can!"
+        "es"    "Bidón de Gasolina!"
+    }
+    "FireworksCrate"
+    {
+        "en"    "Fireworks Crate!"
+        "es"    "Fuegos Artificiales!"
+    }
+    "PropaneTank"
+    {
+        "en"    "Propane Tank!"
+        "es"    "Tanque de Propano!"
+    }
+    "OxygenTank"
+    {
+        "en"    "Oxygen Tank!"
+        "es"    "Tanque de Oxígeno!"
+    }
+    "Gnome"
+    {
+        "en"    "Garden Gnome!"
+        "es"    "Gnomo de Jardín!"
+    }
+    "ColaBottles"
+    {
+        "en"    "Cola Bottles!"
+        "es"    "Botellas de Coca Cola!"
+    }
+    "50CalMG"
+    {
+        "en"    ".50 Cal Machine Gun!"
+        "es"    "Ametralladora Calibre 50.!"
+    }
+    "Minigun"
+    {
+        "en"    "M61 Vulcan!"
+        "es"    "M61 Vulcan!"
+    }
+    "ExplosiveAmmoBox"
+    {
+        "en"    "Explosive Ammo!"
+        "es"    "Balas Explosivas!"
+    }
+    "IncendiaryAmmoBox"
+    {
+        "en"    "Incendiary Ammo!"
+        "es"    "Balas Incendiarias!"
+    }
+    "Knife"
+    {
+        "en"    "Knife!"
+        "es"    "Cuchillo!"
+    }
+    "BaseballBat"
+    {
+        "en"    "Baseball Bat!"
+        "es"    "Bate de Béisbol!"
+    }
+    "CricketBat"
+    {
+        "en"    "Cricket Bat!"
+        "es"    "Bate de Cricket!"
+    }
+    "Crowbar"
+    {
+        "en"    "Crowbar!"
+        "es"    "Palanqueta!"
+    }
+    "ElectricGuitar"
+    {
+        "en"    "Electric Guitar!"
+        "es"    "Guitarra Eléctrica!"
+    }
+    "FireAxe"
+    {
+        "en"    "Fire Axe!"
+        "es"    "Hacha de Bombero!"
+    }
+    "FryingPan"
+    {
+        "en"    "Frying Pan!"
+        "es"    "Sartén!"
+    }
+    "Katana"
+    {
+        "en"    "Katana!"
+        "es"    "Katana!"
+    }
+    "Machete"
+    {
+        "en"    "Machete!"
+        "es"    "Machete!"
+    }
+    "Tonfa"
+    {
+        "en"    "Tonfa!"
+        "es"    "Porra!"
+    }
+    "GolfClub"
+    {
+        "en"    "Golf Club!"
+        "es"    "Palo de Golf!"
+    }
+    "Pitchfork"
+    {
+        "en"    "Pitchfork!"
+        "es"    "Horquilla!"
+    }
+    "Shovel"
+    {
+        "en"    "Shovel!"
+        "es"    "Pala!"
+    }
+
+    // Specials
+    "Boomer"
+    {
+        "en"    "Boomer!"
+        "es"    "Boomer!"
+    }
+    "Tank"
+    {
+        "en"    "Tank!"
+        "es"    "Tank!"
+    }
+    "Smoker"
+    {
+        "en"    "Smoker!"
+        "es"    "Smoker!"
+    }
+    "Hunter"
+    {
+        "en"    "Hunter!"
+        "es"    "Hunter!"
+    }
+    "Witch"
+    {
+        "en"    "Witch!"
+        "es"    "Witch!"
+    }
+    "Spitter"
+    {
+        "en"    "Spitter!"
+        "es"    "Spitter!"
+    }
+    "Jockey"
+    {
+        "en"    "Jockey!"
+        "es"    "Jockey!"
+    }
+    "Charger"
+    {
+        "en"    "Charger!"
+        "es"    "Charger!"
+    }
+}

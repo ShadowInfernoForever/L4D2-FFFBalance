@@ -1,0 +1,143 @@
+/*
+	SourcePawn is Copyright (C) 2006-2008 AlliedModders LLC.  All rights reserved.
+	SourceMod is Copyright (C) 2006-2008 AlliedModders LLC.  All rights reserved.
+	Pawn and SMALL are Copyright (C) 1997-2008 ITB CompuPhase.
+	Source is Copyright (C) Valve Corporation.
+	All trademarks are property of their respective owners.
+
+	This program is free software: you can redistribute it and/or modify it
+	under the terms of the GNU General Public License as published by the
+	Free Software Foundation, either version 3 of the License, or (at your
+	option) any later version.
+
+	This program is distributed in the hope that it will be useful, but
+	WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+	General Public License for more details.
+
+	You should have received a copy of the GNU General Public License along
+	with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+#pragma semicolon 1
+
+#include <sourcemod>
+#include <sdkhooks>
+#include <colors>
+
+new Handle:z_leap_damage_interrupt;
+new Handle:z_jockey_health;
+
+new Float:jockeySkeetDmg;
+new Float:jockeyHealth;
+new Float:inflictedDamage[MAXPLAYERS + 1][MAXPLAYERS + 1];
+
+new bool:lateLoad;
+
+public APLRes:AskPluginLoad2(Handle:plugin, bool:late, String:error[], errMax) 
+{
+	lateLoad = late;
+	return APLRes_Success;    
+}
+
+public Plugin:myinfo = 
+{
+	name = "L4D2 Jockey Skeet",
+	author = "Visor",
+	description = "A dream come true",
+	version = "1.2.1",
+	url = "https://github.com/Attano/Equilibrium"
+};
+
+public OnPluginStart()
+{
+	z_leap_damage_interrupt = CreateConVar("z_leap_damage_interrupt", "195.0", "Taking this much damage interrupts a leap attempt", FCVAR_PLUGIN, true, 10.0, true, 325.0);
+	z_jockey_health = FindConVar("z_jockey_health");
+
+	if (lateLoad) 
+	{
+		for (new i = 1; i <= MaxClients; i++) 
+		{
+			if (IsClientInGame(i)) 
+			{
+				SDKHook(i, SDKHook_OnTakeDamage, OnTakeDamage);
+			}
+		}
+	}
+}
+
+public OnConfigsExecuted()
+{
+	jockeySkeetDmg = GetConVarFloat(z_leap_damage_interrupt);
+	jockeyHealth = GetConVarFloat(z_jockey_health);
+}
+
+public OnClientPutInServer(client)
+{
+	SDKHook(client, SDKHook_OnTakeDamage, OnTakeDamage);
+}
+
+public OnClientDisconnect(client)
+{
+	SDKUnhook(client, SDKHook_OnTakeDamage, OnTakeDamage);
+}
+
+public Action:OnTakeDamage(victim, &attacker, &inflictor, &Float:damage, &damageType, &weapon, Float:damageForce[3], Float:damagePosition[3]) 
+{
+	if (!IsJockey(victim) || !IsSurvivor(attacker) || IsFakeClient(attacker))
+		return Plugin_Continue;
+
+	if (!HasJockeyTarget(victim) && IsAttachable(victim) && IsShotgun(weapon))
+	{
+		inflictedDamage[victim][attacker] += damage;
+		if (inflictedDamage[victim][attacker] >= jockeySkeetDmg)
+		{
+			damage = jockeyHealth;
+			return Plugin_Changed;
+		}
+		CreateTimer(0.1, ResetDamageCounter, victim);
+	}
+	return Plugin_Continue;	
+}
+
+public Action:ResetDamageCounter(Handle:timer, any:jockey)
+{
+    for (new i = 1; i <= MaxClients; i++) 
+	{
+		inflictedDamage[jockey][i] = 0.0;
+	}
+}
+
+bool:IsSurvivor(client)
+{
+	return (client > 0 && client <= MaxClients && IsClientInGame(client) && GetClientTeam(client) == 2);
+}
+
+bool:IsJockey(client)
+{
+	return (client > 0
+		&& client <= MaxClients
+		&& IsClientInGame(client)
+		&& GetClientTeam(client) == 3
+		&& GetEntProp(client, Prop_Send, "m_zombieClass") == 5
+		&& GetEntProp(client, Prop_Send, "m_isGhost") != 1);
+}
+
+bool:HasJockeyTarget(infected)
+{
+	new client = GetEntDataEnt2(infected, 16124);
+	return (IsSurvivor(client) && IsPlayerAlive(client));
+}
+
+// A function conveniently named & implemented after the Jockey's ability of
+// capping Survivors without actually using the ability itself.
+bool:IsAttachable(jockey)
+{
+	return !(GetEntityFlags(jockey) & FL_ONGROUND);
+}
+
+bool:IsShotgun(weapon)
+{
+	decl String:classname[64];
+	GetEdictClassname(weapon, classname, sizeof(classname));
+	return (StrEqual(classname, "weapon_pumpshotgun") || StrEqual(classname, "weapon_shotgun_chrome"));
+}

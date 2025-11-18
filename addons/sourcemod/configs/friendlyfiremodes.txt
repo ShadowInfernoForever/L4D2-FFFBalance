@@ -1,0 +1,121 @@
+// INSTRUCCIONES DE USO: Spanish
+
+// - Este archivo define los distintos modos de juego disponibles en el servidor.
+// - Cada modo de juego esta estructurado en una categoria (por ejemplo, "Friendly Fire").
+// - Dentro de cada categoria, hay configuraciones especificas para cada modo, con su nombre y ruta correspondiente.
+//
+// COMO EDITAR:
+// - Para eliminar un modo, simplemente borra su entrada en el archivo.
+// - Para agregar un nuevo modo, sigue este formato:
+//   "NombreDeLaCategoria"
+//   {
+//       "Ruta/Del/Modo"       // Es decir, el archivo .cfg dentro de la carpeta cfg/
+//       {
+//           "name" "Nombre visible en el menu de votacion"
+//       }
+//   }
+//
+// EJEMPLO DE PERSONALIZACION:
+// Si quieres agregar un modo llamado "Friendly Fire 10", con su configuracion en "cfg/friendlyfire/friendlyfire10.cfg",
+// agregalo dentro de la categoria correspondiente:
+//
+// "Friendly Fire"
+// {
+//     "friendlyfire/friendlyfire10"
+//     {
+//         "name" "Friendly Fire 10"
+//     }
+// }
+//
+// NOTA:
+// - Los cambios de CVARs se guardan automaticamente entre cambios de mapa si usas sm_cvar en los archivos .cfg.
+// - No es necesario reiniciar el servidor para aplicar los modos.
+// - Puedes crear multiples configuraciones personalizadas como:
+//     friendlyfire10.cfg
+//     friendlyfire20.cfg
+//     friendlyfireoff.cfg
+//     friendlyfireinverse.cfg
+// - Se pueden agregar nuevas categorias si es necesario.
+
+
+
+// USAGE INSTRUCTIONS: English
+
+// - This file defines the different game modes available on the server.
+// - Each game mode is organized under a category (for example, "Friendly Fire").
+// - Inside each category, there are specific configurations for each mode, with their name and path.
+//
+// HOW TO EDIT:
+// - To remove a mode, simply delete its entry from the file.
+// - To add a new mode, follow this format:
+//   "CategoryName"
+//   {
+//       "Path/To/Mode"       // That is, the .cfg file inside cfg/
+//       {
+//           "name" "Visible name in the voting menu"
+//       }
+//   }
+//
+// CUSTOMIZATION EXAMPLE:
+// If you want to add a mode called "Friendly Fire 10", with its configuration in "cfg/friendlyfire/friendlyfire10.cfg",
+// add it inside the corresponding category:
+//
+// "Friendly Fire"
+// {
+//     "friendlyfire/friendlyfire10"
+//     {
+//         "name" "Friendly Fire 10"
+//     }
+// }
+//
+// NOTE:
+// - CVAR changes are automatically saved between map changes if you use sm_cvar inside the .cfg files.
+// - No server restart is needed to apply modes.
+// - You can create multiple variations such as:
+//     friendlyfire10.cfg
+//     friendlyfire20.cfg
+//     friendlyfireoff.cfg
+//     friendlyfireinverse.cfg
+// - New categories can be added if needed.
+
+"FriendlyFireModesType"
+{
+    "Classic Style"
+    {
+        "friendlyfiremodes/friendlyfirevanilla"
+        {
+            "name" "Friendly Fire: Default (Vanilla)"
+        }
+        "friendlyfiremodes/friendlyfiredisabled"
+        {
+            "name" "Friendly Fire: Disabled"
+        }
+        "friendlyfiremodes/friendlyfire10"
+        {
+            "name" "Friendly Fire: 10%"
+        }
+        "friendlyfiremodes/friendlyfire25"
+        {
+            "name" "Friendly Fire: 25%"
+        }
+        "friendlyfiremodes/friendlyfire50"
+        {
+            "name" "Friendly Fire: 50%"
+        }
+        "friendlyfiremodes/friendlyfire75"
+        {
+            "name" "Friendly Fire: 75%"
+        }
+        "friendlyfiremodes/friendlyfire100"
+        {
+            "name" "Friendly Fire: 100%"
+        }
+    }
+    "Inverse Style"
+    {
+        "friendlyfiremodes/friendlyfireinverse"
+        {
+            "name" "Friendly Fire: Inverse"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+"Phrases"
+{
+	"Reborn_Hands"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} can revive holding Ctrl + E on his body"
+		"es"		"{1} Puede revivir a putasos! Presiona Ctrl + E en su cuerpo para revivirlo!"
+		"ru"		"Можно вернуть к жизни {1}! Удерживайте Ctrl + E рядом с телом"
+	}
+	"Reborn_Medkit"
+	{
+		"#format"	"{1:N}"
+		"en"		"You can revive {1} using Medkit! Hold Ctrl + E on his Body"
+		"es"		"{1} Se lo llevan los LGTB+! Presiona Ctrl + E en su cuerpo para revivirlo!"
+		"ru"		"Можно вернуть к жизни {1} аптечкой! Удерживайте Ctrl + E рядом с телом"
+	}
+	"Already_dead"
+	{
+		"#format"	"{1:N}"
+		"en"		"{1} is already dead"
+		"es"		"{1} y se murió virgen, lol."
+		"ru"		"{1} уже мёртв"
+	}
+	"Too_late"
+	{
+		"#format"	"{1:N}"
+		"en"		"It is too late, CPR is useless for {1}"
+		"es"		"Es demasiado tarde, ya se lo llevo el diablo, lol"
+		"ru"		"Слишком поздно, оживление невозможно для {1}"
+	}
+	"Used_Medkit"
+	{
+		"#format"	"{1:N}{2:N}"
+		"en"		"{orange}{1} {cyan}used his Medkit to revive {orange}{2}{cyan}!"
+		"es"		"{orange}{1} {cyan}revivió con fé a jesucristo a {orange}{2}{cyan}!"
+		"ru"		"{orange}{1} {cyan}использовал Аптеку и оживил {orange}{2}{cyan}!"
+	}
+	"Used_CPR"
+	{
+		"#format"	"{1:N}{2:N}"
+		"en"		"{orange}{1} {cyan}used CPR to revive {orange}{2}{cyan}!"
+		"es"		"{orange}{1} {cyan}Desperto a cachetadas a {orange}{2}{cyan}!"
+		"ru"		"{orange}{1} {cyan}влепил пощёчину и оживил {orange}{2}{cyan}!"
+	}
+	"Using_Medkit"
+	{
+		"#format"	"{1:N}"
+		"en"		"Reviving {1} through Medkit"
+		"es"		""
+		"ru"		"Оживление {1} аптекой"
+	}
+	"Using_CPR"
+	{
+		"#format"	"{1:N}"
+		"en"		"Heart massage for {1}"
+		"es"		""
+		"ru"		"Массаж сердца для {1}"
+	}
+}

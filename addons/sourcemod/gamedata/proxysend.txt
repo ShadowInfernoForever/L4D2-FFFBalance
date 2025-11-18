@@ -1,0 +1,80 @@
+"Games"
+{
+	"#default"
+	{
+		"Offsets"
+		{
+			"CBaseClient::UpdateSendState"
+			{
+				"linux" "46"
+			}
+			"CBaseClient::SendSnapshot"
+			{
+				"linux" "52"
+			}
+		}
+		"Signatures"
+		{
+			"SendTable_CalcDelta"
+			{
+				"library" "engine"
+				"linux" "@_Z19SendTable_CalcDeltaPK9SendTablePKviS3_iPiii"
+			}
+			"SendTable_Encode"
+			{
+				"library" "engine"
+				"linux" "@_Z16SendTable_EncodePK9SendTablePKvP8bf_writeiP10CUtlMemoryI20CSendProxyRecipientsiEb"
+			}
+			"SV_ComputeClientPacks"
+			{
+				"library" "engine"
+				"linux" "@_Z21SV_ComputeClientPacksiPP11CGameClientP14CFrameSnapshot"
+			}
+			"CGameServer::SendClientMessages"
+			{
+				"library" "engine"
+				"linux" "@_ZN11CGameServer18SendClientMessagesEb"
+			}
+			"CFrameSnapshotManager::GetPackedEntity"
+			{
+				"library" "engine"
+				"linux" "@_ZN21CFrameSnapshotManager15GetPackedEntityEP14CFrameSnapshoti"
+			}
+			"CGameClient::GetSendFrame"
+			{
+				"library" "engine"
+				"linux" "@_ZN11CGameClient12GetSendFrameEv"
+			}
+			"SV_PackEntity"
+			{
+				"library" "engine"
+				"linux" "@_ZL13SV_PackEntityiP7edict_tP11ServerClassP14CFrameSnapshot"
+			}
+			"InvalidateSharedEdictChangeInfos"
+			{
+				"library" "engine"
+				"linux" "@_Z32InvalidateSharedEdictChangeInfosv"
+			}
+			"PackWork_t::Process"
+			{
+				"library" "engine"
+				"linux" "@_ZN10PackWork_t7ProcessERS_"
+			}
+			"SendProxy_StringT_To_String"
+			{
+				"library" "server"
+				"linux" "@_Z27SendProxy_StringT_To_StringPK8SendPropPKvS3_P8DVariantii"
+			}
+			"SendProxy_Color32ToInt"
+			{
+				"library" "server"
+				"linux" "@_Z22SendProxy_Color32ToIntPK8SendPropPKvS3_P8DVariantii"
+			}
+			"SendProxy_EHandleToInt"
+			{
+				"library" "server"
+				"linux" "@_Z22SendProxy_EHandleToIntPK8SendPropPKvS3_P8DVariantii"
+			}
+		}
+	}
+}

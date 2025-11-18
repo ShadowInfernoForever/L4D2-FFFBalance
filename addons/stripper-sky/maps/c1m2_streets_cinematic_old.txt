@@ -1,0 +1,31 @@
+; =====================================================
+;               Car Explosion Cinematic 
+; =====================================================
+add:
+
+{
+    "origin" "-2226.094727 1838.343872 580.756042"
+    "targetname" "cam_car"
+    "spawnflags" "1"
+    "interp_time" "1.0"
+    "fov_rate" "1.0"
+    "fov" "110"
+    "angles" "18.152802 87.041374 -0.000163"
+    "classname" "point_viewcontrol_multiplayer"
+}
+
+; =====================================================
+;        Cars explosion Cinematic 'Trigger'
+; =====================================================
+modify:
+{
+	match:
+	{
+	"targetname" "sky_exp_relay_cars"
+	}
+	insert:
+	{
+    "OnTrigger" "cam_carEnable01"
+    "OnTrigger" "cam_carDisable4.5-1"
+	}
+}

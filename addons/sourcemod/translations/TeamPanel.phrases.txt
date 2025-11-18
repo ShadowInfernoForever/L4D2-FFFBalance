@@ -1,0 +1,43 @@
+﻿"Phrases"
+{
+	"Survivors"
+	{
+		"en"		"Survivors"
+	}
+	"Bot(s)"
+	{
+		"en"		"Bots"
+	}
+	"INCAP"
+	{
+		"en"		"INCAP"
+	}
+	"B/R"
+	{
+		"en"		"B/R"
+	}
+	"B/W"
+	{
+		"en"		"B/W"
+	}
+	"DEAD"
+	{
+		"en"		"DEAD"
+	}
+	"Infected"
+	{
+		"en"		"Infected"
+	}
+	"DOWN"
+	{
+		"en"		"DOWN"
+	}
+	"GHOST"
+	{
+		"en"		"GHOST"
+	}
+	"Spectators"
+	{
+		"en"		"Spectators"
+	}
+}

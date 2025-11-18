@@ -1,0 +1,31 @@
+"sm_respawn_saferoom"      "Respawn youself at saferoom"
+"sm_respawn_crosshair"     "<target index> Respawn the target at your crosshair"
+"sm_respawn_vector"        "<vector> Respawn yourself at position"
+"sm_respawn_infected"      "<target name> Respawn player as infected next to you"
+
+MAPS Allowed
+
+// Alta Médica
+c8m1_apartment
+c8m2_subway
+c8m3_sewers
+c8m4_interior
+c8m5_rooftop
+
+// Parroquia
+c5m1_waterfront
+c5m2_park
+c5m3_cemetery
+c5m4_quarter
+c5m5_bridge"
+
+// Pantanos
+c3m1_plankcountry
+c3m2_swamp
+c3m3_shantytown
+c3m4_plantation
+
+
+// Dead Center
+c1m1_hotel
+c2m2_streets

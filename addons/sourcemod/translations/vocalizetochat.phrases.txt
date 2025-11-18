@@ -1,0 +1,163 @@
+"Phrases"
+{
+	"(Voice)"
+	{
+		"es"		"(Voz)"
+	}
+	
+	"playeraskready"
+	{
+		"es"		"¿Listos?"
+		//"es"        "¿Preparados?"
+	}
+	
+	"playerno"
+	{
+		"es"		"No"
+        //"es"        "Negativo"
+	}
+	
+	"playersorry"
+	{
+		"es"		"Lo siento"
+	}
+	
+	"playeryes"
+	{
+		"es"		"Sí"
+	}
+	
+	"playerthanks"
+	{
+		"es"		"¡Gracias!"
+	}
+	
+	"playermoveon"
+	{
+		"es"		"Vamos"
+	}
+	
+	"playerleadon"
+	{
+		"es"		"Tu Lidera"
+	}
+	
+	"playerhurryup"
+	{
+		"es"		"Date prisa!"
+	}
+	
+	"playernicejob"
+	{
+		"es"		"Buen Trabajo!"
+	}
+	
+	"playerwaithere"
+	{
+		"es"		"¡Espera!"
+	}
+	
+	"playerwarncareful"
+	{
+		"es"		"¡Vayan con Cuidado!"
+	}
+
+	"playerlookout"
+	{
+		"es"		"¡CUIDADO!"
+	}
+
+	"playertotherescue"
+	{
+	    "es"        "¡Estoy en Camino!"
+	}
+
+	"playeryouarewelcome"
+	{
+	    "es"        "¡Denada!"
+	}
+
+	"playerstaytogether"
+	{
+	    "es"        "¡Quedense todos juntos!"
+	}
+
+	"playerincoming"
+	{
+	    "es"        "¡Horda!"
+	}
+
+	"playerhelp"
+	{
+	    "es"        "¡Ayuda!"
+	}
+
+	"playerbackup"
+	{
+	    "es"        "¡Atrás, Retirada!"
+	}
+
+	"playerwatchoutbehind"
+	{
+	    "es"        "¡Están atrás nuestro!"
+	}
+
+	"playeralertgiveitem"
+    {
+    "es"        "Toma esto"
+    }
+	"playerthisway"
+	{
+	    "es"        "¡Por aquí!"
+	}
+
+	"playeryellrun"
+	{
+	    "es"        "¡Corrán!"
+	}
+
+	"playerimwithyou"
+	{
+	    "es"        "Te sigo"
+	}
+
+	"playerwarnsmoker"
+	{
+	    "es"        "Smoker!"
+	}
+
+	"playerwarnboomer"
+	{
+	    "es"        "Boomer!"
+	}
+
+	"playerwarnhunter"
+	{
+	    "es"        "Hunter!"
+	}
+
+	"playerwarnspitter"
+	{
+	    "es"        "Spitter!"
+	}
+
+	"playerwarnjockey"
+	{
+	    "es"        "Jockey!"
+	}
+
+	"playerwarncharger"
+	{
+	    "es"        "Charger!"
+	}
+
+	"playerwarnwitch"
+	{
+	    "es"        "Witch!"
+	}
+
+	"playerwarntank"
+	{
+	    "es"        "Tank!"
+	}
+}

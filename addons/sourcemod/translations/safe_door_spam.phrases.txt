@@ -1,0 +1,32 @@
+"Phrases"
+{
+	"Door_Open"
+	{
+		"en"		""
+	}
+
+	"Door_Close"
+	{
+		"en"		""
+	}
+
+	"Door_Wait"
+	{
+		"en"		"{olive}[!] {white}La puerta puede abrirse después de {orange}%d {white}segundos"
+	}
+
+	"Door_Unlocked"
+	{
+		"en"		""
+	}
+
+	"Movement_Blocked"
+	{
+		"en"		""
+	}
+
+	"Movement_Allowed"
+	{
+		"en"		""
+	}
+}

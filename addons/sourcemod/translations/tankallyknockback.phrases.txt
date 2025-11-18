@@ -1,0 +1,8 @@
+﻿"Phrases"
+{
+    "TankCatapult"
+    {
+        "en"    "{olive}★ {teamcolor}%N {default}catapulted {olive}%N{default}!"
+        "es"    "{olive}★ {teamcolor}%N {default}catapultó a {olive}%N{default}!"
+    }
+}

@@ -1,0 +1,182 @@
+"forbidden"
+{
+
+
+	// =========================================
+	// 				Sacrifice
+	// =========================================
+
+	"l4d_river01_docks"
+	{
+		"sky112" "1"
+		"sky114" "1"
+		"sky115" "1"
+		"sky139" "1"
+		"sky149" "1"
+		"space_15" "1"
+		"space_19" "1"
+		"space_8" "1"
+		"space_9" "1"
+	}
+	"l4d_river02_barge"
+	{
+		"sky112" "1"
+		"sky114" "1"
+		"sky115" "1"
+		"sky139" "1"
+		"sky149" "1"
+		"space_15" "1"
+		"space_19" "1"
+		"space_8" "1"
+		"space_9" "1"
+	}
+	"l4d_river03_port"
+	{
+		"sky112" "1"
+		"sky114" "1"
+		"sky115" "1"
+		"sky139" "1"
+		"sky149" "1"
+		"space_15" "1"
+		"space_19" "1"
+		"space_8" "1"
+		"space_9" "1"
+	}
+	
+	
+	
+	// =========================================
+	// 				No mercy
+	// =========================================
+	
+	"l4d_hospital01_apartment"
+	{
+		"sky139" "1"
+	}
+	"l4d_hospital02_subway"
+	{
+		"sky139" "1"
+	}
+	"l4d_hospital03_sewers"
+	{
+		"sky139" "1"
+	}
+	"l4d_hospital04_interior"
+	{
+		"sky139" "1"
+	}
+	"l4d_hospital05_rooftop"
+	{
+		"sky139" "1"
+	}
+	
+	
+	
+	// =========================================
+	// 				Crash Course
+	// =========================================
+	
+	"l4d_garage01_alleys"
+	{
+		"sky139" "1"
+		"sky140" "1"
+		"space_8" "1"
+	}
+	"l4d_garage02_lots"
+	{
+		"sky139" "1"
+		"sky140" "1"
+		"space_8" "1"
+	}
+	
+	
+	
+	// =========================================
+	// 				Dead Air
+	// =========================================
+	
+	"l4d_airport01_greenhouse"
+	{
+		"sky139" "1"
+	}
+	"l4d_airport02_offices"
+	{
+		"sky139" "1"
+	}
+	"l4d_airport03_garage"
+	{
+		"sky139" "1"
+	}
+	"l4d_airport04_terminal"
+	{
+		"sky139" "1"
+	}
+	"l4d_airport05_runway"
+	{
+		"sky139" "1"
+	}
+	
+	
+	
+	// =========================================
+	// 				Blood Harvest
+	// =========================================
+	
+	"l4d_farm01_hilltop"
+	{
+		
+	}
+	"l4d_farm02_traintunnel"
+	{
+		
+	}
+	"l4d_farm03_bridge"
+	{
+		
+	}
+	"l4d_farm04_barn"
+	{
+		
+	}
+	"l4d_farm05_cornfield"
+	{
+		
+	}
+	
+	
+	
+	// =========================================
+	// 				Death Toll
+	// =========================================
+	
+	"l4d_smalltown01_caves"
+	{
+	
+	}
+	"l4d_smalltown02_drainage"
+	{
+	
+	}
+	"l4d_smalltown03_ranchhouse"
+	{
+	
+	}
+	"l4d_smalltown04_mainstreet"
+	{
+	
+	}
+	"l4d_smalltown05_houseboat"
+	{
+	
+	}
+
+// =========================================
+//	 DARK CARNIVAL
+// =========================================	
+        "l4d_smalltown01_caves"
+	{
+	
+	}
+	"l4d_smalltown02_drainage"
+	{
+}

@@ -1,0 +1,79 @@
+"Games"
+{
+	"tf"
+	{
+		"Addresses"
+		{
+			"CBaseServer"
+			{
+				"windows"
+				{
+					"signature"	"CVEngineServer::CreateFakeClient"				
+					"read"		"8"
+				}
+				"linux"
+				{
+					"signature"	"sv"
+				}
+			}
+		}
+		
+		"Functions"
+		{
+			"ProcessPacket"
+			{
+				"signature"     "CNetChan::ProcessPacket"
+				"callconv"      "thiscall"
+				"return"        "void"
+				"this"          "address"
+				"arguments"
+				{
+					"netpacket_t"
+					{
+						"type"      "objectptr"
+ 					}
+ 					"bool"
+					{
+						"type"      "bool"
+					}
+				}
+			}
+
+		}
+		"Signatures"
+		{
+			"CNetChan::ProcessPacket"
+			{
+				"library" "engine"
+				"windows" "\x55\x8b\xec\x51\x53\x56\x8b\xf1\x57\x8b\x7d\x08\x89\x75\xfc\x8d\x8e\x94\x00\x00\x00"
+				"linux" "@_ZN8CNetChan13ProcessPacketEP11netpacket_sb"
+			}
+			
+			"CVEngineServer::CreateFakeClient"
+			{
+				"library"	"engine"
+				"windows"	"\x55\x8B\xEC\x56\xFF\x2A\x2A\xB9\x2A\x2A\x2A\x2A\xE8\x2A\x2A\x2A\x2A\x8B"
+			}
+			
+			"sv"
+			{
+				"library"	"engine"
+				"linux"		"@sv"
+			}
+		}
+		
+		"Offsets"
+		{
+			"CBaseClient::GetPlayerSlot"
+			{
+				"windows"	"14"
+				"linux"		"15"
+			}
+			"OperatingSystem"
+			{
+				"windows" "1"
+				"linux" "2"
+			}
+		}
+	}
+}

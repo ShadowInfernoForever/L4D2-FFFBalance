@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Flare Cmd Ground"
+	{
+		"en"		"You may place another flare by typing {green}!flare{default} in chat."
+	}
+	"Flare Cmd Attach"
+	{
+		"en"		"You may place another flare by typing {green}!flareme{default} in chat."
+	}
+	"Flare Incapped"
+	{
+		"en"		"You may only use {green}!flare{default} while incapped."
+	}
+	"Flare Intro"
+	{
+		"en"		"Chat commands: {green}!flare{default} and {green}!flareme{default}. Colors: red, green, blue, purple, orange, yellow, white. Or 3 values 0-255. EG: {green}!flare red{default} or {green}!flare 255 0 0{default}"
+	}
+	"Flare Invalid Args"
+	{
+		"en"		"Invalid arguements: {green}!flareclient <#userid|name> [R G B] [R G B]{default} (RGB values 0-255). Optional 3 values for Light and 3 for env_steam color if enabled."
+	}
+	"Flare Invalid Now"
+	{
+		"en"		"Cannot perform command. Wrong gamemode, round over or plugin turned off."
+	}
+	"Flare Invalid Place"
+	{
+		"en"		"Cannot place flare, try again by typing {green}!flare{default} in chat."
+	}
+	"Flare Invalid Target"
+	{
+		"en"		"Invalid target: Wrong team or no longer alive."
+	}
+	"Flare Max"
+	{
+		"en"		"Please wait, maximum number of flares reached."
+	}
+	"Flare Usage"
+	{
+		"en"		"Usage: {green}!flare <color name|R G B>{default}. Colors: red, green, blue, purple, orange, yellow, white. Or 3 values 0-255. EG: {green}!flare red{default} or {green}!flare 255 0 0{default}"
+	}
+	"Flare Wait"
+	{
+		"en"		"Please wait before using the commands {green}!flare{default} or {green}!flareme{default}."
+	}
+}

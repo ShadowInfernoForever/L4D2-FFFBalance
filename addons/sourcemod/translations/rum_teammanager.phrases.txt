@@ -1,0 +1,22 @@
+﻿"Phrases"
+{
+	"menu title"
+	{
+		"en"			"Team Manager"
+	}
+	"spectator team"
+	{
+		"#format"		"{1:i}"
+		"en"			"Spectator Team ({1} players)"
+	}
+	"survivor team"
+	{
+		"#format"		"{1:i}"
+		"en"			"Survivor Team ({1} players)"
+	}
+	"infected team"
+	{
+		"#format"		"{1:i}"
+		"en"			"Infected Team ({1} players)"
+	}
+}

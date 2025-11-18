@@ -1,0 +1,196 @@
+/*
+	Following named colors are supported:
+	 - {orange}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"Prize1"
+	{
+		"en"		"●{green} Robaste unas pills de una casa"
+		"ru"		"{green}Вы ограбили склад, получив"
+	}
+	"Prize2"
+	{
+		"en"		"●{green} Pasando por los arbustos te diste cuenta de"
+		"ru"		"{green}Проходя мимо кустов, вы заметили"
+	}
+	"Prize3"
+	{
+		"en"		"●{green} Matando a una witch, Conseguiste"
+		"ru"		"{green}Вы стащили на глазах у ведьмы"
+	}
+	"Prize4"
+	{
+		"en"		"●{green} Por ser un héroe, conseguiste"
+		"ru"		"{green}Как герою-защитнику, вам вручили"
+	}
+	"Prize5"
+	{
+		"en"		"●{green} Encontraste debajo de tu cama"
+		"ru"		"{green}Это хранилось у вас под подушкой, забирайте"
+	}
+	"Prize6"
+	{
+		"en"		"●{green} Tu angel guardian te ha dado"
+		"ru"		"{green}Ангел-хранитель защитил вас, дав"
+	}
+	"Prize7"
+	{
+		"en"		"●{green} Usando algunas herramientas, crafteaste"
+		"ru"		"{green}Вы смастерили из запчастей"
+	}
+	"Prize8"
+	{
+		"en"		"●{green} Eres bendecido por los admins, te han dado"
+		"ru"		"{green}Святой админ оберегает вас и вручает"
+	}
+	"Prize9"
+	{
+		"en"		"●{green} Santa Claus te ha enviado un regalo"
+		"ru"		"{green}Вы встретили Деда Мороза, и получили подарок"
+	}
+	"rifle"
+	{
+		"en"		"●{orange} M16"
+		"ru"		"{orange}M16"
+	}
+	"autoshotgun"
+	{
+		"en"		"●{orange} Escopeta Automatica"
+		"ru"		"{orange}Ружьё"
+	}
+	"hunting_rifle"
+	{
+		"en"		"●{orange} Rifle Francotirador"
+		"ru"		"{orange}Снайперку"
+	}
+	"pumpshotgun"
+	{
+		"en"		"●{orange} Escopeta"
+		"ru"		"{orange}Дробовик"
+	}
+	"pipe1"
+	{
+		"en"		"●{green} En tu casa, has encontrado {orange} Unos Explosivos."
+		"ru"		"{green}Дома в коробке ROSHEN вы нашли {orange} Кетю со взрывчаткой."
+	}
+	"pipe2"
+	{
+		"en"		"●{green} Quisiste Bombardear una escuela, te han quedado unas sobras"
+		"ru"		"{green}Вы когда-то хотели взорвать школу, и у вас осталась: {orange} Гигантская питарда."
+	}
+	"pipe3"
+	{
+		"en"		"●{green}En tu bolsillo has encontrado: {orange} Un tanque de propano! {green}, Cuidado que hace b-oom!"
+		"ru"		"{green}В заднем кармане вы обнаружили: {orange} горящую C4{green}, и едва успели вынуть фитиль!"
+	}
+	"pipe4"
+	{
+		"en"		"●{green} Louis te hace una bromita {orange} Te ha dado una Dinamita..."
+		"ru"		"{green}Вы развели Луиса на {orange} палку динамита."
+	}
+	"pipe5"
+	{
+		"en"		"●{green} Has Crafteado {orange} Un tubo de oxigeno {green}No sabés como..."
+		"ru"		"{green}Вы вытащили из зубов зомби {orange} пробирку Нитроглицерина."
+	}
+	"pipe6"
+	{
+		"en"		"●{green} Te han dado {orange} una pieza de TNT"
+		"ru"		"{green}Вы примотали к пищалке для комаров {orange} кусок Тротила."
+	}
+	"molotov1"
+	{
+		"en"		"●{green} Trabajando en una estación de servicio, has rescatado un bidón de gasofa!: {orange} A95 +"
+		"ru"		"{green}На заправке вы часто работали разбавляльщиком бензина и захватили: {orange} A95 +"
+	}
+	"molotov2"
+	{
+		"en"		"●{green} Te portaste bien y te han regalado algo!"
+		"ru"		"{green}Вы хорошо себя вели на сервере и админ подарил вам: {orange} Элитный коньяк"
+	}
+	"molotov3"
+	{
+		"en"		"●{green} Querías alcoholizar un tank y has encontrado: {orange}Una Botella de Vodka!"
+		"ru"		"{green}Вам захотелось напоить танка и вы прихватили: {orange} Бутылку перцовой водки"
+	}
+	"molotov4"
+	{
+		"en"		"●{green} El Kioskero dijo que no pintas de tener 18, y te ha dado una: {orange}Pepsi!"
+		"ru"		"{green}Продавец сказал, что на вид вам меньше 18 и дал вместо пива: {orange} Фанту"
+	}
+	"molotov5"
+	{
+		"en"		"●{green} Escapando de una horda, le has pedido a Louis que te de un refresco, te ha dado una: {orange}Soda con Mentoles"
+		"ru"		"{green}Вы убегали от орды зомби, и задыхаясь, выпросили у Луиса: {orange} Газировку {green} (заодно спалив, где он хранит ещё 2 :)"
+	}
+	"molotov6"
+	{
+		"en"		"●{green} Eres inmune al virus! {orange} Mentira... jeje"
+		"ru"		"{green}Вы прочитали в американской инструкции, что от вируса спасает напиток {orange} Дюшес"
+	}
+	"pills1"
+	{
+		"en"		"●{green} El doctor te recomienda tomarte unas: {orange} Vitaminas!"
+		"ru"		"{green}Доктор прописал пить: {orange} витаминки."
+	}
+	"pills2"
+	{
+		"en"		"●{green} Has Encontrado: {orange} Aspirinas!"
+		"ru"		"{green}Вы захватили: {orange} аспиринку."
+	}
+	"pills3"
+	{
+		"en"		"●{green} Louis Te ha regalado unas: {orange} Pildoras Negras!"
+		"ru"		"{green}Луис сказал, что эти штучки ему очень помогают и поделился: {orange} Чёрными таблеточками."
+	}
+	"oxygentank"
+	{
+		"en"		"●{green} El poder de admin recorre tus venas, has generado un: {orange} Tanque de oxigeno.. xd"
+		"ru"		"{green}Админ хочет выпить с вами: {orange} Бочонок эля."
+	}
+	"gascan"
+	{
+		"en"		"●{green} Un tank te ofrece: {orange} algo picante."
+		"ru"		"{green}Танк предлагает попробовать: {orange} обжигающий кальян."
+	}
+	"propanetank"
+	{
+		"en"		"●{green} Una Witch te maldice, has obtenido: {orange} Un Tanque de Propano!"
+		"ru"		"{green}Ведьма угощает вас: {orange} Бочонком мороженого."
+	}
+	"respawn_in_progress"
+	{
+		"en"		""
+		"ru"		"{orange}Вы будете возрождены через {green}%i{orange} секунд   (доступно: {green}%i/%i{orange})."
+	}
+	"respawn_in_progress_unlimit"
+	{
+		"en"		"{cyan}Desovarás en %i Segundos"
+		"ru"		"{orange}Вы будете возрождены через {green}%i{orange} секунд"
+	}
+	"depleted"
+	{
+		"en"		"You are depleted all respawns for this round."
+		"ru"		"{orange}Вы израсходовали все возрождения за этот раунд."
+	}
+	"ask_help"
+	{
+		"en"		"{orange}Ask to save you using {cyan}Ctrl + E with medkit"
+		"ru"		"{orange}Попросите спасти вас через {cyan}Ctrl + E аптечкой"
+	}
+	"elapsed"
+	{
+		"en"		"● Respawn en: %i sec. ☠"
+		"ru"		"До возрождения осталось: %i сек."
+	}
+	"cant_spawn"
+	{
+		"en"		"{cyan}No se puede encontrar un spawnpoint{orange}%N. {cyan}Espectea otro jugador!"
+		"ru"		"{cyan}Не могу найти позицию для появления {orange}%N. {cyan}Смените цель наблюдения!"
+	}
+}

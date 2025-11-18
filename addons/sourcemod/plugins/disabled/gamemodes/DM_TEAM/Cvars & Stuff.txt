@@ -1,0 +1,13 @@
+"sm_respawn_saferoom"      "Respawn youself at saferoom"
+"sm_respawn_crosshair"     "<target index> Respawn the target at your crosshair"
+"sm_respawn_vector"        "<vector> Respawn yourself at position"
+"sm_respawn_infected"      "<target name> Respawn player as infected next to you"
+
+
+Maps Allowed
+MAP0 "smalltown01" 
+MAP1 "airport01" 
+MAP2 "c2m1_highway" 
+MAP3 "airport05" 
+MAP4 "c2m2_fairgrounds" 
+MAP5 "c2m3_coaster" 

@@ -1,0 +1,46 @@
+"Phrases"
+{
+    "survival_win_yellow"
+    {
+        "en"    "¡Ha ganado el equipo Amarillo!"
+    }
+    "survival_win_green"
+    {
+        "en"    "¡Ha ganado el equipo Verde!"
+    }
+    "survival_swap_invalid"
+    {
+        "en"    "Este comando solo se puede utilizar con supervivientes que ya se hayan unido al equipo.."
+    }
+    "survival_swap_used"
+    {
+        "en"    "Ya has cambiado de equipo en este juego."
+    }
+    "survival_swap_lack"
+    {
+        "en"    "Actualmente no hay personajes disponibles para cambiar de equipo.."
+    }
+    "survival_swap_to_yellow"
+    {
+        "en"    "Te has pasado al equipo Amarillo."
+    }
+    "survival_swap_to_green"
+    {
+        "en"    "Te has pasado al equipo Verde."
+    }
+    "survival_swap_to_yellow_public"
+    {
+        "#format"	"{1:N}" //player name
+        "en"    "{1} Fue cambiado al equipo Amarillo."
+    }
+    "survival_swap_to_green_public"
+    {
+        "#format"	"{1:N}" //player name
+        "en"    "{1} Fue cambiado al equipo Verde."
+    }
+   "survival_defend_buff_get"
+    {
+	    "#format"	"{1:d},{2:.1f},{3:d}"	//accumulated damage to tank, defend buff duration, the value damage will reduce to
+        "en"     "Tank Daño Acumulado:{1}buff de defensa recibidos{2}the value damage will reduce to {3}%%"
+    }
+}

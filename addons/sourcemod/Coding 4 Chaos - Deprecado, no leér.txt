@@ -1,0 +1,295 @@
+'Coded 4 Chaos' - Version 0.2 Release
+
+Bienvenido a mi projecto multi-mod de left 4 dead 2
+
+Esta modificación tiene como objetivo hacer que el juego sea más divertido y fluido para los jugadores al solucionar problemas comunes en el código del juego, mejora mecánicas del juego, añadiendo nuevas también.
+Se centra en mejorar la experiencia del usuario y garantizar una experiencia de juego más fluida y eficiente. Con Más Variedad de modos de juego para todo tipos de jugadores, de vanilla, casual, caótico y competitivo. 
+
+¡Hecho con amor y pasión al Left 4 Dead 2! 
+
+
+- LeShadoune -
+
+
+
+• Principales características
+
+- 25 Modos de juego, distintivos unos de otros
+
+- Support para Versus, Coop.
+
+- Support para 8 Jugadores.
+
+- Servidor Local (o dedicado) Optimizado para jugar partidas privadas, solo amigos, o públicas.
+
+- Contenido Adicional (Requiere de los bundles zcontent)
+
+- Una gran cantidad de Parcheos al código, QoL's y plugins.
+
+
+
+• Características Opcionales
+
+- Votación para cambiar de modo de juego
+
+- Modos de juego Editables
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------
+
+                                  ↓ Lista de modos de juego ↓
+
+------------------------------------------------------------------------------------------------
+
+
+----------------------------------------------------- • Cooperative4 • ------------------------------------------------------------------
+
+- Vanilla: Es el vanilla que todo conocemos de Left 4 Dead 2, pero conservando los parches y los QoL. Sin afectar tanto el juego original.
+★ Recomendadísimo para cuando no sabes que elegir.
+
+- Casual: Este modo de juego se enfoca en dar una experienca casual. La ídea de este modo es para cuando no tienes intenciones de tomarte
+con seriedad el juego, por lo tanto habilita cosas como, poder usar comandos (cheat), bilear a tus teammates, añadir enemigos de la beta,
+y añadir contenido adicional de el zcontent-pack.
+★ Recomiendo este modo de juego para pasarla tranquila con amigos en una dificultad intermedia/alta.
+
+- Equilibrium (EQ): Este modo de juego es la 1/4 parte de las dificultades adicionales. Trata de equilibrar tanto supervivientes como infectados. asímismo el armamento y mecánicas también.
+★ Recomiendo este modo de juego para cuando quieres una dificultad extra aparte de experto, sin ser un cambio drástico.
+⚠️ Clásificado Competitivo, (No habrá cheats y algunos contenidos adicionales)
+
+- eXpert Challenge Mode (XCM): Este modo de juego es la 2/4 parte de las dificultades adicionales. Hardmode es para jugadores avanzados (500+ horas)
+★ Recomiendo este modo de juego para jugadores que buscan un poco más de pelea, pero sin volverlo imposible al mismo tiempo.
+⚠️ Clásificado Competitivo, (No habrá cheats y algunos contenidos adicionales)
+
+- Follow The Guardian (FTG): Este modo de juego se tiene que escortar un VIP hasta el final de el mapa, los jugadores tendrán menos vida. y cualquier golpe acertado al VIP, será divido a todos los jugadores.
+
+- VersusCoop: Este modo de juego es versus pero en cooperativo! es decir, juegas como 4 infectados (jugadores) versus 4 supervivientes (bots).
+
+- OneDown: En este modo de juego se eliminan las incapacitaciones, es muerte súbita y instantanea... ¡Sádico!
+
+- 1HP: En este modo de juego solo tienes 1 punto de salud. se eliminan las incapacitaciones.
+
+----------------------------------------------------- • Cooperative8 • ------------------------------------------------------------------
+
+- Quantum: Es el modo CASUAL, pero ahora con 8 jugadores!
+
+- OctaXen: Es lo mismo que Quantum, pero se enfoca en ser lo más VANILLA y CASUAL posible.
+
+- Follow The Guardian (FTG): Es lo mismo que Quantum, pero se enfoca en ser lo más VANILLA y CASUAL posible.
+
+- Quantum TankRush: Es TankRun pero con 8 jugadores.
+
+- Quantum TankRush: Es TankRun pero con 8 jugadores.
+
+- Versus COOP: Este modo de juego es versus pero en cooperativo! es decir, juegas como 8 infectados (jugadores) versus 8 supervivientes (bots).
+
+----------------------------------------------------- • Competitive • ------------------------------------------------------------------
+
+1 VS 1: En está modalidad se juega 1 superviviente y 1 infectado. Recomendado para prácticar. Su Base es ZONEMOD.
+
+2 VS 2: En está modalidad se juega 2 superviviente y 2 infectado. Recomendado para prácticar. Su Base es ZONEMOD.
+
+3 VS 3: En está modalidad se juega 3 superviviente y 3 infectado. Recomendado para prácticar. Su Base es ZONEMOD.
+
+Zonemod T1: Zonemod es un modo competitivo creado por la comunidad⠀intención de esta modalidad es que el juego competitivo sea más equilibrado e interesante. Contiene quad
+
+Zonemod T2: Comparte el mismo objetivo que Zonemod, pero en esta modalidad, las tier 2 estarán nerfeadas para su uso competitivo y balanceado.
+
+DeathMatch (DM): En esta modalidad, se juega superviviente vs superviviente, similar al counter-strike. Hay un sistema de XP incluído.
+
+Team DeathMatch (TDM): Es counter-strike... pero capturas puntos de control para ganar puntos.
+
+TankRush: Sí. Tank Run Competitivo, en esta modalidad serán 4 supervivientes y 4 tanks. obviamente serán nerfeados para uso competitivo y balanceado.
+
+------------------------------------------------------------------------------------------------
+
+                                    ↓ Parches del juego ↓
+
+------------------------------------------------------------------------------------------------
+
+// [Charger_Collision_patch]
+Se corrige que la carga solo permita golpear 1 de cada INDEX de superviviente y permite que el charger golpee al mismo sobreviviente más de una vez, los supervivientes ya no se convierten en una pared de ladrillos después de que el charger los golpeé una vez, el daño solo debe eliminarse una vez por sobreviviente por carga.
+
+// [firebulletsfix.smx]
+Plugin: https://github.com/XutaxKamay/firebulletsfix/blob/master/addons/sourcemod/scripting/firebulletsfix.sp
+
+Video Explicativo: https://www.youtube.com/watch?v=pr4EZ06mrpQ&ab_channel=KamayXutax
+
+// [l4d_fix_nextbot_collision]
+Fixea la colisión de los commons al tener un tickrate de 100 y cambiar el cvar nb_update_frequency a valores muy bajos.
+
+// [l4d_hold_shove_n_switch_fix]
+
+Permité los empujones continuos cuando el M2 está activo y el arma es cambiada.
+
+// [l4d_votepoll_fix]
+
+Fixea el sistema de votación.
+
+// [l4d2_ellis_hunter_bandaid_fix]
+
+Fixea el tiempo de duración de healing de ELLIS.
+
+// [l4d2_refillreload_fix]
+PLUGIN: https://forums.alliedmods.net/showthread.php?t=333100
+-Fixea agarrar un arma de el mismo tipo y poner su cargador a full.
+-Devuelve las balas al cargador anterior, y añade las nuevas balas a la reserva.
+
+// [l4d2_spit_spread_patch]
+
+Fixea el Spread de la spitter, llegando a lugares imposibles fisicamente.
+
+// [l4d2_tongue_float_fix]
+
+Fixea que el smoker te agarre instantaneamente cuando pasas de un lugar sólido a aire. sin dar tiempo a contra-atacar.
+
+// [l4d2_undoff-fix]
+
+Fixea problemas con el friendly fire, donde no debería de ocurrir.
+
+// [l4d-infectedequalizer-fix]
+
+Fixea las proporciones de infectados.
+
+// [physics_object_pushfix]
+
+Evita que las cajas de fuegos artificiales, latas de gasolina y tanques de oxígeno y propano sean empujados cuando los jugadores colisionan con ellos.
+
+// [survivor_afk_fix]
+
+Fixea la función de irse AFK dentro de el juego.
+
+// [witch_vision_fix]
+
+Fixea un problema interno, en donde los supervivientes incapacitados eran ignorados por las witches.
+
+// [Witch_Double_Startle_Fix]
+
+Fixea que la witch sea alertada dos veces.
+
+// [Witch_Target_patch]
+
+Fixea que la witch targeteé al superviviente equivocado cuando existen 2 de misma skin.
+
+// [witch_allow_in_safezone]
+
+Permite que la witch entre al saferoom.
+
+// [witch_prevent_target_loss]
+
+Previene que la witch pierda su objetivo
+
+// [Defib_Fix]
+
+Fixea a la hora de revivir un superviviente, aveces revive al érroneo o al mismo jugador.
+
+// [Hunter_pounce_alignment_fix]
+
+Restaura la alineación del hunter estilo l4d1 y mantiene la alineación adecuada incluso si el sobreviviente se está moviendo, en lugar de abalanzarse, te teletransportas lentamente hacia el sobreviviente y corrige el ~1 segundo de tiempo en el que el hunter no puede ser empujado.
+
+// [l4d_fix_shove_duration]
+
+Arregla la duración del empujón, siendo erronea desde que salió el juego...
+
+// [l4d_revive_reload_interrupt]
+
+Fixea que revivir un jugador incapacitado durante una recarga te rompa la recarga.
+
+// [l4d2_ai_damagefix]
+
+elimina la reducción de daño, permitiendo poder realizar skeets al hunter y levels al charger cuando estos son BOTS.
+
+// [l4d2_jockey_hitbox_fix]
+
+Fixea la hitbox del jockey.
+
+// [l4d2_sgfix]
+
+fixea la scope de la Sg556 en 100 tickrate.
+
+// [l4d2_tank_charger_m2_fix]
+
+Fixea que al darle m2 al charger o tank su velocidad se resetea a 0 hammer units.
+
+// [l4d2_tongue_timer-fix]
+
+Fixea el timer de la lengua del smoker
+
+// [l4d2_unsilent_jockey]
+
+Fixea al jockey silencioso
+
+// [lfd_both_fixSG552]
+
+Fixea la SG552 con 100 tickrate
+
+// [Realish_Tank_Physx_1.3]
+
+Fixea el golpe del tank no lanzando los jugadores en experto
+
+// [TickrateFixes]
+
+Fixea problemas con el tickrate, como las pistolas o las puertas
+
+// [witch_hit_to_animation_fix]
+
+Fixea la animacion de la witch, calculando el daño por la cantidad de manotasos que pega
+
+// [double_getup]
+
+Fixea el doble levantamiento al ser estuneado como superviviente.
+
+// [l4d_fix_common_shove]
+
+Fixea los commons al no poder ser empujados cuando están en el aire, agachados o escalando.
+
+// [l4d_freely_round_end]
+
+Permite el movimiento al terminar la ronda
+
+// [l4d_stuckzombiemeleefix]
+
+Fixea el registreo del melee en los zombies atascados o agachados.
+
+// [l4d2_clipsizereload_fix]
+
+Arregla la animación bugeada a la hora de cambiar los clipsizes de las armas
+
+// [l4d2_jockey_skeet-fix]
+
+Un sueño hecho realidad, decían.
+Permite que el jockey pueda ser sketeado.
+
+// [l4d2_shove_fix]
+
+Permite que los commons puedan ser empujados en cualquier dirección
+
+// [l4d2_tickrate_enabler-fix]
+
+Permite que se puedan poner 0-100 ticks a las partidas.
+
+// [l4d2_trigger_flow_fix]
+
+Permite que el flow del mapa persista cuando son personajes que no corresponden en la campaña EJ: francis en l4d2
+
+// [l4d2_unsilent_smoker]
+
+Fixea el smoker silencioso en dificultad experto
+
+// [noteam_nudging-fix]
+
+Desabilita las colisiones entre supervivientes
+
+// [staggersolver-fix]
+
+Fixea que los infectados Bots puedan golpear estuneados.
+
+// [l4d_sweep_fist_patch]
+
+Permite que el tank pueda hacer daño en area con el golpe, como en versus pero para COOP.
+
+
+

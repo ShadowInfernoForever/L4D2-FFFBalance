@@ -1,0 +1,110 @@
+/*
+	Following named colors are supported:
+	 - {white}	(use instead of \x01 )
+	 - {cyan}	(use instead of \x03 )
+	 - {orange}	(use instead of \x04 )
+	 - {green}	(use instead of \x05 )
+*/
+
+"Phrases"
+{
+	"MenuVoteDifficulty"
+	{
+		"en"		"Change difficulty to"
+		"ru"		"Изменить сложность на"
+	}
+	"Easy"
+	{
+		"en"		"Easy"
+		"ru"		"Легко"
+	}
+	"Normal"
+	{
+		"en"		"Normal"
+		"ru"		"Нормально"
+	}
+	"Hard"
+	{
+		"en"		"Hard"
+		"ru"		"Мастер"
+	}
+	"Hard+"
+	{
+		"en"		"Hard +"
+		"ru"		"Мастер +"
+	}
+	"Impossible"
+	{
+		"en"		"Impossible"
+		"ru"		"Эксперт"
+	}
+	"Impossible+"
+	{
+		"en"		"Impossible +"
+		"ru"		"Эксперт +"
+	}
+	"Yes"
+	{
+		"en"		"Yes"
+		"ru"		"Да"
+	}
+	"No"
+	{
+		"en"		"No"
+		"ru"		"Нет"
+	}
+	"too_often"
+	{
+		"en"		"{orange}You can't vote too often!"
+		"ru"		"{orange}Вы не можете голосовать слишком часто!"
+	}
+	"access_denied"
+	{
+		"en"		"{orange}You have no access to this vote!"
+		"ru"		"{orange}У вас нет доступа к этому голосованию!"
+	}
+	"other_vote"
+	{
+		"en"		"{orange}Other vote is still not over!"
+		"ru"		"{orange}Другое голосование ещё не закончилось!"
+	}
+	"veto"
+	{
+		"en"		"{orange}Current vote is vetoed by {green}%N"
+		"ru"		"{green}%N {orange}наложил вето на голосование"
+	}
+	"votepass"
+	{
+		"en"		"{cyan}Current vote is passed by {green}%N"
+		"ru"		"{green}%N {cyan}принудительно продвинул голосование"
+	}
+	"vote_failed"
+	{
+		"en"		"{cyan}Vote for difficulty {orange}is failed."
+		"ru"		"{cyan}Голосование за сложность {orange}провалилось."
+	}
+	"vote_success"
+	{
+		"#format"	"{1:t}"
+		"en"		"{orange}Difficulty is changed to: {green}{1}"
+		"ru"		"{orange}Сложность изменена на: {green}{1}"
+	}
+	"vote_started"
+	{
+		"#format"	"{1:t}"
+		"en"		"{green}%N {orange}is started vote for difficulty: {cyan}{1}"
+		"ru"		"{green}%N {orange}начал голосование за сложность: {cyan}{1}"
+	}
+	"vote_started_announce"
+	{
+		"#format"	"{1:t}"
+		"en"		"Change difficulty to: {1} ?"
+		"ru"		"Изменить сложность на: {1} ?"
+	}
+	"not_enough_players"
+	{
+		"#format"	"{1:i}"
+		"en"		"{orange}Not enough players to start the vote. {cyan}Required minimum: {1}"
+		"ru"		"{orange}Слишком мало игроков для голосования. {cyan}Нужно минимум: {1}"
+	}
+}

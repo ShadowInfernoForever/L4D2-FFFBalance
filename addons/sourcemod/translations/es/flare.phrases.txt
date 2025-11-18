@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Flare Cmd Ground"
+	{
+		"es"		"Puedes colocar otra bengala en el suelo escribiendo {green}!flare{default} en el chat."
+	}
+	"Flare Cmd Attach"
+	{
+		"es"		"puedes equiparte otra bengala escribiendo {green}!flareme{default} en el chat."
+	}
+	"Flare Incapped"
+	{
+		"es"		"Sólo puedes usar {green}!flare{default} mientras estás incapacitado."
+	}
+	"Flare Intro"
+	{
+		"es"		"comandos del chat: {green}!flare{default} y {green}!flareme{default}. Colores: red, green, blue, purple, orange, yellow, white. o 3 valores entre 0-255. EJ: {green}!flare red{default} o {green}!flare 255 0 0{default}"
+	}
+	"Flare Invalid Args"
+	{
+		"es"		"Comando inválido: {green}!flareclient <#userid|name> [R G B] [R G B]{default} (valores de RGB 0-255). Opcional 3 valores para light y 3 para el color env_steam si está activado."
+	}
+	"Flare Invalid Now"
+	{
+		"es"		"No se puede ejecutar el comando. Modo de juego equivocado, ronda terminada o plugin desactivado."
+	}
+	"Flare Invalid Place"
+	{
+		"es"		"Imposible colocar bengala, inteta otra vez escribiendo {green}!flare{default} en el chat."
+	}
+	"Flare Invalid Target"
+	{
+		"es"		"Objetivo inválido: Equipo equivocado o muerto."
+	}
+	"Flare Max"
+	{
+		"es"		"Porfavor espera, máximo número de bengalas alcanzado."
+	}
+	"Flare Usage"
+	{
+		"es"		"Modo: {green}!flare <color name|R G B>{default}. Colores: red, green, blue, purple, orange, yellow, white. O 3 valores 0-255. EJ: {green}!flare red{default} o {green}!flare 255 0 0{default}"
+	}
+	"Flare Wait"
+	{
+		"es"		"Porfavor espera antes de usar los comandos {green}!flare{default} o {green}!flareme{default}."
+	}
+}

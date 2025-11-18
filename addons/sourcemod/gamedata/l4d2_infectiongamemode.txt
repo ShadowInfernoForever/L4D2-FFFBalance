@@ -1,0 +1,25 @@
+"Games"
+{
+	"left4dead2"
+	{
+		"Offsets"
+		{
+			"oAbility"
+			{
+				"windows"	"928"
+				"linux"		"948"
+			}
+		}
+
+		"Signatures"
+		{
+
+			"CreateAbility"
+			{
+				"library"	"server"
+				"windows"	"\x55\x8b\xec\x83\xec*\x56\x8b\x75*\x85\xf6\x0f\x84****\x8b\xce\xe8"
+				"linux"		"@_ZN12CBaseAbility15CreateForPlayerEP13CTerrorPlayer"
+			}
+		}
+	}
+}

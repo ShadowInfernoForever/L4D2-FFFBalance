@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Flare Cmd Ground"
+	{
+		"de"		"Du kannst noch eine Fackel platzieren, wenn du {green}!flare{default} im Chat schreibst."
+	}
+	"Flare Cmd Attach"
+	{
+		"de"		"Du kannst noch eine Fackel platzieren, wenn du {green}!flareme{default} im Chat schreibst."
+	}
+	"Flare Incapped"
+	{
+		"de"		"Du kannst {green}!flare{default} nur benutzen, wenn du außer Gefecht gesetzt bist."
+	}
+	"Flare Intro"
+	{
+		"de"		"Chat Befehle: {green}!flare{default} und {green}!flareme{default}. Farben: red, green, blue, purple, orange, yellow, white. Oder 3 Werte 0-255. z.B.: {green}!flare red{default} oder {green}!flare 255 0 0{default}"
+	}
+	"Flare Invalid Args"
+	{
+		"de"		"Ungültige Argumente: {green}sm_flareclient <#userid|name> [R G B] [R G B]{default} (RGB Werte 0-255). Optional 3 Werte für Licht und 3 für die 'env_steam' Farbe, wenn dies an ist."
+	}
+	"Flare Invalid Now"
+	{
+		"de"		"Kann Befehl nicht ausführen. Falscher Spielmodus, Runde zu Ende oder Plugin ist ausgeschaltet."
+	}
+	"Flare Invalid Place"
+	{
+		"de"		"Kann Fackel nicht platzieren, versuche es erneut indem du {green}!flare{default} im Chat schreibst."
+	}
+	"Flare Invalid Target"
+	{
+		"de"		"Ungültiges Ziel: Falsches Team oder nicht mehr am Leben."
+	}
+	"Flare Max"
+	{
+		"de"		"Bitte warten, maximale Anzahl an Fackeln erreicht."
+	}
+	"Flare Usage"
+	{
+		"de"		"Benutzung: {green}sm_flare <Name der Farbe|R G B>{default}. Farben: red, green, blue, purple, orange, yellow, white. Oder 3 Werte 0-255. z.B.: {green}!flare red{default} oder {green}!flare 255 0 0{default}"
+	}
+	"Flare Wait"
+	{
+		"de"		"Bitte warte bevor du die Befehle {green}!flare{default} oder {green}!flareme{default} benutzt."
+	}
+}

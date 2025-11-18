@@ -1,0 +1,335 @@
+"Phrases"
+{
+	"SYSTEM"
+	{
+		"es"		"{NARANJA}[{VERDE}SRS{NARANJA}]{DEFAULT} "
+	}
+
+	"CONNECTING"
+	{
+		"#format"	"{1:N}"
+		"es"		"{AZUL}{1}{DEFAULT} está conectándose..."
+	}
+
+	"LEFT"
+	{
+		"#format"	"{1:N}"
+		"es"		"{AZUL}{1}{DEFAULT} dejó el juego..."
+	}
+
+	"JOIN"
+	{
+		"#format"	"{1:N},{2:s}"
+		"es"		"{AZUL}{1}{DEFAULT} se unió a {NARANJA}{2}{DEFAULT}."
+	}
+
+	"SPECTATE"
+	{
+		"es"		"Observar"
+	}
+
+	"SURVIVOR"
+	{
+		"es"		"Superviviente"
+	}
+
+	"INFECTED"
+	{
+		"es"		"Infectado"
+	}
+
+	"JOIN_MESSAGE"
+	{
+		"#format"		"{1:N},{2:s},{3:s},{4:d},{5:.1f}"
+		"es"		"{DEFAULT}{NARANJA}[{VERDE}Rango.{4}{NARANJA}]{DEFAULT} {AZUL}{1}{DEFAULT} de {NARANJA}{3}{DEFAULT} ({VERDE}{2}{DEFAULT}) se unió. (Puntuación:{NARANJA}{5}{DEFAULT})"
+	}
+
+	"OPTIONS"
+	{
+		"es"		"Opciones"
+	}
+
+	"AUTO_OPEN"
+	{
+		"es"		"Abrir automáticamente SRS"
+	}
+
+	"COMBO_EFFECT"
+	{
+		"es"		"Efecto Combo"
+	}
+
+	"COMBO_SOUND"
+	{
+		"es"		"Sonido Combo"
+	}
+
+	"ON"
+	{
+		"es"		"Activado"
+	}
+
+	"OFF"
+	{
+		"es"		"Desactivado"
+	}
+
+	"COMING_SOON"
+	{
+		"es"		"próximamente..."
+	}
+
+	"LOADED"
+	{
+		"#format"	"{1:.2f}"
+		"es"		"Récord cargado. Puntuación total: {VERDE}{1}{DEFAULT}"
+	}
+
+	"NEXT_PAGE"
+	{
+		"es"		"Siguiente página"
+	}
+
+	"PREV_PAGE"
+	{
+		"es"		"Página anterior"
+	}
+
+	"CLOSE"
+	{
+		"es"		"Cerrar"
+	}
+
+	"COMMON"
+	{
+		"es"		"Común"
+	}
+
+	"SPECIAL"
+	{
+		"es"		"Especial"
+	}
+
+	"KILL_STATISTIC"
+	{
+		"es"		"Estadísticas de muertes (K/HS)"
+	}
+
+	"ACCURACY"
+	{
+		"es"		"Precisión"
+	}
+
+	"FIRE_STATISTIC"
+	{
+		"es"		"Estadísticas de disparos"
+	}
+
+	"VIEWING"
+	{
+		"es"		"VISUALIZANDO"
+	}
+
+	"ROUND_STATUS"
+	{
+		"es"		"「RECORD DE RONDA」"
+	}
+
+	"TOTAL_STATUS"
+	{
+		"es"		"「RECORD TOTAL」"
+	}
+
+	"INFO"
+	{
+		"es"		"Información"
+	}
+
+	"COMBO"
+	{
+		"#format"	"{1:s},{2:d},{3:s}"
+		"es"		"{2} Combo{3} {1}"
+	}
+
+	"SCORE"
+	{
+		"es"		"Puntuación"
+	}
+
+	"KILL"
+	{
+		"es"		"MATAR"
+	}
+
+	"HEADSHOT"
+	{
+		"es"		"DISPARO A LA CABEZA"
+	}
+
+	"SRS_S_SHOT"
+	{
+		"es"		"Disparo"
+	}
+
+	"SRS_S_HIT"
+	{
+		"es"		"Golpe"
+	}
+
+	"HIGHEST_SCORE_ADDED"
+	{
+		"#format"	"{1:.2f}"
+		"es"		"Puntuación más alta añadida: {1}"
+	}
+
+	"HIGHEST_COMBO"
+	{
+		"#format"	"{1:d}"
+		"es"		"Combo más alto: {1}"
+	}
+
+	"RANK"
+	{
+		"es"		"Rango"
+	}
+
+	"SRS_S_DMG"
+	{
+		"es"		"Daño total"
+	}
+
+	"BACK"
+	{
+		"es"		"Atrás"
+	}
+
+	"DATETIME_INFO"
+	{
+		"es"		"Estadísticas de fecha y hora"
+	}
+
+	"PLAYED_TIME"
+	{
+		"es"		"Tiempo jugado"
+	}
+
+	"JOIN_DATE"
+	{
+		"es"		"Fecha de unión"
+	}
+
+	"UPDATE_DATE"
+	{
+		"es"		"Fecha de actualización"
+	}
+
+	"HEALTH_INFO"
+	{
+		"es"		"Estadísticas de salud"
+	}
+
+	"SRS_S_DEATH"
+	{
+		"es"		"Muerte"
+	}
+
+	"SRS_S_INCAPACITATED"
+	{
+		"es"		"Incapacitado"
+	}
+
+	"SRS_S_HURT"
+	{
+		"es"		"Herido"
+	}
+
+	"SRS_S_RESCUED"
+	{
+		"es"		"Rescatado"
+	}
+
+	"SRS_S_REVIVED"
+	{
+		"es"		"Revivido"
+	}
+
+	"SRS_S_DEFIBRILLATED"
+	{
+		"es"		"Desfibrilado"
+	}
+
+	"ITEMS_USED"
+	{
+		"es"		"Objetos usados"
+	}
+
+	"HELP_INFO"
+	{
+		"es"		"Estadísticas de ayuda al compañero"
+	}
+
+	"SRS_S_REVIVE"
+	{
+		"es"		"Revivir"
+	}
+
+	"SRS_S_RESCUE"
+	{
+		"es"		"Rescatar"
+	}
+
+	"SRS_S_HEAL"
+	{
+		"es"		"Curar"
+	}
+
+	"SRS_S_DEFIBRILLATE"
+	{
+		"es"		"Desfibrilar"
+	}
+
+	"SRS_S_HEALED"
+	{
+		"es"		"Curado"
+	}
+
+	"SRS_S_SELF_HEALED"
+	{
+		"es"		"Autocurado"
+	}
+
+	"SRS_S_PROTECTED"
+	{
+		"es"		"Protegido"
+	}
+
+	"SRS_S_PROTECT"
+	{
+		"es"		"Proteger"
+	}
+
+	"HURT_STATISTIC"
+	{
+		"es"		"Estadísticas de daño"
+	}
+
+	"SRS_S_J_RIDE"
+	{
+		"es"		"Montado por Jockey"
+	}
+
+	"SRS_S_C_CARRY"
+	{
+		"es"		"Transportado por Charger"
+	}
+
+	"SRS_S_C_PUMMEL"
+	{
+		"es"		"Golpeado por Charger"
+	}
+
+	"MVP_ERROR_1"
+	{
+		"es"		"El objetivo está equivocado. Intenta de nuevo."
+	}
+}

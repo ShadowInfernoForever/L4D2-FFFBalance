@@ -1,0 +1,220 @@
+// INSTRUCCIONES DE USO: Spanish
+
+
+// - Este archivo define los distintos modos de juego disponibles en el servidor.
+// - Cada modo de juego está estructurado en una categoría (por ejemplo, "Cooperative - 4 Players").
+// - Dentro de cada categoría, hay configuraciones específicas para cada modo, con su nombre y ruta correspondiente.
+//
+// CÓMO EDITAR:
+// - Para eliminar un modo, simplemente borra su entrada en el archivo.
+// - Para agregar un nuevo modo, sigue este formato:
+//   "NombreDeLaCategoría"
+//   {
+//       "Ruta/Del/Modo"       - Es decir, el archivo `cfg.` en las carpetas.
+//       {
+//           "name" "Nombre Visible en el Menú de votación"
+//       }
+//   }
+//
+//
+// EJEMPLO DE PERSONALIZACIÓN:
+// Si quieres añadir un modo llamado "Desafío Extremo", con su configuración en `cfg/coopde4jugadores/desafio_extremo.cfg`,
+// agrégalo dentro de la categoría correspondiente:
+//
+// "Cooperativo"
+// {
+//     "coopde4jugadores/DesafioExtremo"
+//     {
+//         "name" "★ Desafío Extremo"
+//     }
+// }
+//
+// NOTA:
+// - No es necesario usar nombres exactos para las categorías, pero mantener un orden facilita la gestión.
+// - Se pueden añadir nuevas categorías si es necesario.
+
+
+
+
+// USAGE INSTRUCTIONS: English
+
+
+// - This file defines the different game modes available on the server.
+// - Each game mode is organized under a category (e.g., "Cooperative - 4 Players").
+// - Within each category, there are specific configurations for each mode, including its name and path.
+//
+// HOW TO EDIT:
+// - To remove a mode, simply delete its entry from the file.
+// - To add a new mode, follow this format:
+//   "CategoryName"
+//   {
+//       "Path/To/Mode"       - That is, the `cfg.` file in the folders.
+//       {
+//           "name" "Visible Name in the Voting Menu"
+//       }
+//   }
+//
+//
+// CUSTOMIZATION EXAMPLE:
+// If you want to add a mode called "Extreme Challenge" with its configuration in `cfg/coop4players/extreme_challenge.cfg`,
+// add it under the corresponding category:
+//
+// "Cooperative"
+// {
+//     "coop4players/ExtremeChallenge"
+//     {
+//         "name" "★ Extreme Challenge"
+//     }
+// }
+//
+// NOTE:
+// - It's not necessary to use exact names for categories, but keeping an order helps with management.
+// - New categories can be added if needed.
+
+"MatchModes"
+{
+	"• Cooperative - 4 Players"
+	{
+		"Cooperative4/Vanilla"
+		{
+			"name" "•Vanilla"
+		}
+        	"Cooperative4/ClassicCasual"
+		{
+			"name" "•Classic Casual"
+		}
+		//"Cooperative4/Equilibrium"
+		//{
+		//	"name" "•EQ - (Equilibrium)"
+		//}
+		"Cooperative4/hm"
+		{
+			"name" "★HM - (HardMode)"
+		}
+		"Cooperative4/1v4hm"
+		{
+			"name" "★1vs4 HM"
+		}
+		"Cooperative4/2v4hm"
+		{
+			"name" "★2vs4 HM"
+		}
+		"Cooperative4/3v4hm"
+		{
+			"name" "★3vs4 HM"
+		}
+		//"Cooperative4/Stratum"
+		//{
+		//	"name" "•Stratum Source"
+		//}
+		//"Cooperative4/FTG"
+		//{
+		//	"name" "Follow The Guardian"
+		//}
+		//"Cooperative4/MysteryMod"
+		//{
+		//	"name" "Mystery Mode"
+		//}
+		"Cooperative4/OneDown"
+		{
+			"name" "OneDown"
+		}
+		"Cooperative4/1HP"
+		{
+			"name" "1HP+OneDown"
+		}
+		//"Cooperative4/Epidemic"
+		//{
+		//	"name" "Divergent Epidemic"
+		//}
+        	//"Cooperative4/Infection"
+		//{
+		//	"name" "Infectionpocalypse"
+		//}
+		"Cooperative4/VersusCoop"
+		{
+			"name" "Versus CO-OP"
+		}
+		"Cooperative4/Endlessc"
+		{
+			"name" "Endless CO-OP"
+		}
+		"Cooperative4/Marathon"
+		{
+			"name" "Marathon CO-OP"
+		}
+	}
+	"• Cooperative - 8 Players"
+	{
+		"Cooperative8/Quantum"
+		{
+			"name" "Quantum"
+		}
+		"Cooperative8/QuantumLite"
+		{
+			"name" "Quantum Lite"
+		}
+		//"Cooperative8/QuantumFTG"
+		//{
+		//	"name" "Follow The Guardian"
+		//}
+		"Cooperative8/QuantumTR"
+		{
+			"name" "TankRush"
+		}
+		"Cooperative8/VersusCoop"
+		{
+			"name" "Versus CO-OP"
+		}
+	}
+	// "Survival - 4 Players"
+	// {
+	//     "Cooperative4/Vanilla"
+	//     {
+	//         "name" "Vanilla"
+	//     }
+	//}
+	"★ Versus - 8 players"
+	{
+		"Competitive/Vanilla"
+		{
+			"name" "•Vanilla"
+		}
+	    "Competitive/1vs1"
+		{
+			"name" "★1vs1"
+		}
+		"Competitive/2vs2"
+		{
+			"name" "★2vs2"
+		}
+		"Competitive/3vs3"
+		{
+			"name" "★3vs3"
+		}
+		"Competitive/ZonemodT1"
+		{
+			"name" "★ZoneMod TIER I"
+		}
+		"Competitive/ZonemodT2"
+		{
+			"name" "★ZoneMod TIER II"
+		}
+		"Competitive/TankRush"
+		{
+			"name" "★Versus TankRush"
+		}
+		"Competitive/DM"
+		{
+			"name" "★DeathMatch"
+		}
+		"Competitive/TeamDM"
+		{
+			"name" "★TeamDeathMatch"
+		}
+        "Competitive/TSC"
+		{
+			"name" "★Team Survival Competition"
+		}
+	}
+}
