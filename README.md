@@ -1,7 +1,9 @@
-# FFForever-Balance — Version https://img.shields.io/badge/Version-10.7-blue
-Left 4 Dead 2 - Total Game Balance. Armas balanceadas, infectados ajustados, nuevos gamemodes y experiencias, desde lo casual, competitivo y hasta caos total de 8 jugadores.
+# FFForever-Balance — Version
+![Version](https://img.shields.io/badge/Version-10.7-blue)
 
-Siempre soñé con un servidor multimod, equilibrado y accesible para todos. Un lugar donde cualquiera pueda disfrutar Left 4 Dead 2 a su manera, en cualquier momento y con cualquier estilo de juego.
+Left 4 Dead 2 - Total Game Balance Armas balanceadas, infectados ajustados, nuevos gamemodes y experiencias, desde lo casual, competitivo y hasta caos total de 8 jugadores
+
+Siempre soñé con un servidor multimod, equilibrado y accesible para todos. Un lugar donde cualquiera pueda disfrutar Left 4 Dead 2 a su manera, en cualquier momento y con cualquier estilo de juego
 ---
 
 ## 📘 Documentación Completa
