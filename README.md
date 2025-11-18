@@ -1,8 +1,8 @@
-# FFForever-Balance — Version
+# L4D2 FFForever-TGB
 
 ![Version](https://img.shields.io/badge/Version-10.7-blue)
 
-Left 4 Dead 2 - Total Game Balance  
+Left 4 Dead 2 - FFForever Total Game Balance  
 Armas balanceadas, infectados ajustados, nuevos gamemodes y experiencias,  
 desde lo casual, competitivo y hasta caos total de 8 jugadores.
 
@@ -41,19 +41,16 @@ Hecho con dedicación y pasión al juego.
 
 ## 🧩 Créditos
 
-**Shadow** –Developer & Maintainer
+- [**Shadow / ShadowInferno**](https://steamcommunity.com/profiles/76561198021481327/) – Developer & Maintainer
 
-## Shortcuts de Steam
+# Contribuidores
 
-Contribuidores
-
-- [MrSlenderTOP] — Hoster, sugerencias, spotter de bugs
-- [Actras_DK] — Hoster  
-- [-|Tuc] — Hoster  
-- [Luca4808] Ideas y sugerencias
-- [DJ master 3000/Juanito_kpo4270]
-- [Zombine]
-- [Rafriki]
+- [MrSlenderTOP](https://steamcommunity.com/profiles/76561197992537591) — Hoster, sugerencias, spotter de bugs
+- [Actras_DK](https://steamcommunity.com/profiles/76561198886957675/) — Hoster
+- [-|Tuc](https://steamcommunity.com/id/Tucu22/) — Hoster
+- [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Ideas y sugerencias
+- [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/)
+- [Rafriki](https://steamcommunity.com/id/Rafriki1894/)
 
 Gracias a todos los testers y a la comunidad por su apoyo constante.
 
@@ -66,5 +63,7 @@ por favor contáctame y con gusto te agregaré a la lista.
 ---
 
 ## 📄 Licencia
-Este proyecto se distribuye únicamente para uso no comercial.  
-Consulta los detalles en [/docs/LICENSE.md](docs/LICENSE.md) *(opcional)*.
+Este proyecto se distribuye bajo los términos de la **GNU General Public License v3.0 (GPLv3)**.  
+Esto significa que el código es libre y puede ser usado, modificado y redistribuido, siempre que cualquier obra derivada mantenga la misma licencia.
+
+Consulta los detalles completos en [LICENSE.txt](LICENSE.txt).
