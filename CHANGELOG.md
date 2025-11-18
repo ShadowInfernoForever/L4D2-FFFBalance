@@ -12,18 +12,6 @@
 [Rafriki]: https://steamcommunity.com/id/Rafriki1894/
 <!-- add other people :D!!! -->
 
-## Steam Shortcuts
-
-Contributors
-
-- [Shadow] — Main Developer  
-- [MrSlenderTOP] — Hoster  
-- [Actras_DK] — Hoster  
-- [-|Tuc] — Hoster  
-- [Luca4808]
-- [DJ master 3000/Juanito_kpo4270]
-- [Rafriki]
-
 # Version History
 
 > In this document, you can see all updates from each version
