@@ -1,6 +1,6 @@
 # L4D2 FFForever-TGB
 
-![Version](https://img.shields.io/badge/Version-10.7-blue)
+![Version](https://img.shields.io/badge/Version-10.71-blue)
 
 Left 4 Dead 2 - FFForever Total Game Balance  
 Armas balanceadas, infectados ajustados, nuevos gamemodes y experiencias,  
