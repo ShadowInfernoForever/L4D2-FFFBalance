@@ -672,34 +672,45 @@
         return Plugin_Handled;
     }
 
-    public Action OnTraceAttackHeadshot(int victim, int &attacker, int &inflictor, float &damage, int &damagetype, int &ammotype, int hitbox, int hitgroup)
+   public Action OnTraceAttackHeadshot(int victim, int &attacker, int &inflictor, float &damage, int &damagetype, int &ammotype, int hitbox, int hitgroup)
     {
-        if (!IsClientInGame(victim) || !IsClientInGame(attacker) || GetClientTeam(victim) != 3 || IsTank(victim))
+        // Validar que victim y attacker sean CLIENTES válidos
+        if (victim < 1 || victim > MaxClients)
+            return Plugin_Continue;
+
+        if (attacker < 1 || attacker > MaxClients)
+            return Plugin_Continue;
+
+        if (!IsClientInGame(victim) || !IsClientInGame(attacker))
+            return Plugin_Continue;
+
+        // Asegurarse que victim sea un infected SI cliente (Coop bots)
+        if (GetClientTeam(victim) != 3 || IsTank(victim))
             return Plugin_Continue;
 
         if (hitgroup != HITGROUP_HEAD)
             return Plugin_Continue;
 
-        // Obtener arma del atacante (solo clientes)
+        // Obtener arma del atacante
         char sWeapon[64];
         GetClientWeapon(attacker, sWeapon, sizeof(sWeapon));
 
-        // Normalizar nombre: sacar el prefijo "weapon_"
+        // Normalizar nombre (sacar "weapon_")
         if (strncmp(sWeapon, "weapon_", 7) == 0)
         {
             strcopy(sWeapon, sizeof(sWeapon), sWeapon[7]);
         }
 
-        // Obtener multiplicador (por defecto 1.0)
         float fHeadMult = KvGetFloat(g_hHeadshotKVs, sWeapon, 1.0);
 
-        // Si es distinto de 1.0, aplicamos
         if (fHeadMult != 1.0)
         {
             damage *= fHeadMult;
+
             #if DEBUG
             PrintToServer("[DEBUG] Headshot con %s -> x%.2f, damage ahora %.2f", sWeapon, fHeadMult, damage);
             #endif
+
             return Plugin_Changed;
         }
 
