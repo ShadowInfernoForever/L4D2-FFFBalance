@@ -1,0 +1,311 @@
+L 11/18/2025 - 19:09:50: SourceMod error session started
+L 11/18/2025 - 19:09:50: Info (map "li_c1m1_mainsquare") (file "D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\logs\errors_20251118.log")
+L 11/18/2025 - 19:09:50: [SM] Unable to load extension "dosprotect.ext": No se puede encontrar el módulo especificado.
+
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\l4d2_trigger_flow_fix.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\l4d2_melee_spawn_control.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\l4d2_fireworks_noise_block.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:10:12: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 19:23:31: Error log file session closed.
+L 11/18/2025 - 19:29:33: SourceMod error session started
+L 11/18/2025 - 19:29:33: Info (map "li_c1m2_streets") (file "D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\logs\errors_20251118.log")
+L 11/18/2025 - 19:29:33: [SM] Exception reported: Invalid timer handle de500330 (error 7)
+L 11/18/2025 - 19:29:33: [SM] Blaming: disabled\optionaltweaks\l4d2_smoker_drag_damage_interval_zone.smx
+L 11/18/2025 - 19:29:33: [SM] Call stack trace:
+L 11/18/2025 - 19:29:33: [SM]   [0] KillTimer
+L 11/18/2025 - 19:29:33: [SM]   [1] Line 187, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::KillDragTimer
+L 11/18/2025 - 19:29:33: [SM]   [2] Line 142, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::FirstDamage
+L 11/18/2025 - 19:33:31: Error log file session closed.
+L 11/18/2025 - 19:58:00: SourceMod error session started
+L 11/18/2025 - 19:58:00: Info (map "li_c1m5_jcrunway") (file "D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\logs\errors_20251118.log")
+L 11/18/2025 - 19:58:00: [SM] Exception reported: Invalid timer handle de500330 (error 7)
+L 11/18/2025 - 19:58:00: [SM] Blaming: disabled\optionaltweaks\l4d2_smoker_drag_damage_interval_zone.smx
+L 11/18/2025 - 19:58:00: [SM] Call stack trace:
+L 11/18/2025 - 19:58:00: [SM]   [0] KillTimer
+L 11/18/2025 - 19:58:00: [SM]   [1] Line 187, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::KillDragTimer
+L 11/18/2025 - 19:58:00: [SM]   [2] Line 142, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::FirstDamage
+L 11/18/2025 - 20:00:14: [SM] Exception reported: Invalid timer handle 5ce000a3 (error 1)
+L 11/18/2025 - 20:00:14: [SM] Blaming: disabled\optionaltweaks\l4d2_smoker_drag_damage_interval_zone.smx
+L 11/18/2025 - 20:00:14: [SM] Call stack trace:
+L 11/18/2025 - 20:00:14: [SM]   [0] KillTimer
+L 11/18/2025 - 20:00:14: [SM]   [1] Line 187, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::KillDragTimer
+L 11/18/2025 - 20:00:14: [SM]   [2] Line 142, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::FirstDamage
+L 11/18/2025 - 20:01:11: [SM] Exception reported: Invalid timer handle d4d006f6 (error 1)
+L 11/18/2025 - 20:01:11: [SM] Blaming: disabled\optionaltweaks\l4d2_smoker_drag_damage_interval_zone.smx
+L 11/18/2025 - 20:01:11: [SM] Call stack trace:
+L 11/18/2025 - 20:01:11: [SM]   [0] KillTimer
+L 11/18/2025 - 20:01:11: [SM]   [1] Line 187, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::KillDragTimer
+L 11/18/2025 - 20:01:11: [SM]   [2] Line 142, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::FirstDamage
+L 11/18/2025 - 20:02:32: [SM] Exception reported: Invalid timer handle d4d006f6 (error 1)
+L 11/18/2025 - 20:02:32: [SM] Blaming: disabled\optionaltweaks\l4d2_smoker_drag_damage_interval_zone.smx
+L 11/18/2025 - 20:02:32: [SM] Call stack trace:
+L 11/18/2025 - 20:02:32: [SM]   [0] KillTimer
+L 11/18/2025 - 20:02:32: [SM]   [1] Line 187, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::KillDragTimer
+L 11/18/2025 - 20:02:32: [SM]   [2] Line 142, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::FirstDamage
+L 11/18/2025 - 20:03:23: [SM] Exception reported: Invalid timer handle 5ce000a3 (error 1)
+L 11/18/2025 - 20:03:23: [SM] Blaming: disabled\optionaltweaks\l4d2_smoker_drag_damage_interval_zone.smx
+L 11/18/2025 - 20:03:23: [SM] Call stack trace:
+L 11/18/2025 - 20:03:23: [SM]   [0] KillTimer
+L 11/18/2025 - 20:03:23: [SM]   [1] Line 187, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::KillDragTimer
+L 11/18/2025 - 20:03:23: [SM]   [2] Line 142, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::FirstDamage
+L 11/18/2025 - 20:05:09: [SM] Exception reported: Invalid timer handle de500330 (error 7)
+L 11/18/2025 - 20:05:09: [SM] Blaming: disabled\optionaltweaks\l4d2_smoker_drag_damage_interval_zone.smx
+L 11/18/2025 - 20:05:09: [SM] Call stack trace:
+L 11/18/2025 - 20:05:09: [SM]   [0] KillTimer
+L 11/18/2025 - 20:05:09: [SM]   [1] Line 187, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::KillDragTimer
+L 11/18/2025 - 20:05:09: [SM]   [2] Line 142, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_smoker_drag_damage_interval_zone.sp::FirstDamage
+L 11/18/2025 - 20:30:10: SourceMod error session started
+L 11/18/2025 - 20:30:10: Info (map "footstep_test") (file "D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\logs\errors_20251118.log")
+L 11/18/2025 - 20:30:10: [SM] Unable to load extension "dosprotect.ext": No se puede encontrar el módulo especificado.
+
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\l4d2_trigger_flow_fix.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\l4d2_melee_spawn_control.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\l4d2_fireworks_noise_block.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:30:25: [plugin_unload_protect.smx] [PluginUnloadProtect] File addons\sourcemod\plugins\.smx does not exist
+L 11/18/2025 - 20:32:53: [SM] Exception reported: Unable to find the "CTerrorPlayer_Fling" signature, check the file version!
+L 11/18/2025 - 20:32:53: [SM] Blaming: disabled\dev-tools\l4d2_custom_commands.smx
+L 11/18/2025 - 20:32:53: [SM] Call stack trace:
+L 11/18/2025 - 20:32:53: [SM]   [0] SetFailState
+L 11/18/2025 - 20:32:53: [SM]   [1] Line 241, /home/forums/content/files/7/2/4/2/8/73969.attach::OnPluginStart
+L 11/18/2025 - 20:53:24: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:53:24: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:53:24: [SM] Call stack trace:
+L 11/18/2025 - 20:53:24: [SM]   [0] Format
+L 11/18/2025 - 20:53:24: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:53:24: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:53:24: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:53:39: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:53:39: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:53:39: [SM] Call stack trace:
+L 11/18/2025 - 20:53:39: [SM]   [0] Format
+L 11/18/2025 - 20:53:39: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:53:39: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:53:39: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:53:56: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:53:56: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:53:56: [SM] Call stack trace:
+L 11/18/2025 - 20:53:56: [SM]   [0] Format
+L 11/18/2025 - 20:53:56: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:53:56: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:53:56: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:54:08: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:08: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:08: [SM] Call stack trace:
+L 11/18/2025 - 20:54:08: [SM]   [0] Format
+L 11/18/2025 - 20:54:08: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:08: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:08: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:08: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:08: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:08: [SM] Call stack trace:
+L 11/18/2025 - 20:54:08: [SM]   [0] Format
+L 11/18/2025 - 20:54:08: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:08: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:08: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:08: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:08: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:08: [SM] Call stack trace:
+L 11/18/2025 - 20:54:08: [SM]   [0] Format
+L 11/18/2025 - 20:54:08: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:08: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:08: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:08: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:08: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:08: [SM] Call stack trace:
+L 11/18/2025 - 20:54:08: [SM]   [0] Format
+L 11/18/2025 - 20:54:08: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:08: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:08: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:54:22: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:22: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:22: [SM] Call stack trace:
+L 11/18/2025 - 20:54:22: [SM]   [0] Format
+L 11/18/2025 - 20:54:22: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:22: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:22: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:54:24: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:24: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:24: [SM] Call stack trace:
+L 11/18/2025 - 20:54:24: [SM]   [0] Format
+L 11/18/2025 - 20:54:24: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:24: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:24: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:24: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:24: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:24: [SM] Call stack trace:
+L 11/18/2025 - 20:54:24: [SM]   [0] Format
+L 11/18/2025 - 20:54:24: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:24: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:24: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:24: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:24: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:24: [SM] Call stack trace:
+L 11/18/2025 - 20:54:24: [SM]   [0] Format
+L 11/18/2025 - 20:54:24: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:24: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:24: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:24: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:24: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:24: [SM] Call stack trace:
+L 11/18/2025 - 20:54:24: [SM]   [0] Format
+L 11/18/2025 - 20:54:24: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:24: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:24: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:24: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:24: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:24: [SM] Call stack trace:
+L 11/18/2025 - 20:54:24: [SM]   [0] Format
+L 11/18/2025 - 20:54:24: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:24: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:24: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:54:40: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:54:40: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:54:40: [SM] Call stack trace:
+L 11/18/2025 - 20:54:40: [SM]   [0] Format
+L 11/18/2025 - 20:54:40: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:54:40: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:54:40: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:54:46: [SM] Exception reported: Invalid client index 0
+L 11/18/2025 - 20:54:46: [SM] Blaming: disabled\dev-tools\[Tool] DebugDamages.smx
+L 11/18/2025 - 20:54:46: [SM] Call stack trace:
+L 11/18/2025 - 20:54:46: [SM]   [0] GetClientEyePosition
+L 11/18/2025 - 20:54:46: [SM]   [1] Line 50, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[Tool] DebugDamages.sp::OnTakeDamage
+L 11/18/2025 - 20:55:26: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:55:26: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:55:26: [SM] Call stack trace:
+L 11/18/2025 - 20:55:26: [SM]   [0] Format
+L 11/18/2025 - 20:55:26: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:55:26: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:55:26: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:55:26: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:55:26: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:55:26: [SM] Call stack trace:
+L 11/18/2025 - 20:55:26: [SM]   [0] Format
+L 11/18/2025 - 20:55:26: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:55:26: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:55:26: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:55:26: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:55:26: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:55:26: [SM] Call stack trace:
+L 11/18/2025 - 20:55:26: [SM]   [0] Format
+L 11/18/2025 - 20:55:26: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:55:26: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:55:26: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:55:26: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:55:26: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:55:26: [SM] Call stack trace:
+L 11/18/2025 - 20:55:26: [SM]   [0] Format
+L 11/18/2025 - 20:55:26: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:55:26: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:55:26: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:55:27: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:55:27: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:55:27: [SM] Call stack trace:
+L 11/18/2025 - 20:55:27: [SM]   [0] Format
+L 11/18/2025 - 20:55:27: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:55:27: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:55:27: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:55:41: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:55:41: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:55:41: [SM] Call stack trace:
+L 11/18/2025 - 20:55:41: [SM]   [0] Format
+L 11/18/2025 - 20:55:41: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:55:41: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:55:41: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:57:09: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:09: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:09: [SM] Call stack trace:
+L 11/18/2025 - 20:57:09: [SM]   [0] Format
+L 11/18/2025 - 20:57:09: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:09: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:09: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:57:09: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:09: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:09: [SM] Call stack trace:
+L 11/18/2025 - 20:57:09: [SM]   [0] Format
+L 11/18/2025 - 20:57:09: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:09: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:09: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:57:09: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:09: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:09: [SM] Call stack trace:
+L 11/18/2025 - 20:57:09: [SM]   [0] Format
+L 11/18/2025 - 20:57:09: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:09: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:09: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:57:09: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:09: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:09: [SM] Call stack trace:
+L 11/18/2025 - 20:57:09: [SM]   [0] Format
+L 11/18/2025 - 20:57:09: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:09: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:09: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:57:09: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:09: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:09: [SM] Call stack trace:
+L 11/18/2025 - 20:57:09: [SM]   [0] Format
+L 11/18/2025 - 20:57:09: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:09: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:09: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:57:10: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:10: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:10: [SM] Call stack trace:
+L 11/18/2025 - 20:57:10: [SM]   [0] Format
+L 11/18/2025 - 20:57:10: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:10: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:10: [SM]   [3] Line 721, l4d2_skill_detect\tracking.sp::Timer_CheckHopStreak
+L 11/18/2025 - 20:57:13: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:13: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:13: [SM] Call stack trace:
+L 11/18/2025 - 20:57:13: [SM]   [0] Format
+L 11/18/2025 - 20:57:13: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:13: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:13: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:57:23: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:23: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:23: [SM] Call stack trace:
+L 11/18/2025 - 20:57:23: [SM]   [0] Format
+L 11/18/2025 - 20:57:23: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:23: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:23: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:57:45: [SM] Exception reported: Language phrase "PluralCount" not found (arg 5)
+L 11/18/2025 - 20:57:45: [SM] Blaming: disabled\Stats&HighSkill\l4d2_skill_detect.smx
+L 11/18/2025 - 20:57:45: [SM] Call stack trace:
+L 11/18/2025 - 20:57:45: [SM]   [0] Format
+L 11/18/2025 - 20:57:45: [SM]   [1] Line 514, l4d2_skill_detect\report.sp::PluralCount
+L 11/18/2025 - 20:57:45: [SM]   [2] Line 429, l4d2_skill_detect\report.sp::HandleBHopStreak
+L 11/18/2025 - 20:57:45: [SM]   [3] Line 666, l4d2_skill_detect\tracking.sp::Event_PlayerJumped
+L 11/18/2025 - 20:58:20: [SM] Exception reported: Invalid client index 0
+L 11/18/2025 - 20:58:20: [SM] Blaming: disabled\dev-tools\[Tool] DebugDamages.smx
+L 11/18/2025 - 20:58:20: [SM] Call stack trace:
+L 11/18/2025 - 20:58:20: [SM]   [0] GetClientEyePosition
+L 11/18/2025 - 20:58:20: [SM]   [1] Line 50, D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[Tool] DebugDamages.sp::OnTakeDamage
+L 11/18/2025 - 21:11:09: Error log file session closed.
