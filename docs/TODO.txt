@@ -20,4 +20,6 @@
 
 - Borrar los gamemodes no jugados de la rotación oficial del !match
 
+- Equilibrium debería de renombrarse a Equnix, y debería ser un balance entre Casual y HardMode
+
 - Start Safe Area for ReadyUP
