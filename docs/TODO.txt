@@ -1,0 +1,21 @@
+- Add TankRush en Cooperativo de 4
+- Fix Tankrush en Cooperativo de 8
+- Fix TankRush en Versus Competitivo
+
+- Balancear Tank Rush Competitivo, talvez separar un weaponbalance para este gamemode en especifico.
+
+un fork de hardmode, que sea solo hunters  (tanto coop como versus)
+
+un gamemode de versus que en 1 minuto se swapeen los equipos
+
+Competitive.cfg
+la magnum debería de tener un multiplicador de daño ligero a la cabeza (así hace instakill) 
+pero que no tenga el rango de 0.86
+
+En el tab de competitive (renombralo a Competitive/Versus)
+
+añade una opcion de vanilla (pero que tenga readyup)
+
+- Tank Ally Knockback de tankrush ha sido updateado, comprueba su funcionabilidad (de paso añadele ReadyUP)
+
+Start Safe Area for ReadyUP
