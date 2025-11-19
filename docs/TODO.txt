@@ -18,4 +18,6 @@
 
 - hacer un gamemode para competitive/versus, que tenga todos los balance fixes, pero que sea más CASUAL, tipo cooperative4
 
+- Borrar los gamemodes no jugados de la rotación oficial del !match
+
 - Start Safe Area for ReadyUP
