@@ -50,7 +50,7 @@ Hecho con dedicación y pasión al juego.
 - [Actras_DK](https://steamcommunity.com/profiles/76561198886957675/) — Hoster
 - [-|Tuc](https://steamcommunity.com/id/Tucu22/) — Hoster
 - [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Ideas y sugerencias
-- [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/) - Hoster?
+- [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/) - Hoster
 
 Gracias a todos los testers y a la comunidad por su apoyo constante.
 
