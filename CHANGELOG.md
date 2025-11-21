@@ -30,7 +30,7 @@
 - Two configs were added for coop, versus, Equinix.cfg and HvS (or HM - HvS).
 - The server title was fixed (it was changed because it didn’t fit in readyup).
 - SG552 balance was changed; it needs testing.
-- Shotguns were Balanced... needs testing and feedback.
+- AutoShotguns were Balanced... needs testing and feedback.
 - Documentation in modes.md was clarified a bit (still missing some things).
 - Several objectives in TODO.md were completed, new ones were added, and others remain unfinished.
 - Fixed L4D2 Attributes Again, because shotguns couldn't use reloaddurationmult, they instead used tankdamagemult.
