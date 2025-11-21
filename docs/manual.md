@@ -6,7 +6,7 @@ Sin embargo, si desea cambiar el modo de juego o cargar uno de los modos persona
 
 ---
 
-## 🟦 1. Selección de Modo de Juego
+## 1. Selección de Modo de Juego
 
 ### 💬 Comandos en el chat
 Puedes escribir cualquiera de estos en el chat (con `!` al inicio):
@@ -20,7 +20,7 @@ Versión en español:
 - `!modo`
 - `!cargar`
 
-### 🖥️ Comandos de consola
+### Comandos de consola
 Funcionan desde la consola de programador (sin símbolo `!`):
 
 - `sm_match`
@@ -36,7 +36,7 @@ Versión en español:
 
 ---
 
-## 🟧 2. Votar el modo de Friendly Fire
+## 2. Votar el modo de Friendly Fire
 
 ### 💬 Comandos de chat para iniciar votación
 - `!ff`
@@ -47,7 +47,7 @@ Versión en español:
 - `!voteff`
 - `!votefriendlyfire`
 
-### 🖥️ Comandos para ver el modo actual
+### Comandos para ver el modo actual
 Estos comandos muestran qué configuración de Friendly Fire está activa:
 
 - `sm_ffcurrent`
