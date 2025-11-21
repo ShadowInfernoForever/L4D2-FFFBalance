@@ -33,6 +33,7 @@ l4d2_m2_control_eq
 l4d2_sniper_precache
 l4d2_tickrate_enabler
 [FF] Command Utilities
+[pa4H]FakeAdminPing
 
 l4d2_airstrike.core
 l4d2_airstrike.triggers

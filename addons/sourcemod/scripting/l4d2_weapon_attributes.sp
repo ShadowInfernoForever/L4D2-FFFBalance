@@ -448,11 +448,12 @@
                     SetWeaponAttributeFloat(sWeaponName, iAttrIdx, fValue);
                     PrintToServer("%s for %s set to %.2f.", sWeaponAttrNames[iAttrIdx], sWeaponName, fValue);
                 }
-                else if (iAttrIdx < PLUGIN_WEAPON_MAX_ATTRS - 1)
+                // tank damage multiplier 
+                else if (StrEqual(sAttrName, "tankdamagemult", false))
                 {
                     if (fValue <= 0.0)
                     {
-                        KvSetFloat(g_hTankDamageKVs, sWeaponName, 1.0); // multiplicador por defecto
+                        KvSetFloat(g_hTankDamageKVs, sWeaponName, 1.0);
                         PrintToServer("Tank Damage Multiplier (tankdamagemult) reset for %s weapon!", sWeaponName);
                     }
                     else
@@ -461,7 +462,8 @@
                         PrintToServer("Tank Damage Multiplier (tankdamagemult) for %s set to %.2f", sWeaponName, fValue);
                     }
                 }
-                // 🧠 NUEVO BLOQUE DE HEADSHOTMULT (fuera del anterior else if)
+
+                // headshot multiplier
                 else if (StrEqual(sAttrName, "headshotmult", false))
                 {
                     if (fValue <= 0.0)
@@ -475,7 +477,9 @@
                         PrintToServer("Headshot Multiplier (headshotmult) for %s set to %.2f", sWeaponName, fValue);
                     }
                 }
-                else
+
+                // reload duration multiplier
+                else if (StrEqual(sAttrName, "reloaddurationmult", false))
                 {
                     if (StrContains(sWeaponName, "shotgun", false) == -1)
                     {
@@ -498,7 +502,7 @@
 
                     OnReloadDurationEnableAttriChanged(true);
                     hReloadDurationAttri.SetValue(sWeaponName, fValue);
-                    PrintToServer("%s for %s set to %.2f", sWeaponAttrNames[iAttrIdx], sWeaponName, fValue);
+                    PrintToServer("Reload Duration Multiplier (reloaddurationmult) for %s set to %.2f", sWeaponName, fValue);
                 }
             }
         } else {

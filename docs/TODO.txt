@@ -1,25 +1,18 @@
 - Add TankRush en Cooperativo de 4
 - Fix Tankrush en Cooperativo de 8
-- Fix TankRush en Versus Competitivo
 
-- Balancear Tank Rush Competitivo, talvez separar un weaponbalance para este gamemode en especifico.
+• Comprobar si TankRush Competitivo está balanceado.
 
-- un fork de hardmode, que sea solo hunters  (tanto coop como versus)
+• Comprobar si Hunters - Hardmode (en cooperative4) y HvS - (Hunters vs Survivors) funciona correctamente.
+
+• Comprobar si el balance de la SG552 es realmente "Balanceado". tanto casual como competitivo.
 
 - Competitive.cfg
   la magnum debería de tener un multiplicador de daño ligero a la cabeza (así hace instakill) 
-  pero que no tenga el rango de 0.86
+  pero que no tenga el rango de 0.86........... hay que comprobar si lo dejo así o si lo reworkeo en un balance diferente a la magnum.
 
-- En el tab de competitive (renombralo a Competitive/Versus)
+- Mejorar la IA de los Bots (talvez editar botmanager.cfg) ?
 
-- Tank Ally Knockback de tankrush ha sido updateado, comprueba su funcionabilidad (de paso añadele ReadyUP)
-
-- Mejorar la IA de los Bots
-
-- hacer un gamemode para competitive/versus, que tenga todos los balance fixes, pero que sea más CASUAL, tipo cooperative4
-
-- Borrar los gamemodes no jugados de la rotación oficial del !match
-
-- Equilibrium debería de renombrarse a Equnix, y debería ser un balance entre Casual y HardMode
+- Equinix en Cooperative4 Necesita de completarse...
 
 - Start Safe Area for ReadyUP

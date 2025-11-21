@@ -5,32 +5,31 @@ Cada modo modifica el comportamiento del juego, su dificultad, los infectados, l
 
 ---
 
-# 🟦 Cooperative 4 (4 jugadores)
+# 🟦 Cooperative 4 (4 jugadores) - (Diseñado para partidas Campaña CO-OP)
 
 ## ⭐ Vanilla
 El Left 4 Dead 2 clásico, pero con parches, mejoras de calidad de vida (QoL) y pequeños ajustes que no rompen la esencia original.  
-**Recomendado cuando no sabes qué elegir.**
+**Recomiendo elegir este modo cuando quieres resetear todos los valores del server a un valor de fábrica (default).**
 
 ---
 
 ## 🌱 Casual
-Modo pensado para una experiencia relajada.  
-Permite:
-- Uso de comandos *cheat*
-- Bilear a compañeros
-- Añadir enemigos beta
+Modo pensado para una experiencia relajada, de paso añade armas balanceadas así todos los jugadores
+pueden disfrutar de cualquier arma, sin importar tierlist de mejor-peor.
+Siguen habiendo diferencias obvias entre TIER 0, TIER 1 y TIER 2.
 - Contenido adicional del **zcontent-pack**
 
 **Recomendado para jugar con amigos de forma despreocupada.**
 
 ---
 
-## ⚖️ Equilibrium (EQ)
-Primera de las 4 dificultades adicionales.  
+## ⚖️ Equinix Balance
+
+(en Cooperativo)
 Balancea supervivientes, infectados, armas y mecánicas para una dificultad superior a experto sin ser extrema.
 
-**Clasificado Competitivo**  
-(no hay cheats ni contenido adicional)
+(en Versus)
+Balancea supervivientes, infectados y armas t1 y t2, para una experiencia "Justa" y más "Casual".
 
 ---
 
@@ -67,20 +66,22 @@ Modo sádico y brutal.
 
 ## ❤️‍🩹 1HP
 Los jugadores tienen **solo 1 punto de salud**.  
-Tampoco existen incapacidades.  
-Modo extremo.
+Tampoco existen incapacitaciones.
 
 ---
 
-# 🟩 Cooperative 8 (8 jugadores)
+# 🟩 Cooperative 8 (8 jugadores) - (Diseñado para partidas Campaña CO-OP)
 
 ## 🌌 Quantum
 El modo **Casual** pero adaptado a 8 jugadores.
+Es un modo caótico, no esperes mucho balance, se intenta balancearlo si, pero no es la ídea.
+Está hecho para divertirse.
 
 ---
 
-## 🧊 OctaXen
+## 🧊 QuantumLite
 Similar a Quantum, pero intentando conservar lo más posible el estilo **Vanilla + Casual**.
+QuantumLite intenta no meter tantos plugins que alteran lo vanilla.
 
 ---
 
@@ -91,7 +92,7 @@ Más caos, más enemigos, mismo objetivo: **proteger al VIP**.
 ---
 
 ## 💪 Quantum TankRush
-Tank Run para 8 jugadores.  
+Tank Run para 8 jugadores.
 Más caos, más tanks, más acción.
 
 ---
@@ -102,31 +103,31 @@ Versión extendida del modo VersusCoop.
 
 ---
 
-# 🟥 Competitive
+# 🟥 Competitive / Versus - (Diseñado para partidas Enfrentamiento VERSUS)
 
 ## 1 vs 1
 Un superviviente vs un infectado.  
 Modo ideal para practicar mecánicas.  
-**Basado en ZONEMOD.**
+**Base: ZONEMOD.**
 
 ---
 
 ## 2 vs 2
 Dos supervivientes vs dos infectados.  
-**Basado en ZONEMOD.**
+**Base: ZONEMOD.**
 
 ---
 
 ## 3 vs 3
 Tres supervivientes vs tres infectados.  
-**Basado en ZONEMOD.**
+**Base: ZONEMOD.**
 
 ---
 
 ## ⚔️ Zonemod T1
-Versión competitiva clásica de Zonemod.  
-Diseñada para hacer el juego más equilibrado e interesante.  
-Incluye quads y balance competitivo.
+Versión competitiva Hybrida de Zonemod.  
+Diseñada para hacer el juego más equilibrado e interesante.
+Solo Permite armas tier 0 y tier 1
 
 ---
 
@@ -154,5 +155,5 @@ Todos los valores están ajustados para uso competitivo y balanceado.
 
 # 📌 Notas Finales
 - Algunos modos están clasificados como **competitivos**, lo que deshabilita cheats y ciertas funciones.  
-- Los modos cooperativos pueden activarse mediante votación o directamente con comandos como `!mode` o `!match`.  
+- Los modos pueden activarse mediante votación o directamente con comandos como `!mode` o `!match`.  
 - Este documento se actualiza conforme se añadan nuevos modos.

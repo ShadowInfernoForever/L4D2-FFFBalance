@@ -77,7 +77,7 @@
 	{
 		"Cooperative4/Vanilla"
 		{
-			"name" "•Vanilla"
+			"name" "•Vanilla (CO-OP)	 "
 		}
         	"Cooperative4/ClassicCasual"
 		{
@@ -90,6 +90,10 @@
 		"Cooperative4/hm"
 		{
 			"name" "★HM - (HardMode)"
+		}
+		"Cooperative4/hmhvs"
+		{
+			"name" "★HCM - HvS"
 		}
 		"Cooperative4/1v4hm"
 		{
@@ -148,23 +152,23 @@
 	{
 		"Cooperative8/Quantum"
 		{
-			"name" "Quantum"
+			"name" "Quantum - 8P"
 		}
 		"Cooperative8/QuantumLite"
 		{
-			"name" "Quantum Lite"
+			"name" "Quantum Lite - 8P"
 		}
 		//"Cooperative8/QuantumFTG"
 		//{
 		//	"name" "Follow The Guardian"
 		//}
-		"Cooperative8/QuantumTR"
-		{
-			"name" "TankRush"
-		}
+		//"Cooperative8/QuantumTR"
+		//{
+		//	"name" "TankRush - 8P"
+		//}
 		"Cooperative8/VersusCoop"
 		{
-			"name" "Versus CO-OP"
+			"name" "Versus CO-OP - 8P"
 		}
 	}
 	// "Survival - 4 Players"
@@ -174,23 +178,31 @@
 	//         "name" "Vanilla"
 	//     }
 	//}
-	"★ Versus - 8 players"
+	"★ Competitive/Versus - 8 players"
 	{
 		"Competitive/Vanilla"
 		{
-			"name" "•Vanilla"
+			"name" "•Vanilla - (Versus)"
+		}
+		"Competitive/Equinix"
+		{
+			"name" "•Equinix Balance - (Versus)"
+		}
+		"Competitive/HvS"
+		{
+			"name" "•HvS - Hunters vs Survivors"
 		}
 	    "Competitive/1vs1"
 		{
-			"name" "★1vs1"
+			"name" "★1vs1 Versus"
 		}
 		"Competitive/2vs2"
 		{
-			"name" "★2vs2"
+			"name" "★2vs2 Versus"
 		}
 		"Competitive/3vs3"
 		{
-			"name" "★3vs3"
+			"name" "★3vs3 Versus"
 		}
 		"Competitive/ZonemodT1"
 		{
@@ -202,7 +214,7 @@
 		}
 		"Competitive/TankRush"
 		{
-			"name" "★Versus TankRush"
+			"name" "★TankRush - Competitive"
 		}
 		"Competitive/DM"
 		{

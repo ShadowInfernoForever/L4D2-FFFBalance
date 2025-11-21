@@ -17,6 +17,24 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 10.75 - 21/11/2025
+
+-------------------------------------------------------------------------------
+
+- Some matchmodes were renamed.
+- A FakePing by pa4H was added and edited to make it dynamic.
+- l4d_freely_round_end was moved out of fixes since it’s not a fix, but a tweak.
+- Stripper maps were reorganized (AGAIN).
+- Some Stripper maps were edited for zonemod_t2.
+- Stripper is now enabled by default, but it doesn’t include any map; this allows activating a map CFG at any time through a matchmode.
+- Two configs were added for coop, versus, Equinix.cfg and HvS (or HM - HvS).
+- The server title was fixed (it was changed because it didn’t fit in readyup).
+- SG552 balance was changed; it needs testing.
+- Documentation in modes.md was clarified a bit (still missing some things).
+- Several objectives in TODO.md were completed, new ones were added, and others remain unfinished.
+
+-------------------------------------------------------------------------------
+
 ## VERSION 10.71 - 18/11/2025
 
 -------------------------------------------------------------------------------

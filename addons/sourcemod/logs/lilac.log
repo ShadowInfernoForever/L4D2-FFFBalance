@@ -14,3 +14,8 @@ That is all, have a wonderful day~
 2025/11/18 11:19:17 [Version 1.7.4] {Name: "Wosi" | SteamID: STEAM_1:0:919335346 | IP: 0.0.0.61} is suspected of using an aimbot (Detection: 2 | Delta: 23 | TotalDelta: 63 | Detected: Autoshoot).
 2025/11/18 11:19:44 [Version 1.7.4] {Name: "Wosi" | SteamID: STEAM_1:0:919335346 | IP: 0.0.0.61} is suspected of using an aimbot (Detection: 3 | Delta: 0 | TotalDelta: 0 | Detected: Autoshoot).
 2025/11/18 11:19:48 [Version 1.7.4] {Name: "Wosi" | SteamID: STEAM_1:0:919335346 | IP: 0.0.0.61} is suspected of using an aimbot (Detection: 4 | Delta: 8 | TotalDelta: 34 | Detected: Autoshoot Angle-Repeat).
+2025/11/19 17:08:24 [Version 1.7.4] {Name: "pitufocaliente45" | SteamID: STEAM_1:0:588862127 | IP: 0.0.0.46} was detected and banned for an invalid ConVar (r_drawothermodels 2.000000).
+	Pos={7296,7884,-575}, Angles={12.37452,-0.43187,0.00000}, Map="c2m1_highway", Team={2}, Weapon="weapon_shotgun_chrome", Latency={Inc:0.000026,Out:0.089644}, Loss={Inc:0.208839,Out:0.000000}, Choke={Inc:0.000000,Out:0.000000}, ConnectionTime={63.316562 seconds}, GameTime={832.950073 seconds}
+2025/11/20 15:38:48 [Version 1.7.4] {Name: "F E R" | SteamID: STEAM_1:0:930959222 | IP: 0.0.0.27} is suspected of using Bhop (Detection: 1 | Bhops: 25 | JumpTicks: 25).
+2025/11/20 15:38:48 [Version 1.7.4] {Name: "F E R" | SteamID: STEAM_1:0:930959222 | IP: 0.0.0.27} was detected and banned for Bhop.
+	Pos={1807,3335,-31}, Angles={15.10997,177.65682,0.00000}, Map="c2m3_coaster", Team={3}, Weapon="weapon_smoker_claw", Latency={Inc:0.000029,Out:0.059803}, Loss={Inc:0.000000,Out:0.000000}, Choke={Inc:0.110407,Out:0.000000}, ConnectionTime={237.860519 seconds}, GameTime={79.731338 seconds}
