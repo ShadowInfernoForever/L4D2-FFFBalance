@@ -5,15 +5,15 @@ Cada modo modifica el comportamiento del juego, su dificultad, los infectados, l
 
 ---
 
-# 🟦 Cooperative 4 (4 jugadores) - (Diseñado para partidas Campaña CO-OP)
+# Cooperative 4 (4 jugadores) - (Diseñado para partidas Campaña CO-OP)
 
-## ⭐ Vanilla
+## Vanilla
 El Left 4 Dead 2 clásico, pero con parches, mejoras de calidad de vida (QoL) y pequeños ajustes que no rompen la esencia original.  
 **Recomiendo elegir este modo cuando quieres resetear todos los valores del server a un valor de fábrica (default).**
 
 ---
 
-## 🌱 Casual
+## Casual
 Modo pensado para una experiencia relajada, de paso añade armas balanceadas así todos los jugadores
 pueden disfrutar de cualquier arma, sin importar tierlist de mejor-peor.
 Siguen habiendo diferencias obvias entre TIER 0, TIER 1 y TIER 2.
@@ -23,7 +23,7 @@ Siguen habiendo diferencias obvias entre TIER 0, TIER 1 y TIER 2.
 
 ---
 
-## ⚖️ Equinix Balance
+##  Equinix Balance
 
 (en Cooperativo)
 Balancea supervivientes, infectados, armas y mecánicas para una dificultad superior a experto sin ser extrema.
@@ -33,7 +33,7 @@ Balancea supervivientes, infectados y armas t1 y t2, para una experiencia "Justa
 
 ---
 
-## 🔥 eXpert Challenge Mode (XCM)
+## eXpert Challenge Mode (XCM)
 Segunda dificultad adicional.  
 Pensado para jugadores experimentados (**500+ horas**).
 
@@ -42,7 +42,7 @@ Pensado para jugadores experimentados (**500+ horas**).
 
 ---
 
-## 🛡️ Follow The Guardian (FTG)
+## Follow The Guardian (FTG)
 Modo escolta:  
 Debes proteger a un VIP hasta el final del mapa.  
 - Todos los jugadores tienen menos vida  
@@ -50,60 +50,60 @@ Debes proteger a un VIP hasta el final del mapa.
 
 ---
 
-## 👹 VersusCoop
+## VersusCoop
 Modo híbrido:  
 4 supervivientes (bots) vs **4 jugadores infectados especiales**.  
 Es un *versus cooperativo*.
 
 ---
 
-## 💀 OneDown
+## OneDown
 No existen incapacidades.  
 Cualquier caída significa **muerte instantánea**.  
 Modo sádico y brutal.
 
 ---
 
-## ❤️‍🩹 1HP
+## 1HP
 Los jugadores tienen **solo 1 punto de salud**.  
 Tampoco existen incapacitaciones.
 
 ---
 
-# 🟩 Cooperative 8 (8 jugadores) - (Diseñado para partidas Campaña CO-OP)
+# Cooperative 8 (8 jugadores) - (Diseñado para partidas Campaña CO-OP)
 
-## 🌌 Quantum
+## Quantum
 El modo **Casual** pero adaptado a 8 jugadores.
 Es un modo caótico, no esperes mucho balance, se intenta balancearlo si, pero no es la ídea.
 Está hecho para divertirse.
 
 ---
 
-## 🧊 QuantumLite
+## QuantumLite
 Similar a Quantum, pero intentando conservar lo más posible el estilo **Vanilla + Casual**.
 QuantumLite intenta no meter tantos plugins que alteran lo vanilla.
 
 ---
 
-## 🛡️ Follow The Guardian (FTG 8)
+## Follow The Guardian (FTG 8)
 Versión para 8 jugadores del modo FTG.  
 Más caos, más enemigos, mismo objetivo: **proteger al VIP**.
 
 ---
 
-## 💪 Quantum TankRush
+## Quantum TankRush
 Tank Run para 8 jugadores.
 Más caos, más tanks, más acción.
 
 ---
 
-## 👹 VersusCoop 8
+## VersusCoop 8
 Versión extendida del modo VersusCoop.  
 8 supervivientes (bots) vs **8 jugadores infectados especiales**.
 
 ---
 
-# 🟥 Competitive / Versus - (Diseñado para partidas Enfrentamiento VERSUS)
+# Competitive / Versus - (Diseñado para partidas Enfrentamiento VERSUS)
 
 ## 1 vs 1
 Un superviviente vs un infectado.  
@@ -124,30 +124,30 @@ Tres supervivientes vs tres infectados.
 
 ---
 
-## ⚔️ Zonemod T1
+## Zonemod T1
 Versión competitiva Hybrida de Zonemod.  
 Diseñada para hacer el juego más equilibrado e interesante.
 Solo Permite armas tier 0 y tier 1
 
 ---
 
-## 🎯 Zonemod T2
+## Zonemod T2
 Mismo enfoque que T1, pero con **armas de tier 2 nerfeadas** para balance competitivo.
 
 ---
 
-## 🔫 DeathMatch (DM)
+## DeathMatch (DM)
 Superviviente vs superviviente, estilo *Counter-Strike*.  
 Incluye **sistema de XP**.
 
 ---
 
-## ⚔️ Team DeathMatch (TDM)
+## Team DeathMatch (TDM)
 Similar al DeathMatch, pero con **captura de puntos de control** para obtener puntos.
 
 ---
 
-## 🧱 TankRush (Competitivo)
+## TankRush (Competitivo)
 4 supervivientes vs **4 tanks controlados por jugadores**.  
 Todos los valores están ajustados para uso competitivo y balanceado.
 
