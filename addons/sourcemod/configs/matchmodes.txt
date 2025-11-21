@@ -178,7 +178,7 @@
 	//         "name" "Vanilla"
 	//     }
 	//}
-	"★ Competitive/Versus - 8 players"
+	"★ Versus - 8 players"
 	{
 		"Competitive/Vanilla"
 		{
