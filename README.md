@@ -17,9 +17,9 @@ en cualquier momento y con cualquier estilo de juego.
 Toda la información detallada del proyecto está organizada en la carpeta **Docs**:
 
 - 👉 [Manual de uso](docs/manual.md)
+- 👉 [Instalación](docs/installation.md)
 - 👉 [Modos de Juego](docs/modes.md)
 - 👉 [Características Principales](docs/features.md)
-- 👉 [Instalación](docs/installation.md)
 - 👉 [FAQ](docs/FAQ.md) *(opcional)*
 
 ---
