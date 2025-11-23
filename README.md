@@ -55,13 +55,18 @@ Hecho con dedicación y pasión al juego.
 
 Gracias a todos los testers y a la comunidad por su apoyo constante.
 
+# ℹ️ Respecto a los autores originales de los scripts/plugins.
+
 Este proyecto incluye plugins y fragmentos de código creados por terceros.  
 Todos los derechos pertenecen a sus respectivos autores.
 
 Si eres autor de algún plugin incluido y deseas ser acreditado explícitamente,  
 por favor contáctame y con gusto te agregaré a la lista.
 
----
+Muchos de estos plugins y sus respectivos files de scripting fueron sacados y/o adaptados de
+
+- [L4D2-Competitive-Rework] (https://github.com/SirPlease/L4D2-Competitive-Rework)
+- [L4D2-Plugins] (https://github.com/wyxls/L4D2-Plugins/tree/master)
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo los términos de la **GNU General Public License v3.0 (GPLv3)**.  
