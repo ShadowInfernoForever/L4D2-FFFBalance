@@ -1,6 +1,6 @@
 # L4D2 FFForever-TGB
 
-![Version](https://img.shields.io/badge/Version-10.75-blue)
+![Version](https://img.shields.io/badge/Version-10.80-blue)
 
 Left 4 Dead 2 - FFForever Total Game Balance  
 Armas balanceadas, infectados ajustados, nuevos gamemodes y experiencias,  
@@ -49,8 +49,9 @@ Hecho con dedicación y pasión al juego.
 - [MrSlenderTOP](https://steamcommunity.com/profiles/76561198976623705/) — Hoster, sugerencias, spotter de bugs
 - [Actras_DK](https://steamcommunity.com/profiles/76561198886957675/) — Hoster
 - [-|Tuc](https://steamcommunity.com/id/Tucu22/) — Hoster
-- [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Ideas y sugerencias
+- [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Tester, Ideas y sugerencias
 - [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/) - Hoster
+- [Zombine](https://steamcommunity.com/id/Brass_Beast_Boy/) - Tester
 
 Gracias a todos los testers y a la comunidad por su apoyo constante.
 

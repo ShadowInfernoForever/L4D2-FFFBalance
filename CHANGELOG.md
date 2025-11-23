@@ -9,11 +9,41 @@
 [-|Tuc]: https://steamcommunity.com/id/Tucu22/
 [Luca4808]: https://steamcommunity.com/id/Synth-Dingo/
 [DJ master 3000/Juanito_kpo4270]: https://steamcommunity.com/profiles/76561199081627245/
+[Zombine]: https://steamcommunity.com/id/Brass_Beast_Boy/
 <!-- add other people :D!!! -->
 
 # Version History
 
 > In this document, you can see all updates from each version
+
+-------------------------------------------------------------------------------
+
+## VERSION 10.8 - 22/11/2025
+
+-------------------------------------------------------------------------------
+
+- Disabled Logging in sourcemod/config/core.cfg
+- Renamed "★ Competitive/Versus - 8 players" to "★ Versus - 8 players", because it detected it as a CFG.
+- Added a infectedbots cfg for 'HvS' Cooperative4 Gamemode
+- Trash Cleaning again, removing useless or not used, .cfgs in cfg/sourcemod/
+- Removed l4d2_si_stumble_grenade_launcher.smx, because it wasn't balanced.
+- Updated [TR] Tank Ally KnockBack.sp and it's corresponding .smx, to prevent it from displaying catapult message from damaging yourself as a tank, and also added a anti-spam for the push message.
+- Updated Leaker Boomer, unsure if it works, from testing it seemed fine.
+- Reworked and Fixed, 1v1 in competitive versus.
+- Fixed HvS in versus competitive, not working as intended, also reduced the shotgun spread ring in that gamemode.
+- Balanced a bit Competitive TankRush. Reduced tr_tankhealth to 1100... seemed pretty balanced i guess, but needs further testing.
+- Quantum.cfg, straight up just using casual weapon balancing, also re-added Leaker Boomer
+- Fixed Hardmode HvS spawning all types of infected and not only hunters.
+- Added a CVAR to disable [pa4H]FakePing.
+* Balance changes for weapons in the competitive.cfg category.
+- Balanced all Assault Rifles, nerfing some of these at long distances, as sniper rifles should do the job.
+- Reduced the pistol spread a little bit.
+- Rebalanced SG552 (AGAIN... jesus).
+* Balance Changes in Shotguns
+** What was agreed upon with [Luca4808] and [Zombine]
+- Made both Spas Shotgun and AutoShotgun different from eachother, used the popular method of making the Spas now better for taking out special infected, and autoshotgun for hordes.
+- Reverted Spas and Autoshotgun reload durations.
+- Spas and AutoShotgun now have a 0.75 tankdamagemult.
 
 -------------------------------------------------------------------------------
 

@@ -17,7 +17,6 @@ l4d2_time_controller
 l4d2_steady_boost
 l4d2_sound_manipulation
 l4d2_sky_nexus_custom_ladders
-l4d2_si_stumble_grenade_launcher
 l4d2_shadow_removal
 l4d2_riotcopheadshot
 l4d2_pickup
@@ -34,6 +33,7 @@ l4d2_sniper_precache
 l4d2_tickrate_enabler
 [FF] Command Utilities
 [pa4H]FakeAdminPing
+l4d_freely_round_end
 
 l4d2_airstrike.core
 l4d2_airstrike.triggers
@@ -92,7 +92,6 @@ match_vote
 fixes/l4d_pounceprotect
 fixes/l4d_votepoll_fix
 fixes/physics_object_pushfix
-fixes/l4d_freely_round_end
 fixes/TickrateFixes
 fixes/l4d2_fix_team_shuffle
 fixes/l4d_return_thrown_items
