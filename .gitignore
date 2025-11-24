@@ -1,2 +1,3 @@
 addons/sourcemod/scripting/compile.dat
 addons/sourcemod/gamedata/left4dhooks.temp.txt
+cfg/sourcemod/l4d2_tickrate_enabler.cfg

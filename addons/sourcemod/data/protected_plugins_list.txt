@@ -105,6 +105,7 @@ fixes/survivor_afk_fix
 fixes/double_getup
 fixes/l4d2_fix_rocketjump
 
+fixes/jockey_ride_team_switch_teleport_fix
 fixes/Charger_Collision_patch
 fixes/l4d2_tank_charger_m2_fix
 fixes/l4d2_unsilent_jockey

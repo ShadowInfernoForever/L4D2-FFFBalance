@@ -266,6 +266,9 @@ public void OnWeaponReload(Event hEvent, const char[] eName, bool dontBroadcast)
     if (GetClientTeam(client) != 3)
         return; // Solo infectados
 
+    if (!IsValidEntity(weapon))
+    return;
+
     int weapon = GetPlayerWeaponSlot(client, 0);
     if (weapon == -1) return;
 
