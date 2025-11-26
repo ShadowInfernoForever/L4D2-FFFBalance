@@ -1,9 +1,6 @@
 - Add TankRush en Cooperativo de 4
 - Fix Tankrush en Cooperativo de 8
-
 • Comprobar si TankRush Competitivo está balanceado.
-
-• Comprobar si Hunters - Hardmode (en cooperative4) y HvS - (Hunters vs Survivors) funciona correctamente.
 
 • Comprobar si el balance de la SG552 es realmente "Balanceado". tanto casual como competitivo.
 
@@ -14,5 +11,7 @@
 - Mejorar la IA de los Bots (talvez editar botmanager.cfg) ?
 
 - Equinix en Cooperative4 Necesita de completarse...
+
+- Sacar el airplane de plugins, y dejarlo en disabled, en todo caso habilitarlo para quantum con la config de attano-sky
 
 - Start Safe Area for ReadyUP
