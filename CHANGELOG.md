@@ -18,7 +18,23 @@
 
 -------------------------------------------------------------------------------
 
-## VERSION 10.8 - 22/11/2025
+## VERSION 10.90 - 5/11/2025
+
+-------------------------------------------------------------------------------
+
+- Removed Unnecesary InfectedBots Cvars in Cooperative4/ and Cooperative8/VersusCoop
+- Default Quantum.cfg maps are Attanosky now.
+- Added Incapacitated Crawling and Incapped Weapons for Quantum.cfg
+- Added Bile the World to only Bile Teammates in Cooperative4/ClassicCasual
+- Balanced a bit 1 vs 4 HardMode Damages
+- Added a lot of beta stuff to cooperative4/1HP.cfg
+- Added some infected balancing cvars in Competitive/Equinix.cfg
+- Changed a lot of cvars and renamed plugins in deathmatch and also removed some of them that were too niche or gimicky, now deathmatch is in alpha state but it's semi-functional, and really fun.
+- Added "Jockey Ride Team Switch Teleport Fix", by HarryPotter, URL: [here](https://steamcommunity.com/profiles/76561198026784913/)
+
+-------------------------------------------------------------------------------
+
+## VERSION 10.80 - 22/11/2025
 
 -------------------------------------------------------------------------------
 
