@@ -66,7 +66,7 @@ por favor contáctame y con gusto te agregaré a la lista.
 Muchos de estos plugins y sus respectivos files de scripting fueron sacados y/o adaptados de
 
 - [L4D2-Competitive-Rework] (https://github.com/SirPlease/L4D2-Competitive-Rework)
-- [L4D2-Plugins] (https://github.com/wyxls/L4D2-Plugins/tree/master)
+- [L4D2-Plugins] (https://github.com/fbef0102/L4D1_2-Plugins)
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo los términos de la **GNU General Public License v3.0 (GPLv3)**.  
