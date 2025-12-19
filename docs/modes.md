@@ -25,11 +25,7 @@ Siguen habiendo diferencias obvias entre TIER 0, TIER 1 y TIER 2.
 
 ##  Equinix Balance
 
-(en Cooperativo)
 Balancea supervivientes, infectados, armas y mecánicas para una dificultad superior a experto sin ser extrema.
-
-(en Versus)
-Balancea supervivientes, infectados y armas t1 y t2, para una experiencia "Justa" y más "Casual".
 
 ---
 
@@ -124,6 +120,11 @@ Tres supervivientes vs tres infectados.
 
 ---
 
+##  Equinix Balance
+Balancea supervivientes, infectados y armas t1 y t2, para una experiencia "Justa".
+
+---
+
 ## Zonemod T1
 Versión competitiva Hybrida de Zonemod.  
 Diseñada para hacer el juego más equilibrado e interesante.
@@ -132,13 +133,13 @@ Solo Permite armas tier 0 y tier 1
 ---
 
 ## Zonemod T2
-Mismo enfoque que T1, pero con **armas de tier 2 nerfeadas** para balance competitivo.
+Mismo enfoque que T1, pero con **armas T2 nerfeadas** para balance competitivo.
 
 ---
 
 ## DeathMatch (DM)
-Superviviente vs superviviente, estilo *Counter-Strike*.  
-Incluye **sistema de XP**.
+Superviviente vs superviviente.
+El jugador que consiga más **frags**(kills) ganará la partida
 
 ---
 
@@ -154,6 +155,6 @@ Todos los valores están ajustados para uso competitivo y balanceado.
 ---
 
 # 📌 Notas Finales
-- Algunos modos están clasificados como **competitivos**, lo que deshabilita cheats y ciertas funciones.  
-- Los modos pueden activarse mediante votación o directamente con comandos como `!mode` o `!match`.  
+- Algunos modos están clasificados como **"competitivos"**, lo que deshabilita cheats y ciertas funciones como los bailes.
+- Los modos pueden activarse mediante votación o directamente con comandos como `!mode` o `!match`.
 - Este documento se actualiza conforme se añadan nuevos modos.
