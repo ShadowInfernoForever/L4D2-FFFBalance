@@ -1,8 +1,7 @@
-# L4D2 FFForever-TGB
+# Left 4 Dead 2 - FFForever Total Game Balance + MultiMod
 
 ![Version](https://img.shields.io/badge/Version-10.90-blue)
 
-Left 4 Dead 2 - FFForever Total Game Balance  
 Armas balanceadas, infectados ajustados, nuevos gamemodes y experiencias,  
 desde lo casual, competitivo y hasta caos total de 8 jugadores.
 
