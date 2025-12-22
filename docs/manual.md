@@ -36,7 +36,7 @@ Versión en español:
 
 ---
 
-## 2. Votar el modo de Friendly Fire
+## 2. Votar el modo de Friendly Fire _(OPCIONAL)_
 
 ### 💬 Comandos de chat para iniciar votación
 - `!ff`
