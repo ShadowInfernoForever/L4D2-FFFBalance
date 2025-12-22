@@ -43,7 +43,6 @@ l4d2_airstrike.dead_air
 l4d_use_priority
 l4d_selfie_camera
 l4d_screen_shake
-l4d_plane_crash
 l4d_incapped_pickup
 l4d_grenade_throw
 l4d_ammo_previous
@@ -121,6 +120,7 @@ fixes/l4d2_jockey_skeet-fix
 fixes/l4d2_tongue_timer-fix
 fixes/l4d2_trigger_flow_fix
 fixes/l4d_sweep_fist_patch
+fixes/l4d2_stumble_fix
 fixes/rock_stumble_block
 fixes/l4d_rock_lagcomp
 fixes/witch_pipebomb_exploit_fix_&_death_optmizer

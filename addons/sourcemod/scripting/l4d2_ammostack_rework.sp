@@ -13,7 +13,7 @@
 public Plugin myinfo =
 {
 	name = "Ammo Stack Rework",
-	author = "bullet28, edited by ShadowInferno",
+	author = "bullet28, edited by Shadow",
 	description = "Creates ammo pile at the place where the upgrade pack was deployed, also you can now pickup bullets for the m60 and grenade launcher with explosive ammo",
 	version = "1",
 	url = ""
@@ -201,7 +201,7 @@ void OnUsePost(int entity, int activator, int caller, UseType type, float value)
 		EmitAmbientSound(GrabbedAmmo, positionVector, client, SNDLEVEL_NORMAL);
 
 		// Mm... interesting idea, i may change opinion later, i don't know
-		//RemoveEntity(entity);
+		RemoveEntity(entity);
 	}
 }
 

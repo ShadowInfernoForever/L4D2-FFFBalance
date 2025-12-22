@@ -55,7 +55,7 @@ public Action Timer_RespawnPlayer(Handle timer, any userid)
     float spawnPos[3];
     float dist;
 
-    // 🔥 Distancia aleatoria en cada respawn
+    // Distancia aleatoria en cada respawn
     float desiredDist = GetRandomFloat(MIN_DIST, MAX_DIST);
 
     bool ok = false;

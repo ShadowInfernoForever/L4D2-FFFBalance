@@ -1,0 +1,19 @@
+﻿"Phrases"
+{
+    "DM_Kill"
+    {
+        "en"    "{olive}%N {default}killed {olive}%N {olive}+5 points {default}(Total: {blue}%d{default})"
+        "es"    "{olive}%N {default}mató a {olive}%N {olive}+5 puntos {default}(Total: {blue}%d{default})"
+    }
+
+    "DM_Damage"
+    {
+        "en"    "{default}Damage: {olive}+%d {default}point(s) (Total: {blue}%d{default})"
+        "es"    "{default}Daño: {olive}+%d {default}punto(s) (Total: {blue}%d{default})"
+    }
+    "DM_Win"
+    {
+        "en"    "{gold}★ {green}%N {default}won the match with {blue}%d{default} points!"
+        "es"    "{gold}★ {green}%N {default}ha ganado la partida con {blue}%d{default} puntos!"
+    }
+}

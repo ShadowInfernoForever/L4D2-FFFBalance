@@ -18,6 +18,35 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 10.95 - 22/12/2025
+
+-------------------------------------------------------------------------------
+
+- Balanced infected in Quantum.cfg in InfectedBots Data
+- Fixed l4d2_stumble_fix not being protected when voting a new mode
+- Removed Plane Crash from autoloaded plugins, it is supposed to be used in attano-sky maps, now it is a Quantum.cfg plugin
+- Changed l4d2_fireworks.smx directory and made it a optional tweak, as it affected vanilla game.
+- Changed ItemHint to be spanish again, i should think of something to translate it to english later...
+- AmmoStackRework Now Removes the entity, i don't think this is a good thing, neither balanced, but whatever, i should think something for this later.
+- Removed ItemHing Phrases as now it is hardcoded to spanish, also these didn't work as expected, as these used game instructors and sourcemod can't auto-translate these
+- Added Tank Ally Knockback Phrases, for english and spanish.
+- Fixed the Stripper Source, Attano Sky Config for c1m1_hotel, the elevator session now works as expected, also made c2m2_streets.cfg, now calling a panic event and not trying to use a non-existant vscript like before.
+- Removed the extra damage being done to survivors by infected in 2vs2, thanks for reporting this [MrSlenderTOP]
+- Added some Beta Stuff to Deathmatch
+- Added some Beta Stuff to 1HP + One Down
+- Removed the extra damage being dealt in 1v4HM, because it was too hard, also jockey did extreme amounts of damage already, for some reason i don't know.
+- In Classic Casual from Cooperative4, fireworks now attract CI (common infected).
+- Made some advancements in Equinix Balance from cooperative4, but it is a not finished Gamemode Yet, as it requires further testing.
+- Fixed Spitter Claw dealing 24 dmg in FF_complementaries.cfg, as this affected vanilla gameplay.
+- Reduced Military Sniper ReloadDuration 4.0s > 3.3s, as it was a really nerfed weapon already.
+- Rounded HuntingRifle ReloadDuration 3.167s > 3.0s
+- Reverted and Tweaked SG552 Balance Changes (For like the fifth time already???), anyway, i think it's a good balanced weapon in the current state (this could change in the future but i hope not).
+- Added a little more damage from long distances to the ak47, RangeMod 0.88 > 0.90
+- Reduced the SCAR headshot damage multiplier 0.75 > 0.65.
+- Reverted Deagle Buff, now it is vanilla, because i don't really think deagle needs a buff... This probably changes in the future. 
+
+-------------------------------------------------------------------------------
+
 ## VERSION 10.90 - 5/11/2025
 
 -------------------------------------------------------------------------------
