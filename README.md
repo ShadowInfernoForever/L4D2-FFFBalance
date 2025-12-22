@@ -2,8 +2,8 @@
 
 ![Version](https://img.shields.io/badge/Version-10.95-blue)
 
-Armas balanceadas, infectados ajustados, nuevos gamemodes y experiencias,  
-desde lo casual, competitivo y hasta caos total de 8 jugadores.
+Balancea armas e infectados y agrega gamemodes
+para jugar tranquilo o romper todo con 8 jugadores.
 
 Siempre soñé con un servidor multimod, equilibrado y accesible para todos.  
 Un lugar donde cualquiera pueda disfrutar Left 4 Dead 2 a su manera,  
