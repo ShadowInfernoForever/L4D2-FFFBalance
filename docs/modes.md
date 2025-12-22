@@ -54,13 +54,11 @@ Es un *versus cooperativo*.
 ---
 
 ## OneDown
-No existen incapacidades.  
-Cualquier caída significa **muerte instantánea**.  
-Modo sádico y brutal.
+No hay incapacitaciones, cuando la vida llega a 0 el superviviente muere.
 
 ---
 
-## 1HP
+## 1HP + One Down
 Los jugadores tienen **solo 1 punto de salud**.  
 Tampoco existen incapacitaciones.
 
@@ -77,7 +75,7 @@ Está hecho para divertirse.
 
 ## QuantumLite
 Similar a Quantum, pero intentando conservar lo más posible el estilo **Vanilla + Casual**.
-QuantumLite intenta no meter tantos plugins que alteran lo vanilla.
+Según el **"Lite"**, es el 8 jugadores pero más liviano, es decir, menos plugins para que corra mejor.
 
 ---
 
