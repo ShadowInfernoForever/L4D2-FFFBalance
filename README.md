@@ -67,6 +67,8 @@ Muchos de estos plugins y sus respectivos files de scripting fueron sacados y/o 
 - [L4D2-Competitive-Rework] (https://github.com/SirPlease/L4D2-Competitive-Rework)
 - [L4D2-Plugins] (https://github.com/fbef0102/L4D1_2-Plugins)
 - [Sky] (https://github.com/Attano/Sky)
+- [pa4H] (https://github.com/pa4H/L4D2-pa4H-Plugins/tree/main)
+- [HoongDou] (https://github.com/HoongDou/L4D2-HoongDou-Project)
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo los términos de la **GNU General Public License v3.0 (GPLv3)**.  
