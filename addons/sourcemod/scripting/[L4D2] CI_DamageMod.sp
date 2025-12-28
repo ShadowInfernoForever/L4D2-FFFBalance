@@ -8,8 +8,8 @@
 public Plugin:myinfo =
 {
     name = "[L4D/L4D2] Common Infected Damage by Difficulty",
-    author = "Lux (modificado por Shadow)",
-    description = "Modifica el daño de los infectados comunes según la dificultad.",
+    author = "Lux (modified by Shadow)",
+    description = "Moddifies Common Infected damage depending of the difficulty",
     version = PLUGIN_VERSION,
     url = "http://steamcommunity.com/id/ArmonicJourney"
 };

@@ -34,6 +34,8 @@ l4d2_tickrate_enabler
 [FF] Command Utilities
 [pa4H]FakeAdminPing
 l4d_freely_round_end
+l4d2_npc_manager
+l4d2_front_mob_direction
 
 l4d2_airstrike.core
 l4d2_airstrike.triggers
@@ -52,7 +54,6 @@ playermanagement
 l4d2_fix_team_shuffle
 
 [L4D2]Adrenaline_Recovery
-[L4D2] Scene Adjustments
 [L4D2] Pause
 [L4D2] Melee Weapon Grunts
 [HoE] ladderguns
@@ -96,6 +97,8 @@ fixes/l4d2_fix_team_shuffle
 fixes/l4d_return_thrown_items
 fixes/l4d_game_files_precacher
 fixes/l4d_unlock_versus_shove
+fixes/l4d2_sb_fix
+fixes/smoker_anim_fix
 
 fixes/noteam_nudging-fix
 fixes/l4d2_ellis_hunter_bandaid_fix
@@ -107,8 +110,11 @@ fixes/l4d2_fix_rocketjump
 fixes/jockey_ride_team_switch_teleport_fix
 fixes/Charger_Collision_patch
 fixes/l4d2_tank_charger_m2_fix
-fixes/l4d2_unsilent_jockey
-fixes/l4d2_unsilent_smoker
+fixes/l4d2_unsilent_jockeys
+fixes/l4d2_unsilent_smokers
+fixes/l4d2_unsilent_chargers
+fixes/l4d2_unsilent_hunters
+fixes/l4d2_unsilent_boomers
 fixes/staggersolver-fix
 fixes/Hunter_pounce_alignment_fix
 fixes/l4d2_ai_damagefix

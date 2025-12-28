@@ -18,6 +18,28 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 10.97 - 27/12/2025
+
+-------------------------------------------------------------------------------
+
+- Removed a LOT of useless Stuff (in the scriptings folder)
+- Fixed missing info in Equinix.cfg
+- Reworked some Stuff in ClassicCasual.cfg and removed useless stuff or too gimicky.
+- Reworked Equinix Balance.cfg todo what ClassicCasual tried to do originally.
+- Removed ReadyUP for HardMode.
+- Hardmode now uses advanced_spawnspecials instead of infectedbots.
+- Added coop_round_delay to HardMode, as it makes restarting a round faster.
+- Removed nb_update_frequency in listenserver.cfg, as now it is handled in npc_manager.
+- Balanced rifles from collected feedback, and also hunting rifle now does 55 damage from bodyshot, instead of 65.
+- Fixed Smoker Animation not playing in coop.
+- Added some plugins to force special infected to play a sound when spawning.
+- Added a plugin to fix survivor bots behaviour
+- Updated drop_secondary.sp and smx
+- Translated Common Infected Damage back to english
+- Tweaked [FF] 80% Melee Removal to now be 50%.
+
+-------------------------------------------------------------------------------
+
 ## VERSION 10.95 - 22/12/2025
 
 -------------------------------------------------------------------------------

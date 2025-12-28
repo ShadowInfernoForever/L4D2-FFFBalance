@@ -7,9 +7,9 @@
 
 public Plugin:myinfo = 
 {
-	name = "[FF] 80% Melee Removal",
+	name = "[FF] 50% Melee Removal",
 	author = "ShadowInferno",
-	description = "Removes 80% melees in the map",
+	description = "Removes 50% melees in the map",
 	version = "1.0",
 	url = ""
 }
@@ -69,7 +69,7 @@ public Action Timer_RemoveMeleeWeapons(Handle timer)
     }
 
     // Calculate the number of melee weapons to remove
-    int toRemove = RoundToNearest(count * 0.8); // Correct function for rounding
+    int toRemove = RoundToNearest(count * 0.5); // Correct function for rounding
     
     // Randomly remove the melee weapons
     for (int i = 0; i < toRemove && count > 0; i++)
