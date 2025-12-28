@@ -83,10 +83,10 @@
 		{
 			"name" "•Classic Casual"
 		}
-		//"Cooperative4/Equilibrium"
-		//{
-		//	"name" "•EQ - (Equilibrium)"
-		//}
+		"Cooperative4/Equinix"
+		{
+			"name" "•EQ - (Equinix Balance)"
+		}
 		"Cooperative4/hm"
 		{
 			"name" "★HM - (HardMode)"
