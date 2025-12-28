@@ -16,12 +16,24 @@
 
 3. (OPCIONAL) Añadete a ti o a otras personas como administradores del servidor.
 
+Busca el siguiente archivo.ini, es un archivo con un engranaje.
+
 **TuDisco:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\configs**
+
 ![FFF Balance](img/admins_simple.png "FF Balance")
 
-- Ahora busca como sacar el steamid de tu perfil de steam, y agrega una línea como esta al final del archivo.
+Ahora busca como sacar el **STEAMID** de tu perfil de steam, Puedes sacar tu **STEAMID** en sitios como: 
+
+> [Steam ID Finder](https://steamid.xyz/) -
+> [STEAMID I/O](https://steamid.io/) -
+> [Steam ID FINDER](https://steamid.pro/) 
+
+Agrega una línea como esta al final del archivo.
+
 **"STEAM_1:1:30607799"			"99:z"**
+
 ![FFF Balance](img/admins_simple2.png "FF Balance")
+
 
 ---
 
