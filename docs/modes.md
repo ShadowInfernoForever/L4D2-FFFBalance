@@ -5,7 +5,7 @@ Cada modo modifica el comportamiento del juego, su dificultad, los infectados, l
 
 ---
 
-# Cooperative 4 - (Diseñado para partidas Campaña CO-OP con un máximo de 4 jugadores)
+# Cooperative 4 - (Para Campañas CO-OP con un máximo de 4 jugadores)
 
 ## Vanilla
 El Left 4 Dead 2 clásico, pero con parches, mejoras de calidad de vida (QoL) y pequeños ajustes que no rompen la esencia original.  
@@ -96,7 +96,7 @@ Tampoco existen incapacitaciones.
 
 ---
 
-# Cooperative 8 - (Diseñado para partidas Campaña CO-OP con un máximo de 8 jugadores)
+# Cooperative 8 - (Para Campañas CO-OP con un máximo de 8 jugadores)
 
 ## Quantum
 El modo **Casual** pero adaptado a 8 jugadores.
