@@ -26,7 +26,7 @@ Siguen habiendo diferencias obvias entre TIER 0, TIER 1 y TIER 2.
 
 Balancea supervivientes, infectados, armas y mecánicas para una dificultad alta.
 ### *Cambios:*
-```
+- Los supervivientes revividos desde una incapacitación con "100 HP o menos" se levantarán en estado B/W (Blanco y Negro). Además, la cantidad de "vida temporal" otorgada al ser revividos es "dinámica", y depende de la vida que tenían durante la incapacitación. está basado en el mod [Revised Revival [VScript]](https://steamcommunity.com/sharedfiles/filedetails/?id=3452710213&searchtext=Revised+Incap)
 - Eliminado el glow de ítems a larga distancia.
 - El Jockey tiene 250hp, una velocidad de 275 (hammer/units) pero ya no se puede resistir a su movimiento.
 - Dinámicas de pounce, shove y stagger ajustadas a valores de "Versus".
@@ -39,7 +39,6 @@ Balancea supervivientes, infectados, armas y mecánicas para una dificultad alta
 - Hordas configuradas manualmente, el director spawneará hordas si los supervivientes van bien en la partida, de lo contrario, si no se mueven, se detendrán las hordas.
 - Curación pasiva con las pills y adrenalina en lugar de vida instantanea.
 - Uso de "configuración competitiva de armas" (Zonemod Híbrido).
-```
 
 ---
 
@@ -51,7 +50,6 @@ Un modo pensado para replicar la presión del **Versus** en campaña, elevando l
 Obliga al jugador a perfeccionar tracking, posicionamiento y aim, recompensando la ejecución precisa.
 Una preparación sólida para el modo **VERSUS**.
 ### *Cambios:*
-```
 - Eliminado el glow de ítems a larga distancia.
 - Respawn de Special Infected fijado a 15s
 - Los Special Infected spawnean de forma coordinada y en grupo.
@@ -66,7 +64,7 @@ Una preparación sólida para el modo **VERSUS**.
 - Daño de los commons a supervivientes reducido (2dmg en normal; 5dmg en hard; 11dmg en experto).
 - Curación pasiva con las pills y adrenalina en lugar de vida instantanea.
 - Uso de "configuración competitiva de armas" (Zonemod Híbrido).
-```
+
 
 ---
 
