@@ -1,4 +1,4 @@
-1. Copia las carpetas **Addons** y **CFG**
+1. Copia las carpetas **Addons** y **CFG** (El resto de archivos puedes removerlos si deseas).
 
 ![FFF Balance](img/selectthose2.png "FF Balance")
 
