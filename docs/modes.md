@@ -5,7 +5,7 @@ Cada modo modifica el comportamiento del juego, su dificultad, los infectados, l
 
 ---
 
-# Cooperative 4 (4 jugadores) - (Diseñado para partidas Campaña CO-OP)
+# Cooperative 4 - (Diseñado para partidas Campaña CO-OP con un máximo de 4 jugadores)
 
 ## Vanilla
 El Left 4 Dead 2 clásico, pero con parches, mejoras de calidad de vida (QoL) y pequeños ajustes que no rompen la esencia original.  
@@ -17,7 +17,6 @@ El Left 4 Dead 2 clásico, pero con parches, mejoras de calidad de vida (QoL) y 
 Modo pensado para una experiencia relajada, de paso añade armas balanceadas así todos los jugadores
 pueden disfrutar de cualquier arma, sin importar tierlist de mejor-peor.
 Siguen habiendo diferencias obvias entre TIER 0, TIER 1 y TIER 2.
-- Contenido adicional del **zcontent-pack**
 
 **Recomendado para jugar con amigos de forma despreocupada.**
 
@@ -25,16 +24,49 @@ Siguen habiendo diferencias obvias entre TIER 0, TIER 1 y TIER 2.
 
 ##  Equinix Balance
 
-Balancea supervivientes, infectados, armas y mecánicas para una dificultad superior a experto sin ser extrema.
+Balancea supervivientes, infectados, armas y mecánicas para una dificultad alta.
+### *Cambios:*
+```
+- Eliminado el glow de ítems a larga distancia.
+- El Jockey tiene 250hp, una velocidad de 275 (hammer/units) pero ya no se puede resistir a su movimiento.
+- Dinámicas de pounce, shove y stagger ajustadas a valores de "Versus".
+- Velocidad del tank a 220 (hammer/units)
+- El tank cuando es prendido fuego, ganará velocidad (como en L4D1)
+- Los commons tienen menos resistencia al daño en experto (75% de daño recibido)
+- Commons configurados para combate más consistente (sin peleas entre ellos, ni tampoco descansan en el piso, siempre estarán caminando).
+- Los supervivientes tienen los godframes de dificultad normal contra los commons. (Esto aplica a todas las dificultades excepto fácil).
+- Daño de los commons a supervivientes reducido (2dmg en normal; 5dmg en hard; 11dmg en experto).
+- Hordas configuradas manualmente, el director spawneará hordas si los supervivientes van bien en la partida, de lo contrario, si no se mueven, se detendrán las hordas.
+- Curación pasiva con las pills y adrenalina en lugar de vida instantanea.
+- Uso de "configuración competitiva de armas" (Zonemod Híbrido).
+```
 
 ---
 
-## eXpert Challenge Mode (XCM)
-Segunda dificultad adicional.  
-Pensado para jugadores experimentados (**500+ horas**).
+## HardCoreMode/HardMode (HM)
 
-**Clasificado Competitivo**  
-(no hay cheats ni contenido adicional)
+HardCoreMode / HardMode (HM)
+
+Un modo pensado para replicar la presión del **Versus** en campaña, elevando la dificultad sin recurrir a trucos artificiales.
+Obliga al jugador a perfeccionar tracking, posicionamiento y aim, recompensando la ejecución precisa.
+Una preparación sólida para el modo **VERSUS**.
+### *Cambios:*
+```
+- Eliminado el glow de ítems a larga distancia.
+- Respawn de Special Infected fijado a 15s
+- Los Special Infected spawnean de forma coordinada y en grupo.
+- Comportamiento y AI de infectados especiales ajustado para simular "Versus".
+- Límite de Special Infected activos establecido en **4**.
+- El Jockey tiene 250hp, una velocidad de 275 (hammer/units) pero ya no se puede resistir a su movimiento.
+- Dinámicas de pounce, shove y stagger ajustadas a valores de "Versus".
+- Velocidad del tank a 220 (hammer/units)
+- Los commons tienen menos resistencia al daño en experto (100% de daño recibido)
+- Commons configurados para combate más consistente (sin peleas entre ellos, ni tampoco descansan en el piso, siempre estarán caminando).
+- Los supervivientes tienen los godframes de dificultad normal contra los commons. (Esto aplica a todas las dificultades excepto fácil).
+- Daño de los commons a supervivientes reducido (2dmg en normal; 5dmg en hard; 11dmg en experto).
+- Curación pasiva con las pills y adrenalina en lugar de vida instantanea.
+- Uso de "configuración competitiva de armas" (Zonemod Híbrido).
+```
 
 ---
 
@@ -64,7 +96,7 @@ Tampoco existen incapacitaciones.
 
 ---
 
-# Cooperative 8 (8 jugadores) - (Diseñado para partidas Campaña CO-OP)
+# Cooperative 8 - (Diseñado para partidas Campaña CO-OP con un máximo de 8 jugadores)
 
 ## Quantum
 El modo **Casual** pero adaptado a 8 jugadores.
