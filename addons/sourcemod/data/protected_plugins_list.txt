@@ -1,11 +1,9 @@
 left4dhooks
-
 ThirdPersonShoulder_Detect
 sourcescramble_manager
 sounds
 sceneprocessor
 lagpreventor
-l4d2witchprecache
 l4d2pause
 l4d2_wskin_rng
 l4d2_weaponrules
@@ -13,9 +11,7 @@ l4d2_weapon_attributes
 l4d2_unlock_finales
 l4d2_undoff
 l4d2_trigger_flow_fix
-l4d2_time_controller
 l4d2_steady_boost
-l4d2_sound_manipulation
 l4d2_sky_nexus_custom_ladders
 l4d2_shadow_removal
 l4d2_riotcopheadshot
@@ -29,19 +25,16 @@ pill_passer
 l4d2_lagcomp_manager
 l4d2_spec_stays_spec
 l4d2_m2_control_eq
-l4d2_sniper_precache
 l4d2_tickrate_enabler
 [FF] Command Utilities
 [pa4H]FakeAdminPing
 l4d_freely_round_end
 l4d2_npc_manager
 l4d2_front_mob_direction
-
 l4d2_airstrike.core
 l4d2_airstrike.triggers
 l4d2_airstrike.no_mercy
 l4d2_airstrike.dead_air
-
 l4d_use_priority
 l4d_selfie_camera
 l4d_screen_shake
@@ -49,10 +42,8 @@ l4d_incapped_pickup
 l4d_grenade_throw
 l4d_ammo_previous
 l4d_bash_kills
-
 playermanagement
 l4d2_fix_team_shuffle
-
 [L4D2]Adrenaline_Recovery
 [L4D2] Pause
 [L4D2] Melee Weapon Grunts
@@ -63,11 +54,9 @@ boomer_horde_equalizer_refactored
 l4d2_fireworks
 code_patcher
 attachments_api
-vscript_replacer
 l4d_static_punch_getup
 caster_system
 caster_assister
-
 playercommands
 funvotes
 clientprefs
@@ -79,16 +68,12 @@ basebans
 adminmenu
 admin-flatfile
 adminhelp
-
 sm_acvar
-
 lilac
 blockstatus
-
 builtinvotes_revote
 friendlyfire_vote
 match_vote
-
 fixes/l4d_pounceprotect
 fixes/l4d_votepoll_fix
 fixes/physics_object_pushfix
@@ -99,14 +84,12 @@ fixes/l4d_game_files_precacher
 fixes/l4d_unlock_versus_shove
 fixes/l4d2_sb_fix
 fixes/smoker_anim_fix
-
 fixes/noteam_nudging-fix
 fixes/l4d2_ellis_hunter_bandaid_fix
 fixes/Defib_Fix
 fixes/survivor_afk_fix
 fixes/double_getup
 fixes/l4d2_fix_rocketjump
-
 fixes/jockey_ride_team_switch_teleport_fix
 fixes/Charger_Collision_patch
 fixes/l4d2_tank_charger_m2_fix
@@ -115,7 +98,7 @@ fixes/l4d2_unsilent_smokers
 fixes/l4d2_unsilent_chargers
 fixes/l4d2_unsilent_hunters
 fixes/l4d2_unsilent_boomers
-fixes/staggersolver-fix
+fixes/staggersolver
 fixes/Hunter_pounce_alignment_fix
 fixes/l4d2_ai_damagefix
 fixes/l4d2_jockey_hitbox_fix
@@ -129,21 +112,17 @@ fixes/l4d_sweep_fist_patch
 fixes/l4d2_stumble_fix
 fixes/rock_stumble_block
 fixes/l4d_rock_lagcomp
-fixes/witch_pipebomb_exploit_fix_&_death_optmizer
 fixes/l4d2_tank_flying_incap
 fixes/l4d_pounceprotect
 fixes/l4d_unrestrict_panic_battlefield
 fixes/smart_ai_rock
 fixes/zombie_spawn_fix
-
 fixes/l4d_fix_nextbot_collision
 fixes/l4d_fix_common_shove
 fixes/l4d2_shove_fix
-
 fixes/witch_vision_fix
 fixes/witch_hit_to_animation_fix
 fixes/witch_allow_in_safezone
-
 fixes/firebulletsfix
 fixes/l4d_hold_shove_n_switch_fix
 fixes/l4d_revive_reload_interrupt
@@ -151,3 +130,4 @@ fixes/l4d2_sgfix
 fixes/l4d2_clipsizereload_fix
 fixes/lfd_both_fixSG552
 fixes/l4d2_melee_damage_control
+fixes/witch_pipebomb_exploit_fix_&_death_optmizer
