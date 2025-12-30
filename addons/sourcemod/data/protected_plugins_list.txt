@@ -4,7 +4,8 @@ sourcescramble_manager
 sounds
 sceneprocessor
 lagpreventor
-l4d2pause
+antiflood
+reservedslots
 l4d2_wskin_rng
 l4d2_weaponrules
 l4d2_weapon_attributes
@@ -47,7 +48,7 @@ l4d2_fix_team_shuffle
 [L4D2]Adrenaline_Recovery
 [L4D2] Pause
 [L4D2] Melee Weapon Grunts
-[HoE] ladderguns
+ladderguns
 boomer_horde_equalizer_refactored
 [L4D2] snipertracers
 [FF] Versus Killsound
@@ -59,6 +60,7 @@ caster_system
 caster_assister
 playercommands
 funvotes
+funcommands
 clientprefs
 basevotes
 basecommands
@@ -130,4 +132,8 @@ fixes/l4d2_sgfix
 fixes/l4d2_clipsizereload_fix
 fixes/lfd_both_fixSG552
 fixes/l4d2_melee_damage_control
-fixes/witch_pipebomb_exploit_fix_&_death_optmizer
+fixes/l4d_reload_fix
+fixes/l4d2_projectile_collisions_fix
+fixes/l4d2_jockey_jumpcap_patch
+fixes/l4d_remove_item_collision
+fixes/witch_pipebomb_exploit_fix_and_death_optmizer

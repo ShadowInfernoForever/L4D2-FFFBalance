@@ -380,8 +380,23 @@ bool PluginIsLoaded(const char[] szFilename)
     return false;
 }
 
-bool IsPluginProtected(const char[] szFilename) {
-    return g_alProtectedPlugins.FindString(szFilename) > -1;
+bool IsPluginProtected(const char[] szFilename)
+{
+    char base[PLATFORM_MAX_PATH];
+    char protectedBase[PLATFORM_MAX_PATH];
+
+    GetPluginBaseName(szFilename, base, sizeof(base));
+
+    for (int i = 0; i < g_alProtectedPlugins.Length; i++)
+    {
+        g_alProtectedPlugins.GetString(i, protectedBase, sizeof(protectedBase));
+        GetPluginBaseName(protectedBase, protectedBase, sizeof(protectedBase));
+
+        if (StrEqual(base, protectedBase, false))
+            return true;
+    }
+
+    return false;
 }
 
 void NormalizePluginFileName(char[] szFilename)
@@ -406,6 +421,23 @@ void NormalizePluginFileName(char[] szFilename)
         Format(szFilename, PLATFORM_MAX_PATH, "%s.smx", szFilename);
     }
 }
+
+void GetPluginBaseName(const char[] input, char[] output, int size)
+{
+    strcopy(output, size, input);
+
+    // Normalizar slashes
+    ReplaceString(output, size, "\\", "/");
+
+    // Quitar path (fixes/, subcarpetas, etc)
+    int pos = FindCharInString(output, '/', true);
+    if (pos != -1)
+        strcopy(output, size, output[pos + 1]);
+
+    NormalizePluginFileName(output);
+}
+
+
 
 bool IsDefaultProtected(const char[] szFilename) {
     char szFilenameWithoutExt[PLATFORM_MAX_PATH];

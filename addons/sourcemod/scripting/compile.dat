@@ -75,7 +75,7 @@ Age=1526288758
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\lfd_coop_ammoStackSpawn.sp]
 Age=1526289636
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_ammostack_rework.sp]
-Age=1533512698
+Age=1536445644
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d_revive_health_decay.sp]
 Age=1526293747
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Utility Incap Pass.sp]
@@ -241,7 +241,7 @@ Age=1534039677
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[HoE] Item Hint.sp]
 Age=1534040144
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\plugin_unload_protect.sp]
-Age=1534168785
+Age=1537112729
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[L4D2] snipertracers.sp]
 Age=1534157076
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[pa4H]FakeAdminPing.sp]
@@ -336,3 +336,55 @@ Age=1534614625
 Age=1534614634
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[DM] RespawnTimer.sp]
 Age=1534614724
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[DM] ms_deathmatch.sp]
+Age=1449223245
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[DM] Points.sp]
+Age=1534678385
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[DM] Points.sp]
+Age=1534679414
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[DM] Points.sp]
+Age=1534679506
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[HoE] Item Hint.sp]
+Age=1534040144
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[HoE] Item Hint.sp]
+Age=1524133635
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\coop_round_delay.sp]
+Age=1536662647
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_sb_fix.sp]
+Age=1536662754
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_npc_manager.sp]
+Age=1536662823
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\si_pool.sp]
+Age=1536662895
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\smoker_anim_fix.sp]
+Age=1536663147
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\advanced_spawnspecials.sp]
+Age=1536663396
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\christmas_surprise.sp]
+Age=1512470880
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_unsilent_hunters.sp]
+Age=1536840376
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_unsilent_jockey.sp]
+Age=1379350592
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_unsilent_jockeys.sp]
+Age=1536840433
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_unsilent_smokers.sp]
+Age=1536840385
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_unsilent_boomers.sp]
+Age=1536840370
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_unsilent_chargers.sp]
+Age=1536840373
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\drop_secondary.sp]
+Age=1536841331
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Map Melee Removal.sp]
+Age=1536927365
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\staggersolver.sp]
+Age=1536990017
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d_gun_cabinet.sp]
+Age=1414007375
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d_incapped_weapons.sp]
+Age=1496672582
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_jockey_jumpcap_patch.sp]
+Age=1537113595
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d_remove_item_collision.sp]
+Age=1537113610
