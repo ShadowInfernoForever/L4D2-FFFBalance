@@ -51,6 +51,7 @@ Hecho con dedicación y pasión al juego.
 - [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Tester, Ideas y sugerencias
 - [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/) - Hoster
 - [Zombine](https://steamcommunity.com/id/Brass_Beast_Boy/) - Tester
+- [SλUron / Sauron](https://steamcommunity.com/id/mephisto3D/) - Hoster, Tester, Ideas y sugerencias
 
 Gracias a todos los testers y a la comunidad por su apoyo constante.
 
