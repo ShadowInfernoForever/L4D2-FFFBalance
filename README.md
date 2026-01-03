@@ -1,6 +1,6 @@
 # Left 4 Dead 2 - FFForever Total Game Balance + MultiMod
 
-![Version](https://img.shields.io/badge/Version-10.97-blue)
+![Version](https://img.shields.io/badge/Version-10.97d-blue)
 
 Balancea armas e infectados, mejoras Quality of Life (QoL) y agrega gamemodes fácilmente moddeables, pensados para partidas tranquilas o caos total con 8 jugadores.
 Incluye una configuración de servidor optimizada a nivel de rendimiento y gameplay.
@@ -51,6 +51,7 @@ Hecho con dedicación y pasión al juego.
 - [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Tester, Ideas y sugerencias
 - [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/) - Hoster
 - [Zombine](https://steamcommunity.com/id/Brass_Beast_Boy/) - Tester
+- [SλUron / Sauron](https://steamcommunity.com/id/mephisto3D/) - Hoster, Tester, Ideas y sugerencias
 
 Gracias a todos los testers y a la comunidad por su apoyo constante.
 
@@ -65,10 +66,11 @@ por favor contáctame y con gusto te agregaré a la lista.
 Muchos de estos plugins y sus respectivos files de scripting fueron sacados y/o adaptados de
 
 - [L4D2-Competitive-Rework] (https://github.com/SirPlease/L4D2-Competitive-Rework)
-- [L4D2-Plugins] (https://github.com/fbef0102/L4D1_2-Plugins)
+- [fbef0102] (https://github.com/fbef0102/L4D1_2-Plugins)
 - [Sky] (https://github.com/Attano/Sky)
 - [pa4H] (https://github.com/pa4H/L4D2-pa4H-Plugins/tree/main)
 - [HoongDou] (https://github.com/HoongDou/L4D2-HoongDou-Project)
+- [fdxx] (https://github.com/fdxx/l4d2_plugins/tree/main)
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo los términos de la **GNU General Public License v3.0 (GPLv3)**.  
