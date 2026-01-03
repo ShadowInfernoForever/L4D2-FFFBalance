@@ -1,4 +1,4 @@
-# ⚙️ Características – FFForever Balance
+# Características – FFForever Balance
 
 Este documento resume todas las características principales y opcionales del proyecto **FFForever-Balance**, incluyendo modos de juego, soporte técnico, contenido adicional y opciones avanzadas.
 
@@ -6,18 +6,18 @@ Este documento resume todas las características principales y opcionales del pr
 
 # ⭐ Principales Características
 
-### 🎮 25 Modos de Juego
+### 25 Modos de Juego
 Incluye una amplia variedad de modos, cada uno completamente distinto y con mecánicas, dificultades y reglas únicas.
 
-### 🔥 Soporte Completo para Coop y Versus
+### Soporte Completo para Coop y Versus
 Compatible con partidas cooperativas tradicionales y también con modos tipo versus competitivo o híbrido.
 
-### 👥 Soporte para 8 Jugadores
+### Soporte para 8 Jugadores
 Muchos modos están diseñados específicamente para grupos grandes:
 - 8 jugadores cooperativos en campaña
 - 4 jugadores infectados vs 4 supervivientes (versus coop)
 
-### 🖥️ Servidor Local o Dedicado Optimizado
+### Servidor Local o Dedicado Optimizado
 Pensado para funcionar sin problemas en:
 - Partidas privadas  
 - Servidores de amigos  
@@ -25,11 +25,7 @@ Pensado para funcionar sin problemas en:
 
 Se ajusta automáticamente según el entorno del servidor.
 
-### 📦 Contenido Adicional (Bundles zcontent)
-El proyecto soporta contenido extendido si instalas los bundles extra:
-- Bailes para especiales y supervivientes 
-
-### 🔧 Parcheos, QoL y Plugins Personalizados
+### Parcheos, QoL y Plugins Personalizados
 Incluye:
 - Mejoras de calidad de vida (QoL)
 - Correcciones al código del juego
@@ -38,16 +34,16 @@ Incluye:
 
 ---
 
-# 🧩 Características Opcionales
+# Características Opcionales
 
-### 🗳️ Sistema de Votación para Modos
+### Sistema de Votación para Modos
 Los jugadores pueden votar para cambiar el modo de juego usando comandos como:
 - `!mode`
 - `!match`
 - `!ff`
 - `!voteff`
 
-### ✏️ Modos de Juego Editables
+### Modos de Juego Editables
 Los administradores pueden:
 - Crear modos personalizados  
 - Ajustar balance  
