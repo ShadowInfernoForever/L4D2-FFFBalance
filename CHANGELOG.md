@@ -18,6 +18,23 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 10.97d - 30/12/2025
+
+-------------------------------------------------------------------------------
+
+- Removed a LOT of unnecesary plugins.
+- Cleaned a lot of gamemodes plugin usage
+- Renamed a lot of plugins that had [HoE] referencing "Hell on Earth", and also some of them that had [FF] referencing "Friendly Fire"
+- Added missing plugins to protected_plugins_list.txt
+- Fixed plugin_unload_protect.smx not protecting plugins with [] at the start, and also not protecting plugins from fixes/,  now it works as intended.
+- Now in Casual Weapon Configs, AWP is Tier 3, and Scout is Tier 1, and in Competitive, both awp and scout are Tier 1.
+- Fixed cooperative4/3v4HM, using "hardmode.cfg", now it uses correct "hm.cfg".
+- Added coop_round_delay to casual
+- Removed Stratum.cfg, as it was a gamemode without purpose.
+- Added Vendor and Footlocker back to Quantum.cfg... (QuantumLite remains as is, without these two)
+
+-------------------------------------------------------------------------------
+
 ## VERSION 10.97 - 27/12/2025
 
 -------------------------------------------------------------------------------
