@@ -10,11 +10,28 @@
 [Luca4808]: https://steamcommunity.com/id/Synth-Dingo/
 [DJ master 3000/Juanito_kpo4270]: https://steamcommunity.com/profiles/76561199081627245/
 [Zombine]: https://steamcommunity.com/id/Brass_Beast_Boy/
+[Sauron]: https://steamcommunity.com/id/mephisto3D/
 <!-- add other people :D!!! -->
 
 # Version History
 
 > In this document, you can see all updates from each version
+
+-------------------------------------------------------------------------------
+
+## VERSION 11.00 - 4/1/2026
+
+-------------------------------------------------------------------------------
+
+- Updated 8_slot_lobby.vpk because it didn't work even that players had it installed and activated (Thanks [Sauron])
+- Fixed HardMode unsynchronized bot special spawns, so now HardMode is easier and a little bit less of a special spawn (Thanks [Actras_DK]; [Sauron])
+- Added SkipIntro to HardMode
+- Added Water Move Speed similar to versus in ClassicCasual, HardMode, and Quantum & QuantumLite.
+- Unused CS:GO Molotov Port code lines was now moved to Competitive.cfg (it was in HardMode.CFG)
+- Fixed QuantumLite not loading l4dinfectedbots from "disabled/gamemodes/XCM" folder.
+- Nerfed Common Infected Damage in QuantumLite because l4dinfectedbots now works as intended, and also because it was way to exaggerated and punishing for a casual like 8 player gamemode.
+- Tweaked AWP SpreadDecay in Casual Weapons Balance Config, from 8 -> 20, because it took long to get a precise shot, and even more at 30 tick and if the player was lagged < 60ms then even more so.
+- Tweaked l4d2_sb_fix, to make bots a little bit more responsive.
 
 -------------------------------------------------------------------------------
 
