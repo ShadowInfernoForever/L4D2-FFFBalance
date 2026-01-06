@@ -13,33 +13,21 @@ Altamente inspirado en [**ScrN Total Game Balance + Gunslinger**](https://steamc
 
 ---
 
+## 🎮 Acerca del proyecto
+- 👉 [**Características Principales**](docs/features.md)
+
+
+---
+
 ## 📘 Documentación Completa
 
 Toda la información detallada del proyecto está organizada en la carpeta **Docs**:
 
-- 👉 [Características Principales](docs/features.md)
-- 👉 [Instalación](docs/installation.md)
-- 👉 [Manual de uso](docs/manual.md)
-- 👉 [Modos de Juego](docs/modes.md)
-- 👉 [FAQ](docs/FAQ.md) *(opcional)*
-
----
-
-## 🎮 Acerca del proyecto
-
-FFForever-Balance es un proyecto dedicado a mejorar de forma profunda la jugabilidad de Left 4 Dead 2:
-
-- Balance total del juego  (dependiendo del modo seleccionado)
-- Muchas Correcciones al código base (BugFixes) 
-- Mejoras de calidad de vida (QoL)
-- Compatibilidad para 4 y 8 jugadores  
-- Modos casuales, competitivos y caóticos  
-- Integración con contenido adicional (zcontent bundles)
-- Leé más en [Características Principales](docs/features.md)
-
-Hecho con dedicación y pasión al juego.
-
----
+- 👉 [**Instalación**](docs/installation.md)
+- 👉 [**Manual de uso**](docs/manual.md)
+- 👉 [**Modos de Juego**](docs/modes.md)
+- 👉 [**Características Principales**](docs/features.md)
+- 👉 [**FAQ**](docs/FAQ.md) *(opcional)*
 
 ## 🧩 Créditos
 
