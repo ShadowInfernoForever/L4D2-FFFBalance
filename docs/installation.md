@@ -1,10 +1,12 @@
-1. Copia las carpetas **Addons** y **CFG** (El resto de archivos puedes removerlos si deseas).
+1. Descarga el [MOD](https://github.com/ShadowInfernoForever/L4D2-FFFBalance/archive/refs/heads/master.zip).
+
+2. Copia las carpetas **Addons** y **CFG** (El resto de archivos puedes removerlos si deseas).
 
 ![FFF Balance](img/selectthose2.png "FF Balance")
 
 ---
 
-2. Pégalas en la ruta:  
+3. Pégalas en la ruta:  
 **TuDisco:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2**
 
 - Si te pregunta si deseas reemplazar un archivo, acepta.  
@@ -14,7 +16,7 @@
 
 ---
 
-3. (OPCIONAL) Añádete a ti o a otras personas como administradores del servidor.
+4. (OPCIONAL) Añádete a ti o a otras personas como administradores del servidor.
 
 - Dirígete a la ruta:
   **TuDisco:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\configs**
@@ -41,14 +43,14 @@
 
 ---
 
-4. Ve a tu **Biblioteca de Steam** y busca **Left 4 Dead 2**.  
+5. Ve a tu **Biblioteca de Steam** y busca **Left 4 Dead 2**.  
 - Haz clic derecho en el juego y selecciona **Propiedades**.
 
 ![FFF Balance](img/rightclickl4d2.png "FF Balance")
 
 ---
 
-5. En la sección **GENERAL**, agrega el parámetro **-insecure**.  
+6. En la sección **GENERAL**, agrega el parámetro **-insecure**.  
    *(El parámetro **-console** es recomendado, pero no obligatorio.)*
 
 - Si no sabes qué es la consola, te recomiendo ver un video; puede ayudarte muchísimo.
@@ -57,14 +59,14 @@
 
 ---
 
-6. Entra al juego y ve a **Extras > Addons**.  
+7. Entra al juego y ve a **Extras > Addons**.  
 - Marca o desmarca **8 Player Lobby** según prefieras.
 
 ![FFF Balance](img/checkoruncheck.png "FF Balance")
 
 ---
 
-7. ¡Hostea un servidor local y disfruta!  
+8. ¡Hostea un servidor local y disfruta!  
 No olvides revisar el:
 
 👉 **[Manual de uso](manual.md)**
