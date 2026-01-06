@@ -15,7 +15,7 @@ Compatible con partidas cooperativas tradicionales y también con modos tipo ver
 ### Soporte para 8 Jugadores
 Muchos modos están diseñados específicamente para grupos grandes:
 - 8 jugadores cooperativos en campaña
-- 4 jugadores infectados vs 4 supervivientes (versus coop)
+- 8 Bots (Supervivientes) vs 8 Jugadores (Infectados) **[Versus-Coop]**
 
 ### Servidor Local o Dedicado Optimizado
 Pensado para funcionar sin problemas en:
@@ -23,7 +23,7 @@ Pensado para funcionar sin problemas en:
 - Servidores de amigos  
 - Servidores públicos  
 
-Se ajusta automáticamente según el entorno del servidor.
+Se ajusta automáticamente según deseé el jugador.
 
 ### Parcheos, QoL y Plugins Personalizados
 Incluye:
