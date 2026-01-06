@@ -9,6 +9,8 @@ Siempre soñé con un servidor multimod, equilibrado y accesible para todos.
 Un lugar donde cualquiera pueda disfrutar Left 4 Dead 2 a su manera,  
 en cualquier momento y con cualquier estilo de juego.
 
+Altamente inspirado en [**ScrN Total Game Balance + Gunslinger**](https://steamcommunity.com/sharedfiles/filedetails/?id=97709811) de Killing Floor 1, Creado por [**PooSH**](https://steamcommunity.com/id/scrn-poosh)
+
 ---
 
 ## 📘 Documentación Completa
