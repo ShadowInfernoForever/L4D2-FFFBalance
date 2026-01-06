@@ -1,14 +1,17 @@
-### 1. Descarga [L4D2-FFFBalance](https://github.com/ShadowInfernoForever/L4D2-FFFBalance/archive/refs/heads/master.zip)
+### 1. Paso
+Descarga [L4D2-FFFBalance](https://github.com/ShadowInfernoForever/L4D2-FFFBalance/archive/refs/heads/master.zip)
 
 ---
 
-### 2. Copia las carpetas **Addons** y **CFG** (El resto de archivos puedes removerlos si deseas).
+### 2. Paso 
+- Copia las carpetas **Addons** y **CFG** (El resto de archivos puedes removerlos si deseas).
 
 ![FFF Balance](img/selectthose2.png "FF Balance")
 
 ---
 
-### 3. Pégalas en la ruta:  
+### 3. Paso
+- Pégalas en la ruta:  
 - **TuDisco:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2**
 
 - Si te pregunta si deseas reemplazar un archivo, acepta.  
