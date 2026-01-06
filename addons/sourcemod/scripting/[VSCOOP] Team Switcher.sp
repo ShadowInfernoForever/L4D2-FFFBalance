@@ -22,10 +22,10 @@ public Action Timer_ConvertToInfected(Handle timer)
         if (!IsClientInGame(i))
             continue;
 
-        int team = GetClientTeam(i);
+        if (IsFakeClient(i))
+            continue;
 
-        // Si ya es infectado, no se toca
-        if (team == 3)
+        if (GetClientTeam(i) == 3)
             continue;
 
         ChangeClientTeam(i, 3);

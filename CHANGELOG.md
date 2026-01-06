@@ -19,6 +19,20 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 11.05 - 5/1/2026
+
+-------------------------------------------------------------------------------
+
+- Fixed [VSCOOP] Team Switcher, switching bots and making the gamemode unplayable.
+- Fixed l4dhots not loading in various gamemodes, like hardmode, zonemod t1,t2, and equinix balance (versus only)
+- Added some cvars to make fighting with bots a little bit harder in versus coop
+- Fixed l4dinfectedbots not loading correctly in versus coop
+- Fixed hunter_pz_claw_dmg resetting to 24 claw damage instead of 6 as in vanilla.
+- Fixed a typo in friendlyfire weapon balance, vanilla.cfg
+- Tweaked l4d2_sb_fix.cfg and made bots a little bit more smart, also selected number of bots will now be 4.
+
+-------------------------------------------------------------------------------
+
 ## VERSION 11.00 - 4/1/2026
 
 -------------------------------------------------------------------------------
@@ -49,6 +63,27 @@
 - Added coop_round_delay to casual
 - Removed Stratum.cfg, as it was a gamemode without purpose.
 - Added Vendor and Footlocker back to Quantum.cfg... (QuantumLite remains as is, without these two)
+
+-------------------------------------------------------------------------------
+
+## VERSION 10.97c
+
+-------------------------------------------------------------------------------
+
+- Moving versus stuff to versus.
+- Fixing Typos.
+- Removing not used plugins in protected_plugins_list
+- Updated StagerSolver.sp and smx
+- Prevented killing special infected with bashes in Equinix.cfg (both coop and versus), Zonemod_T1.cfg and Zonemod_T2.cfg, and in HardMode.cfg
+- Added l4d2_ghost_warp to Equinix.cfg
+- Removed l4d_revive_health_decay in Casual as it was more punishing and being contrary to the casual experience.
+- Cleaned not used stuff in Casual Gamemode, also removed versus stuff
+- Reverted Bile Bomb Duration to Pre-TLS in Casual.
+-  Added sv_disable_glow_faritems 1 to Equinix.cfg
+- Stagger Duration is now 1.5s in Equinix.cfg
+- Added Missing Casual Plugins in Quantum.cfg and in QuantumLite.cfg, And also cleaned some code.
+- Removed obsolete weapon balancing in quantum, as now it uses a better system, which is exec "friendlyfire_weaponbalance/casual.cfg"
+- 
 
 -------------------------------------------------------------------------------
 
