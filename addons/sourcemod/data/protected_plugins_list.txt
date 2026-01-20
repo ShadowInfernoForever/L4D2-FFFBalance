@@ -24,18 +24,11 @@ l4d2_fireworks_noise_block
 drop_secondary
 pill_passer
 l4d2_lagcomp_manager
-l4d2_spec_stays_spec
-l4d2_m2_control_eq
 l4d2_tickrate_enabler
 [FF] Command Utilities
 [pa4H]FakeAdminPing
 l4d_freely_round_end
 l4d2_npc_manager
-l4d2_front_mob_direction
-l4d2_airstrike.core
-l4d2_airstrike.triggers
-l4d2_airstrike.no_mercy
-l4d2_airstrike.dead_air
 l4d_use_priority
 l4d_selfie_camera
 l4d_screen_shake
@@ -44,7 +37,6 @@ l4d_grenade_throw
 l4d_ammo_previous
 l4d_bash_kills
 playermanagement
-l4d2_fix_team_shuffle
 [L4D2]Adrenaline_Recovery
 [L4D2] Pause
 [L4D2] Melee Weapon Grunts
@@ -54,10 +46,7 @@ boomer_horde_equalizer_refactored
 [FF] Versus Killsound
 l4d2_fireworks
 code_patcher
-attachments_api
 l4d_static_punch_getup
-caster_system
-caster_assister
 playercommands
 funvotes
 funcommands
@@ -80,7 +69,6 @@ fixes/l4d_pounceprotect
 fixes/l4d_votepoll_fix
 fixes/physics_object_pushfix
 fixes/TickrateFixes
-fixes/l4d2_fix_team_shuffle
 fixes/l4d_return_thrown_items
 fixes/l4d_game_files_precacher
 fixes/l4d_unlock_versus_shove
@@ -89,7 +77,6 @@ fixes/smoker_anim_fix
 fixes/noteam_nudging-fix
 fixes/l4d2_ellis_hunter_bandaid_fix
 fixes/Defib_Fix
-fixes/survivor_afk_fix
 fixes/double_getup
 fixes/l4d2_fix_rocketjump
 fixes/jockey_ride_team_switch_teleport_fix

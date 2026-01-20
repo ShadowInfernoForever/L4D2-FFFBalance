@@ -1,0 +1,16 @@
+"Messages"
+{
+    "AmmoPileUsed"
+    {
+        "en"    "This ammo pile is already used!"
+        "es"    "¡Esta pila de munición ya fue usada!"
+        "chi"   "子弹堆已被使用！"
+    }
+
+    "AmmoPileTaken"
+    {
+        "en"    "You picked up ammo from this pile. One-time use!"
+        "es"    "¡Has recogido munición de esta pila! Solo se puede usar una vez."
+        "chi"   "你从此子弹堆获得了弹药，仅可使用一次！"
+    }
+}

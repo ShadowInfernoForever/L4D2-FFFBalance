@@ -28,7 +28,7 @@ public Plugin myinfo = {
 public void OnPluginStart() {
 	CreateConVar("coop_round_restart_delay_version", PLUGIN_VERSION, "Coop Round Restart Delay plugin version.", FCVAR_NOTIFY|FCVAR_DONTRECORD);
 
-	g_cRestartDelay = CreateConVar("coop_round_restart_delay", "1.5", "战役模式回合重开延迟时间", CVAR_FLAGS, true, 0.0);
+	g_cRestartDelay = CreateConVar("coop_round_restart_delay", "2", "战役模式回合重开延迟时间", CVAR_FLAGS, true, 0.0);
 	g_cRestartDelay.AddChangeHook(CvarChanged);
 
 	HookUserMessage(GetUserMessageId("Fade"), umFade, true);

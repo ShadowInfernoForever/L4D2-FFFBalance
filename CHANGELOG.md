@@ -19,6 +19,17 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 11.10 - 20/1/2026
+
+-------------------------------------------------------------------------------
+
+- Removed a lot of unused translation files
+- Removed some unused .SP files
+- Removed not used plugins in Protected_Plugins_List.txt
+- l4d2_ammostack_rework no longer affects m60, as now it is handled separatly with another 2 plugins, which are: l4d_onetimeuseammopile_m60; and M60_NoDrop_AmmoPile_patch
+
+-------------------------------------------------------------------------------
+
 ## VERSION 11.05 - 5/1/2026
 
 -------------------------------------------------------------------------------
