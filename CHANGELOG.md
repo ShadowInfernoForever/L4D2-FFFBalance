@@ -27,6 +27,9 @@
 - Removed some unused .SP files
 - Removed not used plugins in Protected_Plugins_List.txt
 - l4d2_ammostack_rework no longer affects m60, as now it is handled separatly with another 2 plugins, which are: l4d_onetimeuseammopile_m60; and M60_NoDrop_AmmoPile_patch
+- Removed Informative texts about gamemodes because they are not used anymore, and are detailed in the docs.
+- Reworked M60 in Casual, Quantum and QuantumLite.
+- Balanced Single and Dual Pistols.
 
 -------------------------------------------------------------------------------
 
