@@ -30,6 +30,10 @@
 - Removed Informative texts about gamemodes because they are not used anymore, and are detailed in the docs.
 - Reworked M60 in Casual, Quantum and QuantumLite.
 - Balanced Single and Dual Pistols.
+- Updated Coop_Round_Delay plugin to be 2 seconds instead of 1.5 seconds.
+- Reworked M16 in both casual and competitive modes.
+- Changed some stuff in lilac_config.cfg.
+- Night Vision is now available in Casual, Quantum and QuantumLite. (Double Press 'F' Quickly).
 
 -------------------------------------------------------------------------------
 
