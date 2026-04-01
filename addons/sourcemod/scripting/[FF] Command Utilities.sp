@@ -1,6 +1,9 @@
 #include <sourcemod>
 #include <sdktools>
 #include <colors>
+#include <builtinvotes>
+
+Handle g_hCustomVote = INVALID_HANDLE;
 
 #define PLUGIN_VERSION "1.0"
 //#define DEATH "weapons/shotgun_chrome/gunfire/shotgun_fire_1.wav"
@@ -35,6 +38,7 @@ public OnPluginStart()
         RegConsoleCmd("sm_buy", buy);
         RegConsoleCmd("sm_laser", laser);
         RegConsoleCmd("sm_katana", katana);
+        RegConsoleCmd("sm_mvote", Command_MVote);
 
         // fun infected changer
 
@@ -67,6 +71,59 @@ public void OnMapStart()
 		//PrecacheSound(DEATH2, true);
         PrecacheSound(Advert_4, true);
 	}
+
+public Action Command_MVote(int client, int args)
+{
+    if (args < 1)
+    {
+        PrintToChat(client, "Uso: !mvote <mensaje>");
+        return Plugin_Handled;
+    }
+
+    if (g_hCustomVote != INVALID_HANDLE)
+    {
+        PrintToChat(client, "Ya hay un voto en curso.");
+        return Plugin_Handled;
+    }
+
+    char voteText[256];
+    GetCmdArgString(voteText, sizeof(voteText));
+    StripQuotes(voteText);
+
+    g_hCustomVote = CreateBuiltinVote(CustomVote_Handler, BuiltinVoteType_Custom_YesNo);
+
+    SetBuiltinVoteArgument(g_hCustomVote, voteText);
+    SetBuiltinVoteInitiator(g_hCustomVote, client);
+
+    DisplayBuiltinVoteToAll(g_hCustomVote, 20);
+
+    return Plugin_Handled;
+}
+
+public int CustomVote_Handler(Handle vote, BuiltinVoteAction action, int param1, int param2)
+{
+    switch (action)
+    {
+        case BuiltinVoteAction_End:
+        {
+            g_hCustomVote = INVALID_HANDLE;
+        }
+
+        case BuiltinVoteAction_VoteEnd:
+        {
+            if (param1 == BUILTINVOTES_VOTE_YES)
+            {
+                CPrintToChatAll("{green}✔ Votación aprobada.");
+            }
+            else
+            {
+                CPrintToChatAll("{red}✘ Votación rechazada.");
+            }
+        }
+    }
+
+    return 0;
+}
 
 public Action:group(int client, int args)
 {

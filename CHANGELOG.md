@@ -19,6 +19,32 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 11.20 - 31/3/2026
+
+-------------------------------------------------------------------------------
+
+- Edited the Infectedbots configuration "Quantum.cfg" to better balance the number of specials, mini-bosses (witches and tanks), and their respective health depending on how many players are in the match. (Thanks [MrSlenderTOP])
+- Added a new plugin to disabled, [FF] Command Cheats.smx. This is only for fun netprop manipulation on players, nothing serious, recommended for playing with friends on Quantum.
+- Made a minor change to Equinix Balance (Versus) respawns: (15s-1s = 14s) > (16s-1s = 15s), resulting in a total of 15 seconds respawn time for specials.
+- Reintroduced essential Quantum plugins and fixed their loading in the cfg (and also some other plugins). (Thanks [MrSlenderTOP])
+- Added a small Zonemod change for the jockey in quantumlite, allowing it to die from a single AWP shot.
+- Rebalanced the M60: reload time changed from 5s > 4.5s, magazine size from 100 > 50, and reserve ammo from 200 > 150 (3 magazines + 1 already loaded = 4 = 200 total bullets).
+
+- Added new Voting commands, which are the following:
+>ENGLISH
+- "sm_teamscramble" — Starts a vote to scramble teams
+- "sm_scramble" — Short alias for scrambling teams
+- "sm_voteteamscramble" — Explicit vote to scramble teams
+- "sm_votescramble" — Voting alias to scramble teams
+
+>SPANISH
+- "sm_mezclar" — Inicia votación para mezclar equipos
+- "sm_mezclarequipos" — Mezcla equipos (nombre completo)
+>General
+- sm_mvote <Text that will appear as a vote>
+
+-------------------------------------------------------------------------------
+
 ## VERSION 11.10 - 20/1/2026
 
 -------------------------------------------------------------------------------

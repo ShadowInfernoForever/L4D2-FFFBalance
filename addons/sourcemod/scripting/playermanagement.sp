@@ -5,6 +5,7 @@
 #include <sdktools>
 #include <left4dhooks>
 #include <colors>
+#include <builtinvotes>
 
 #define ZC_TANK	 8
 
@@ -47,9 +48,14 @@ L4D2Team pendingSwaps[MAXPLAYERS + 1];
 bool	 blockVotes[MAXPLAYERS + 1];
 bool	 isMapActive;
 Handle	 SpecTimer[MAXPLAYERS + 1];
+Handle g_hScrambleVote = INVALID_HANDLE;
 
 int		 m_queuedPummelAttacker = -1;
 ConVar	 l4d_pm_supress_spectate;
+
+int g_iSwapA = 0;
+int g_iSwapB = 0;
+Handle g_hSwapVote = INVALID_HANDLE;
 
 public APLRes AskPluginLoad2(Handle myself, bool late, char[] error, int err_max)
 {
@@ -82,6 +88,15 @@ public void OnPluginStart()
 	RegConsoleCmd("sm_infected", Infected_Cmd, "Moves you to the infected team");
 	RegConsoleCmd("sm_infectado", Infected_Cmd, "Moves you to the infected team");
 	RegConsoleCmd("sm_zombie", Infected_Cmd, "Moves you to the infected team");
+
+	RegConsoleCmd("sm_teamscramble", ScrambleVote_Cmd);
+	RegConsoleCmd("sm_scramble", ScrambleVote_Cmd);
+	RegConsoleCmd("sm_voteteamscramble", ScrambleVote_Cmd);
+	RegConsoleCmd("sm_votescramble", ScrambleVote_Cmd);
+	RegConsoleCmd("sm_mezclar", ScrambleVote_Cmd);
+	RegConsoleCmd("sm_mezclarequipos", ScrambleVote_Cmd);
+
+	RegConsoleCmd("sm_voteswap", VoteSwap_Cmd);
 
 	sm_allow_spectate_command = CreateConVar("sm_allow_spectate_command", "1", "Allow players to use !spectate/!spec/!s");
 	g_cvarBlockInTank		  = CreateConVar("sm_blockspecintank", "0", "Block suvivors from switching to spect while in tank", FCVAR_NOTIFY, true, 0.0, true, 1.0);
@@ -144,6 +159,113 @@ public void OnMapEnd()
 void OnGameplayStart(const char[] output, int caller, int activator, float delay)
 {
 	//if (GetHumanCount()) FixBotCount();
+}
+
+Action VoteSwap_Cmd(int client, int args)
+{
+	if (g_hSwapVote != INVALID_HANDLE)
+	{
+		ReplyToCommand(client, "[SM] Ya hay una votación en curso.");
+		return Plugin_Handled;
+	}
+
+	if (args < 2)
+	{
+		ReplyToCommand(client, "Uso: sm_voteswap <player1> <player2>");
+		return Plugin_Handled;
+	}
+
+	char arg1[64], arg2[64];
+	GetCmdArg(1, arg1, sizeof(arg1));
+	GetCmdArg(2, arg2, sizeof(arg2));
+
+	int target1 = FindTarget(client, arg1, true, false);
+	int target2 = FindTarget(client, arg2, true, false);
+
+	if (target1 <= 0 || target2 <= 0 || target1 == target2)
+		return Plugin_Handled;
+
+	// Evitar swap si están en el mismo team
+	if (GetClientTeamEx(target1) == GetClientTeamEx(target2))
+	{
+		ReplyToCommand(client, "Ambos jugadores están en el mismo equipo.");
+		return Plugin_Handled;
+	}
+
+	g_iSwapA = target1;
+	g_iSwapB = target2;
+
+	g_hSwapVote = CreateBuiltinVote(SwapVote_Handler, BuiltinVoteType_Custom_YesNo);
+
+	char buffer[128];
+	Format(buffer, sizeof(buffer), "¿Intercambiar a %N con %N?", target1, target2);
+
+	SetBuiltinVoteArgument(g_hSwapVote, buffer);
+	SetBuiltinVoteInitiator(g_hSwapVote, client);
+
+	DisplayBuiltinVoteToAll(g_hSwapVote, 20);
+
+	return Plugin_Handled;
+}
+
+public int SwapVote_Handler(Handle vote, BuiltinVoteAction action, int param1, int param2)
+{
+	switch (action)
+	{
+		case BuiltinVoteAction_End:
+		{
+			g_hSwapVote = INVALID_HANDLE;
+		}
+
+		case BuiltinVoteAction_VoteEnd:
+		{
+			if (param1 == BUILTINVOTES_VOTE_YES)
+			{
+				if (IsClientInGame(g_iSwapA) && IsClientInGame(g_iSwapB))
+				{
+					L4D2Team teamA = GetClientTeamEx(g_iSwapA);
+					L4D2Team teamB = GetClientTeamEx(g_iSwapB);
+
+					pendingSwaps[g_iSwapA] = teamB;
+					pendingSwaps[g_iSwapB] = teamA;
+
+					CPrintToChatAll("{green}✔ Intercambiando a {lightgreen}%N {default}<-> {lightgreen}%N", g_iSwapA, g_iSwapB);
+
+					ApplySwaps(0, true);
+				}
+			}
+			else
+			{
+				CPrintToChatAll("{red}✖ Vote de intercambio rechazado.");
+			}
+		}
+	}
+	return 0;
+}
+
+public int ScrambleVote_Handler(Handle vote, BuiltinVoteAction action, int param1, int param2)
+{
+	switch (action)
+	{
+		case BuiltinVoteAction_End:
+		{
+			g_hScrambleVote = INVALID_HANDLE;
+		}
+
+		case BuiltinVoteAction_VoteEnd:
+		{
+			if (param1 == BUILTINVOTES_VOTE_YES)
+			{
+				CPrintToChatAll("{green}✔ Mezclando equipos...");
+				ScrambleTeams();
+			}
+			else
+			{
+				CPrintToChatAll("{red}✖ Vote de mezcla rechazado.");
+			}
+		}
+	}
+	return 0;
 }
 
 Action FixBots_Cmd(int client, int args)
@@ -278,6 +400,27 @@ public Action OnClientSayCommand(int client, const char[] command, const char[] 
 	return blockVotes[client] ? Plugin_Stop : Plugin_Continue;
 }
 
+Action ScrambleVote_Cmd(int client, int args)
+{
+	if (g_hScrambleVote != INVALID_HANDLE)
+	{
+		ReplyToCommand(client, "[SM] Ya hay una votación en curso.");
+		return Plugin_Handled;
+	}
+
+	if (!IsClientInGame(client))
+		return Plugin_Handled;
+
+	g_hScrambleVote = CreateBuiltinVote(ScrambleVote_Handler, BuiltinVoteType_Custom_YesNo);
+
+	SetBuiltinVoteArgument(g_hScrambleVote, "¿Mezclar equipos?");
+	SetBuiltinVoteInitiator(g_hScrambleVote, client);
+
+	DisplayBuiltinVoteToAll(g_hScrambleVote, 20);
+
+	return Plugin_Handled;
+}
+
 Action SwapTeams_Cmd(int client, int args)
 {
 	for (int cli = 1; cli <= MaxClients; cli++)
@@ -294,6 +437,76 @@ Action SwapTeams_Cmd(int client, int args)
 bool IsGhost(int client)
 {
 	return !!GetEntProp(client, Prop_Send, "m_isGhost", 1);
+}
+
+void ScrambleTeams()
+{
+	int players[MAXPLAYERS + 1];
+	int count = 0;
+
+	// only human players (no bots)
+	for (int i = 1; i <= MaxClients; i++)
+	{
+		if (IsClientInGame(i) && !IsFakeClient(i) && IsPlayer(i))
+		{
+			players[count++] = i;
+		}
+	}
+
+	// Shuffle
+	for (int i = count - 1; i > 0; i--)
+	{
+		int j = GetRandomInt(0, i);
+
+		int temp = players[i];
+		players[i] = players[j];
+		players[j] = temp;
+	}
+
+	int maxSurvivors = GetConVarInt(survivor_limit);
+	int maxInfected  = GetConVarInt(z_max_player_zombies);
+
+	// Balance player counts
+	int targetSurvivors = count / 2;
+	int targetInfected  = count - targetSurvivors;
+
+	// Clamp to real limits
+	if (targetSurvivors > maxSurvivors)
+	{
+		targetSurvivors = maxSurvivors;
+		targetInfected  = count - targetSurvivors;
+	}
+
+	if (targetInfected > maxInfected)
+	{
+		targetInfected  = maxInfected;
+		targetSurvivors = count - targetInfected;
+	}
+
+	int survivors = 0;
+	int infected  = 0;
+
+	for (int i = 0; i < count; i++)
+	{
+		int client = players[i];
+
+		if (survivors < targetSurvivors)
+		{
+			pendingSwaps[client] = L4D2Team_Survivor;
+			survivors++;
+		}
+		else if (infected < targetInfected)
+		{
+			pendingSwaps[client] = L4D2Team_Infected;
+			infected++;
+		}
+		else
+		{
+			pendingSwaps[client] = L4D2Team_Spectator;
+		}
+	}
+
+	ApplySwaps(0, true);
 }
 
 Action Swap_Cmd(int client, int args)

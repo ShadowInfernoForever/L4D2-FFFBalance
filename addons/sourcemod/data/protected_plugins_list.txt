@@ -61,7 +61,6 @@ admin-flatfile
 adminhelp
 sm_acvar
 lilac
-blockstatus
 builtinvotes_revote
 friendlyfire_vote
 match_vote

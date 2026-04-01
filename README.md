@@ -1,7 +1,7 @@
 # Left 4 Dead 2 - FFForever Total Game Balance + MultiMod
 
-![Version](https://img.shields.io/badge/Version-11.10-yellow?style=for-the-badge)
-![QOL](https://img.shields.io/badge/QOL-4CAF50?style=for-the-badge) ![BugFixes](https://img.shields.io/badge/BugFixes-2196F3?style=for-the-badge)  
+![Version](https://img.shields.io/badge/Version-11.20-yellow?style=for-the-badge)
+![QOL](https://img.shields.io/badge/QOL-4CAF50?style=for-the-badge) ![BugFixes](https://img.shields.io/badge/BugFixes-2196F3?style=for-the-badge) ![Balance](https://img.shields.io/badge/Balance-FF9800?style=for-the-badge) ![Multimod](https://img.shields.io/badge/Multimod-795548?style=for-the-badge)
 
 Balancea armas e infectados, mejoras Quality of Life (QoL) y agrega gamemodes fácilmente moddeables, pensados para partidas tranquilas o caos total con 8 jugadores.
 Incluye una configuración de servidor optimizada a nivel de rendimiento y gameplay.
@@ -30,15 +30,12 @@ Toda la información detallada del proyecto está organizada en la carpeta **Doc
 - 👉 [**Características Principales**](docs/features.md)
 - 👉 [**FAQ**](docs/FAQ.md) *(opcional)*
 
-## 🧩 Créditos
+## 🧩 Créditos y Contribuidores 🔥
 
-- [**Shadow / ShadowInferno**](https://steamcommunity.com/profiles/76561198021481327/) – Developer & Maintainer
-
-# 🔥 Contribuidores
-
+- [**Shadow / ShadowInferno**](https://steamcommunity.com/profiles/76561198021481327/) – **Developer, Programmer, Maintainer**
 - [MrSlenderTOP](https://steamcommunity.com/profiles/76561198976623705/) — Hoster, sugerencias, spotter de bugs
 - [Actras_DK](https://steamcommunity.com/profiles/76561198886957675/) — Hoster
-- [-|Tuc](https://steamcommunity.com/id/Tucu22/) — Hoster
+- [-|Tuc](https://steamcommunity.com/id/Tucu22/) — Hoster, Tester
 - [Luca4808](https://steamcommunity.com/id/Synth-Dingo/) — Tester, Ideas y sugerencias
 - [DJ master 3000 / Juanito_kpo4270](https://steamcommunity.com/profiles/76561199081627245/) - Hoster
 - [Zombine](https://steamcommunity.com/id/Brass_Beast_Boy/) - Tester
