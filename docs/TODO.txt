@@ -1,17 +1,6 @@
-- Add TankRush en Cooperativo de 4
-- Fix Tankrush en Cooperativo de 8
-• Comprobar si TankRush Competitivo está balanceado.
-
-• Comprobar si el balance de la SG552 es realmente "Balanceado". tanto casual como competitivo.
-
-- Competitive.cfg
-  la magnum debería de tener un multiplicador de daño ligero a la cabeza (así hace instakill) 
-  pero que no tenga el rango de 0.86........... hay que comprobar si lo dejo así o si lo reworkeo en un balance diferente a la magnum.
-
-- Mejorar la IA de los Bots (talvez editar botmanager.cfg) ?
-
-- Equinix en Cooperative4 Necesita de completarse...
-
-- Sacar el airplane de plugins, y dejarlo en disabled, en todo caso habilitarlo para quantum con la config de attano-sky
-
-- Start Safe Area for ReadyUP
+- Añadir traducciones de chat a [FF] Command Utilities.sp
+- Añadir traducciones de chat y "votación"? a playermanagement.sp
+- Comprobar si Equinix Balance es balanceado, recolectar feedback de los cambios sobre los especiales.
+- Comprobar si la M60 está balanceada en su categoría de balance "casual".
+- Comprobar si l4dinfectedbots funciona correctamente en "Quantum", por otro lado "QuantumLite" parece recibir bien l4dinfectedbots sin problemas de spawn de especiales.
+- Comprobar si la nueva configuración de Quantum de l4dinfectedbots es balanceado.
