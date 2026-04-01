@@ -41,7 +41,7 @@
 - "sm_mezclar" — Inicia votación para mezclar equipos
 - "sm_mezclarequipos" — Mezcla equipos (nombre completo)
 >General
-- sm_mvote <Text that will appear as a vote>
+- sm_mvote — Text that will appear as a vote
 
 -------------------------------------------------------------------------------
 
