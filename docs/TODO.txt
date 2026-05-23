@@ -1,5 +1,7 @@
 - Añadir traducciones de chat a [FF] Command Utilities.sp
 - Añadir traducciones de chat y "votación"? a playermanagement.sp
+- Esto de las votaciones se me ocurrio que se puede separar las traducciones con los comandos mismos, ej sm_match => menu de votacion en ingles, sm_modo => menu de votacion en español.
+
 - Comprobar si Equinix Balance es balanceado, recolectar feedback de los cambios sobre los especiales.
 - Comprobar si la M60 está balanceada en su categoría de balance "casual".
 - Comprobar si l4dinfectedbots funciona correctamente en "Quantum", por otro lado "QuantumLite" parece recibir bien l4dinfectedbots sin problemas de spawn de especiales.
