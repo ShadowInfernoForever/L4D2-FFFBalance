@@ -30,7 +30,7 @@ Incluye:
 - Mejoras de calidad de vida (QoL)
 - Correcciones al código del juego
 - Balance extenso en armas e infectados
-- Plugins personalizados diseñados exclusivamente para este proyecto
+- Plugins creados especificamente para este proyecto
 
 ---
 
@@ -47,7 +47,10 @@ Los jugadores pueden votar para cambiar el modo de juego usando comandos como:
 Los administradores pueden:
 - Crear modos personalizados  
 - Ajustar balance  
-- Modificar reglas  
-- Habilitar o deshabilitar submecánicas
+- Modificar comandos del juego
+- Habilitar o deshabilitar mecánicas, manejadas por plugins
 
-El sistema está diseñado para adaptarse a cualquier estilo de servidor.
+El sistema está diseñado con la ídea de adaptarse a cualquier estilo de servidor.
+
+### Podes ver más comandos en:
+- 👉 [**Manual de uso**](manual.md)
