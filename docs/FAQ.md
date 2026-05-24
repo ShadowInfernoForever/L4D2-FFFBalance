@@ -29,9 +29,17 @@ net_splitpacket_maxrate  = (tickrate ÷ 2) × 1000
 - Recuerda que las carpetas, **Competitive**, **Cooperative4**, **Cooperative8** son las carpetas dónde están situados los modos de juegos, son las configuraciones que se cargan cuando seleccionas un modo de juego atravez de !match
 
 - La carpeta friendlyfire_weaponbalance, son las configuraciones de balance de armas, recuerda que también son afectadas por el modo de juego, además algunos modos de juego cambian el comportamiento de el director sobre las armas.
-- Por Ejemplo: 
-- l4d2_addweaponrule sniper_military sniper_awp 50 50
-- Crea una regla que hace que la sniper_military (sniper militar), sea remplazado por el sniper_awp (la AWP de CS:S), con un 50% de chance, y con un porcentaje de remplazo del 50% de todas las armas del mapa
+- Por Ejemplo:
+  ```text
+  l4d2_addweaponrule sniper_military sniper_awp 50 50
+  ```
+Crea una regla que hace que la sniper_military (sniper militar), sea remplazado por el sniper_awp (la AWP de CS:S), con un 50% de chance, y con un porcentaje de remplazo del 50% de todas las armas del mapa
+
+- Otro Ejemplo: 
+```text
+  sm_cvar z_non_head_damage_factor_expert 0.75
+```
+Cambia el comando para que los commons tengan un 25% de resistencia al daño, 0.5 = 50%, 0.25 = 75%.
 
 # ¿Dónde puedo editar la configuración de este mod?
 
