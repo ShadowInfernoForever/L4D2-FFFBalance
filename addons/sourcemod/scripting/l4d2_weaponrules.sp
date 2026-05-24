@@ -35,7 +35,10 @@ int
 	g_GlobalWeaponChance[WEPID_SIZE],
 	// state tracking for roundstart looping
 	g_bRoundStartHit,
-	g_bConfigsExecuted;
+	g_bConfigsExecuted,
+	g_GlobalWeaponCap[WEPID_SIZE];
+
+
 
 public Plugin myinfo =
 {
@@ -67,7 +70,8 @@ void ResetWeaponRules()
 {
 	for (int i = 0; i < WEPID_SIZE; i++) {
 		g_GlobalWeaponRules[i] = -1;
-		g_GlobalWeaponChance[i] = 100; // default: siempre reemplaza
+		g_GlobalWeaponChance[i] = 100;
+		g_GlobalWeaponCap[i] = 100;
 	}
 }
 
@@ -105,7 +109,7 @@ Action RoundStartDelay(Handle hTimer)
 Action AddWeaponRuleCb(int args)
 {
 	if (args < 2) {
-		PrintToServer("Usage: l4d2_addweaponrule <match> <replace> [chance]");
+		PrintToServer("Usage: l4d2_addweaponrule <match> <replace> [chance] [cap]");
 		return Plugin_Handled;
 	}
 
@@ -117,29 +121,42 @@ Action AddWeaponRuleCb(int args)
 	GetCmdArg(2, weaponbuf, sizeof(weaponbuf));
 	int to = WeaponNameToId2(weaponbuf);
 
-	int chance = 100; // default
-	if (args >= 3) {
-		char chancebuf[8];
-		GetCmdArg(3, chancebuf, sizeof(chancebuf));
-		chance = StringToInt(chancebuf);
+	int chance = 100;
+	int cap = 100;
 
-		if (chance < 0) chance = 0;
-		if (chance > 100) chance = 100;
+	if (args >= 3) {
+		char buf[8];
+		GetCmdArg(3, buf, sizeof(buf));
+		chance = StringToInt(buf);
 	}
 
-	AddWeaponRule(match, to, chance);
+	if (args >= 4) {
+		char buf[8];
+		GetCmdArg(4, buf, sizeof(buf));
+		cap = StringToInt(buf);
+	}
+
+	// clamp
+	if (chance < 0) chance = 0;
+	if (chance > 100) chance = 100;
+
+	if (cap < 0) cap = 0;
+	if (cap > 100) cap = 100;
+
+	AddWeaponRule(match, to, chance, cap);
 
 	return Plugin_Handled;
 }
 
-void AddWeaponRule(int match, int to, int chance)
+void AddWeaponRule(int match, int to, int chance, int cap)
 {
 	if (IsValidWeaponId(match) && (to == -1 || IsValidWeaponId(to))) {
 		g_GlobalWeaponRules[match] = to;
 		g_GlobalWeaponChance[match] = chance;
+		g_GlobalWeaponCap[match] = cap;
 
 		#if DEBUG
-		PrintToServer("Rule: %d -> %d (%d%%)", match, to, chance);
+		PrintToServer("Rule: %d -> %d (%d%% chance, %d%% cap)", match, to, chance, cap);
 		#endif
 	}
 }
@@ -147,32 +164,52 @@ void AddWeaponRule(int match, int to, int chance)
 void WeaponSearchLoop()
 {
 	int entcnt = GetEntityCount();
+
+	int count[WEPID_SIZE];
+	int replaced[WEPID_SIZE];
+
+	// init
+	for (int i = 0; i < WEPID_SIZE; i++) {
+		count[i] = 0;
+		replaced[i] = 0;
+	}
+
+	// 1. count per weapon type
+	for (int ent = 1; ent <= entcnt; ent++) {
+		int source = IdentifyWeapon(ent);
+
+		if (source > WEPID_NONE && g_GlobalWeaponRules[source] != -1) {
+			count[source]++;
+		}
+	}
+
+	// 2. loop again and apply
 	for (int ent = 1; ent <= entcnt; ent++) {
 		int source = IdentifyWeapon(ent);
 
 		if (source > WEPID_NONE && g_GlobalWeaponRules[source] != -1) {
 
-			// === New: Replace by Chance ===
+			// individual chance 
 			int roll = GetRandomInt(1, 100);
 			if (roll > g_GlobalWeaponChance[source]) {
-				#if DEBUG
-				PrintToServer("Weapon %d skipped (roll %d)", source, roll);
-				#endif
 				continue;
 			}
-			// ===============================
 
+			// per-type global cap 
+			int maxReplace = RoundToFloor(float(count[source]) * g_GlobalWeaponCap[source] / 100.0);
+
+			if (replaced[source] >= maxReplace) {
+				continue;
+			}
+
+			// apply 
 			if (g_GlobalWeaponRules[source] == WEPID_NONE) {
 				AcceptEntityInput(ent, "kill");
-				#if DEBUG
-				PrintToServer("Found Weapon %d, killing", source);
-				#endif
 			} else {
-				#if DEBUG
-				PrintToServer("Found Weapon %d, converting to %d", source, g_GlobalWeaponRules[source]);
-				#endif
 				ConvertWeaponSpawn(ent, g_GlobalWeaponRules[source]);
 			}
+
+			replaced[source]++;
 		}
 	}
 }

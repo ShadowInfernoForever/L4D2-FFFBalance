@@ -19,6 +19,41 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 11.30 - 24/5/2026
+
+-------------------------------------------------------------------------------
+
+### ClassicCasual.cfg, HardMode.cfg, Quantum.cfg, edited weapon replacements:
+```text
+Military Sniper: 50% chance to become an AWP (with a 50% spawn rate).
+Hunting Rifle: 50% chance to become a Scout (with a 50% spawn rate).
+Pump Shotgun: 50% chance to become a Scout (with a 50% spawn rate).
+Chrome Shotgun: 50% chance to become a Scout (with a 50% spawn rate).
+```
+
+### Weapon Balance Changes
+* Competitive.cfg
+```text
+M16 damage 30 => 32
+M16 spreadpershot 0.47 => 0.45
+ammo_huntingrifle_max 80 => 90
+```
+* Casual.cfg
+```text
+M16 spreadpershot 0.47 => 0.45
+ammo_sniperrifle_max 100 => 80
+ammo_huntingrifle_max 100 => 90
+```
+- Added missing l4d2_refillreload_fix.sp
+- Added missing l4d2_infected_hud.smx
+- Added missing l4d2_infected_hudhpbar.smx
+- Added laser box removal to equinix.cfg in competitive modes folder.
+- Separated Quantum.cfg used by l4dinfectedbots in sourcemod data folder, to quantum.cfg and quantumlite.cfg
+- Balanced QuantumLite.cfg and Quantum.cfg
+- Updated l4d2_weaponrules.sp to support an additional parameter for map weapon replacement percentages.
+
+-------------------------------------------------------------------------------
+
 ## VERSION 11.20 - 31/3/2026
 
 -------------------------------------------------------------------------------
