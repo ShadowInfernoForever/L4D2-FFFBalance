@@ -46,6 +46,7 @@ l4d2_addweaponrule shotgun_chrome sniper_scout 50
 ```
 - Estas reglas hacen que la ```pumpshotgun``` y la ```shotgun_chrome``` tengan un 50% de probabilidad de ser reemplazadas por la sniper_scout (Scout de CS).
 - También puedes agregar otro 50 para hacer que remplaze % porcentaje de armas del mapa, por ejemplo:
+
 ```text
 l4d2_addweaponrule sniper_military sniper_awp 50 50
 ```
