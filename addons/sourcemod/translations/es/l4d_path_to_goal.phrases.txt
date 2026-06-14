@@ -1,0 +1,49 @@
+"Phrases"
+{
+	
+	"ptg_wait"
+	{
+		"es"			"Porfavor espera..."
+	}
+	
+	"ptg_busy"
+	{
+		"es"			"Intentalo denuevo mas tarde."
+	}
+	
+	"ptg_look"
+	{
+		"es"			"Mira Hacia: "
+	}
+
+	"ptg_ahead"
+	{
+		"es"			"Adelante"
+	}
+
+	"ptg_behind"
+	{
+		"es"			"Atras"
+	}
+	
+	"ptg_left"
+	{
+		"es"			"La Izquierda"
+	}
+
+	"ptg_right"
+	{
+		"es"			"La Derecha"
+	}
+
+	"ptg_up"
+	{
+		"es"			"Arriba"
+	}
+
+	"ptg_down"
+	{
+		"es"			"Abajo"
+	}
+	
+}

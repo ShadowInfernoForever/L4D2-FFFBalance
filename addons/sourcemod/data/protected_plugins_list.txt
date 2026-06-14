@@ -64,6 +64,7 @@ lilac
 builtinvotes_revote
 friendlyfire_vote
 match_vote
+l4d_path_to_goal
 fixes/l4d_pounceprotect
 fixes/l4d_votepoll_fix
 fixes/physics_object_pushfix
