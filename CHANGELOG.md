@@ -19,6 +19,16 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 11.50 - 15/6/2026
+
+-------------------------------------------------------------------------------
+
+- Fixed a Typo in l4dinfectedbots Quantum.cfg
+- Removed l4d2_finale_fail_ending.smx in various Cfgs, as people didn't really like it, but i will leave it as optional.
+- Leaker Boomer has been removed for now, as it doesn't work at the moment.
+
+-------------------------------------------------------------------------------
+
 ## VERSION 11.40 - 14/6/2026
 
 -------------------------------------------------------------------------------

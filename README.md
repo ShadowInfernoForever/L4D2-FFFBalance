@@ -1,6 +1,6 @@
 # Left 4 Dead 2 - FFForever Total Game Balance + MultiMod
 
-![Version](https://img.shields.io/badge/Version-11.40-yellow?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-11.50-yellow?style=for-the-badge)
 ![QOL](https://img.shields.io/badge/QOL-4CAF50?style=for-the-badge) ![BugFixes](https://img.shields.io/badge/BugFixes-2196F3?style=for-the-badge) ![Balance](https://img.shields.io/badge/Balance-FF9800?style=for-the-badge) ![Multimod](https://img.shields.io/badge/Multimod-795548?style=for-the-badge)
 
 Balancea armas e infectados, mejoras Quality of Life (QoL) y agrega gamemodes fácilmente moddeables, pensados para partidas tranquilas o caos total con 8 jugadores.
