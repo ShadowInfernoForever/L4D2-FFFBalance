@@ -1,3 +1,5 @@
 - Esto de las votaciones se me ocurrio que se puede separar las traducciones con los comandos mismos, ej sm_match => menu de votacion en ingles, sm_modo => menu de votacion en español.
 
 - Comprobar si la nueva configuración de Quantum de l4dinfectedbots es balanceado.
+
+- Añadir los gamemodes oficiales a match.
