@@ -221,7 +221,7 @@
 		}
 		//"Competitive/TeamDM"
 		//{
-		//	"name" "★ TeamDeathMatch"
+		//	"name" "★TeamDeathMatch"
 		//}
 		//"Competitive/TSC"
 		//{
