@@ -79,7 +79,7 @@
 		{
 			"name" "•Vanilla (CO-OP)	 "
 		}
-        	"Cooperative4/ClassicCasual"
+		"Cooperative4/ClassicCasual"
 		{
 			"name" "•Classic Casual"
 		}
@@ -107,10 +107,6 @@
 		{
 			"name" "★3vs4 HM"
 		}
-		//"Cooperative4/Stratum"
-		//{
-		//	"name" "•Stratum Source"
-		//}
 		//"Cooperative4/FTG"
 		//{
 		//	"name" "Follow The Guardian"
@@ -131,7 +127,7 @@
 		//{
 		//	"name" "Divergent Epidemic"
 		//}
-        	//"Cooperative4/Infection"
+		//"Cooperative4/Infection"
 		//{
 		//	"name" "Infectionpocalypse"
 		//}
@@ -148,6 +144,7 @@
 			"name" "Marathon CO-OP"
 		}
 	}
+	
 	"• Cooperative - 8 Players"
 	{
 		"Cooperative8/Quantum"
@@ -171,6 +168,7 @@
 			"name" "Versus CO-OP - 8P"
 		}
 	}
+	
 	// "Survival - 4 Players"
 	// {
 	//     "Cooperative4/Vanilla"
@@ -178,6 +176,7 @@
 	//         "name" "Vanilla"
 	//     }
 	//}
+	
 	"★ Versus - 8 players"
 	{
 		"Competitive/Vanilla"
@@ -192,7 +191,7 @@
 		{
 			"name" "•HvS - Hunters vs Survivors"
 		}
-	    "Competitive/1vs1"
+		"Competitive/1vs1"
 		{
 			"name" "★1vs1 Versus"
 		}
@@ -220,13 +219,166 @@
 		{
 			"name" "★DeathMatch"
 		}
-		"Competitive/TeamDM"
+		//"Competitive/TeamDM"
+		//{
+		//	"name" "★ TeamDeathMatch"
+		//}
+		//"Competitive/TSC"
+		//{
+		//	"name" "★Team Survival Competition"
+		//}
+		// Mutations Here
+		"Mutations/Bleedout_VS"
 		{
-			"name" "★TeamDeathMatch"
+			"name" "• Bleedout Versus"
 		}
-        "Competitive/TSC"
+		"Mutations/Confogl"
 		{
-			"name" "★Team Survival Competition"
+			"name" "★ Confogl"
+		}
+		"Mutations/L4D1Versus"
+		{
+			"name" "• L4D1 Versus"
+		}
+		"Mutations/VersusSurvival"
+		{
+			"name" "• Versus Survival"
+		}
+	}
+
+	"• Mutations"
+	{
+		"Mutations/Bleedout"
+		{
+			"name" "• Bleedout"
+		}
+		"Mutations/Bleedout_VS"
+		{
+			"name" "• Bleedout Versus"
+		}
+		"Mutations/ChainsawMassacre"
+		{
+			"name" "• Chainsaw Massacre"
+		}
+		"Mutations/Confogl"
+		{
+			"name" "• Confogl"
+		}
+		"Mutations/Dash"
+		{
+			"name" "• Dash"
+		}
+		"Mutations/DeathDoor"
+		{
+			"name" "• Death's Door"
+		}
+		"Mutations/FluSeason"
+		{
+			"name" "• Flu Season"
+		}
+		"Mutations/FollowTheLiter"
+		{
+			"name" "• Follow the Liter"
+		}
+		"Mutations/FourSwordsmen"
+		{
+			"name" "• Four Swordsmen"
+		}
+		"Mutations/GibFest"
+		{
+			"name" "• Gib Fest"
+		}
+		"Mutations/GunBrain"
+		{
+			"name" "• Gun Brain"
+		}
+		"Mutations/HardEight"
+		{
+			"name" "• Hard Eight"
+		}
+		"Mutations/Headshot"
+		{
+			"name" "• Headshot Mode"
+		}
+		"Mutations/HealingGnome"
+		{
+			"name" "• Healing Gnome"
+		}
+		"Mutations/Healthpackalypse"
+		{
+			"name" "• Healthpackalypse"
+		}
+		"Mutations/Holdout"
+		{
+			"name" "• Holdout"
+		}
+		"Mutations/HuntingParty"
+		{
+			"name" "• Hunting Party"
+		}
+		"Mutations/IronMan"
+		{
+			"name" "• Iron Man"
+		}
+		"Mutations/L4D1Coop"
+		{
+			"name" "• L4D1 CO-OP"
+		}
+		"Mutations/L4D1Survival"
+		{
+			"name" "• L4D1 Survival"
+		}
+		"Mutations/L4D1Versus"
+		{
+			"name" "• L4D1 Versus"
+		}
+		"Mutations/LastGnomeOnEarth"
+		{
+			"name" "• Last Gnome on Earth"
+		}
+		"Mutations/LastManOnEarth"
+		{
+			"name" "• Last Man on Earth"
+		}
+		"Mutations/LoneGunMan"
+		{
+			"name" "• Lone Gunman"
+		}
+		"Mutations/Nightmare"
+		{
+			"name" "• Nightmare"
+		}
+		"Mutations/RidingMySurvivor"
+		{
+			"name" "• Riding My Survivor"
+		}
+		"Mutations/RocketDude"
+		{
+			"name" "• Rocket Dude"
+		}
+		"Mutations/RoomForOne"
+		{
+			"name" "• Room for One"
+		}
+		"Mutations/ShootZones"
+		{
+			"name" "• Shoot Zones"
+		}
+		"Mutations/SpecialDelivery"
+		{
+			"name" "• Special Delivery"
+		}
+		"Mutations/Taank"
+		{
+			"name" "• Taank"
+		}
+		"Mutations/TankRun"
+		{
+			"name" "• Tank Run"
+		}
+		"Mutations/VersusSurvival"
+		{
+			"name" "• Versus Survival"
 		}
 	}
 }

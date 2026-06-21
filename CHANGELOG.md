@@ -19,6 +19,19 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 11.60 - 21/6/2026
+
+-------------------------------------------------------------------------------
+
+- Fixed typo in l4dinfectedbots QuantumLite
+- Added plugin l4d2_director_commonlimit_block, to block more commons than allowed cvar => z_common_limit
+- Removed a lot of text from all cfgs, as these where unnecesary, and now it is explained in the github md
+- Fixed syntax in various cfgs, as it would prevent them from executing.
+- l4dinfectedbots.cfg doesn't calculate dead now, as it probably made it too hard for players.
+- Added All L4D2 Mutations to be selectable via !match
+
+-------------------------------------------------------------------------------
+
 ## VERSION 11.50 - 15/6/2026
 
 -------------------------------------------------------------------------------
