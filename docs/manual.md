@@ -73,6 +73,52 @@ Si te pierdes en el mapa, puedes solicitar al servidor que dibuje un camino (lá
 - `!guia / sm_guia`
 - `!ruta / sm_ruta`
 
+¡Perfecto! Vamos a actualizar y organizar esa lista para que quede impecable en tu documentación. He agrupado los comandos que faltaban por su función (ir a espectadores, ir a supervivientes, ir a infectados y votaciones de mezcla/intercambio) para que sea súper fácil de leer.
+
+Aquí tienes el texto listo para copiar y pegar:
+
+---
+
+## 4. Gestión de jugadores (Player Management)
+
+### 💬 Comandos de chat o en la consola, respectivamente:
+
+* `!fixbots / sm_fixbots` - Spawnea los supervivientes faltantes como bots, depende del cvar `survivor_limit`.
+* `!swapteams / sm_swapteams` - Cambia a todos los jugadores de equipo entre sí (de infectados a supervivientes y viceversa).
+* `!swapto / sm_swapto` - Cambia a un jugador (o varios) a un equipo específico. Uso: `!swapto [force] <numerodeteam> <player1> [player2]...` (1 = Espectadores; 2 = Supervivientes; 3 = Infectados). 
+* `!swap / sm_swap` - Intercambia a los jugadores listados al equipo contrario. Uso: `!swap <player1> [player2]...`
+> **Nota:** Estos Comandos son solo para administradores
+
+### Pasar al equipo de Espectadores (Mismo comando)
+
+* `!spectate / sm_spectate`
+* `!spec / sm_spec`
+* `!s / sm_s`
+* `!afk / sm_afk`
+* `!espectador / sm_espectador`
+
+> **Nota:** Cualquiera de estas variantes te moverá inmediatamente al equipo de espectadores.
+
+### Pasar al equipo de Supervivientes (Mismo comando)
+
+* `!jugar / sm_jugar`
+* `!join / sm_join`
+* `!survivor / sm_survivor`
+* `!superviviente / sm_superviviente`
+* `!supervivientes / sm_supervivientes`
+* `!humano / sm_humano`
+
+### Pasar al equipo de Infectados (Mismo comando)
+
+* `!infected / sm_infected`
+* `!infectado / sm_infectado`
+* `!zombie / sm_zombie`
+
+### Votaciones de Equipos
+
+* `!teamscramble / !scramble / !voteteamscramble / !votescramble / !mezclar / !mezclarequipos` (Comandos equivalentes: `sm_teamscramble`, `sm_scramble`, etc.) - Inicia una votación para mezclar los equipos aleatoriamente.
+* `!voteswap / sm_voteswap` - Inicia una votación para intercambiar los equipos (pasar los supervivientes a infectados y viceversa).
+
 ## 📄 Notas
 - La gran mayoria de comandos son accesibles para los jugadores, a menos que el administrador configure lo contrario, algunos solo son accesibles para administradores por obvias razones.
 - Si un jugador no vota o no usa comandos, simplemente juega sin ningún modo cargado, con los plugins complementarios.
