@@ -59,6 +59,7 @@ Muchos de estos plugins y sus respectivos files de scripting fueron sacados y/o 
 - [pa4H] (https://github.com/pa4H/L4D2-pa4H-Plugins/tree/main)
 - [HoongDou] (https://github.com/HoongDou/L4D2-HoongDou-Project)
 - [fdxx] (https://github.com/fdxx/l4d2_plugins/tree/main)
+- [MineralCr] (https://github.com/Mineralcr/L4D2_Public_Plugins/tree/main)
 
 ## 📄 Licencia
 Este proyecto se distribuye bajo los términos de la **GNU General Public License v3.0 (GPLv3)**.  

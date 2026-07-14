@@ -125,3 +125,4 @@ fixes/l4d2_projectile_collisions_fix
 fixes/l4d2_jockey_jumpcap_patch
 fixes/l4d_remove_item_collision
 fixes/witch_pipebomb_exploit_fix_and_death_optmizer
+fixes/l4d2_acid_damage_fix

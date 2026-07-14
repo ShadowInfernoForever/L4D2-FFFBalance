@@ -19,6 +19,21 @@
 
 -------------------------------------------------------------------------------
 
+## VERSION 11.70 - 14/7/2026
+
+-------------------------------------------------------------------------------
+
+- Added Acid Damage Fix (`l4d2_acid_damage_fix`) by [MineralCr](https://github.com/Mineralcr/L4D2_Public_Plugins/tree/main): Corrects insect and Inferno acid damage range and frequency using dynamic detours and hooks.
+- Updated `l4d2_npc_manager`: Bumped `GAMEDATA_VERSION`, refactored convars/update-frequency handling, and added climb-fix support via `ZombieBotLocomotion` detour along with its related gamedata signatures.
+- Removed deprecated `l4d2_resolve_collision` extension files and leftover log files.
+- Revised `[FF] Command Utilities.sp`: General formatting cleanup, improvements to lerp, ping, progression, mvote, kill, and slots, alongside various bug fixes.
+- Miscellaneous: 
+  * Adjusted weapon balance values.
+  * Updated `compile.dat` and the `clientprefs` SQLite binary.
+  * Updated README with the MineralCr repository link.
+
+-------------------------------------------------------------------------------
+
 ## VERSION 11.60 - 21/6/2026
 
 -------------------------------------------------------------------------------
