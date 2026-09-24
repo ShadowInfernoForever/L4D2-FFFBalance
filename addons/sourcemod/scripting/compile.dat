@@ -43,11 +43,11 @@ Age=1525332076
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\AI_HardSI.sp]
 Age=1503617760
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\hardai.sp]
-Age=1525390019
+Age=1559866982
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\vocalizetochat.sp]
 Age=1525391853
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_melee_fatigue.sp]
-Age=1525398007
+Age=1563579384
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_m2_control.sp]
 Age=1514832420
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Laser Box Removal.sp]
@@ -75,7 +75,7 @@ Age=1526288758
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\lfd_coop_ammoStackSpawn.sp]
 Age=1526289636
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_ammostack_rework.sp]
-Age=1546886810
+Age=1546947579
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d_revive_health_decay.sp]
 Age=1526293747
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Utility Incap Pass.sp]
@@ -353,7 +353,7 @@ Age=1546947812
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_sb_fix.sp]
 Age=1536662754
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_npc_manager.sp]
-Age=1536662823
+Age=1557884953
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\si_pool.sp]
 Age=1536662895
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\smoker_anim_fix.sp]
@@ -393,7 +393,7 @@ Age=1545831472
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[VSCOOP] Team Switcher.sp]
 Age=1545974108
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_weaponrules.sp]
-Age=1552653306
+Age=1563533708
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_block_no_steam_logon.sp]
 Age=1546236890
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\night_vision.sp]
@@ -464,3 +464,61 @@ Age=1552453863
 Age=1552654388
 [D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d_path_to_goal.sp]
 Age=1555731573
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\meleeshove_smokerpull_fix.sp]
+Age=1557115485
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_director_commonlimit_block.sp]
+Age=1557116360
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557493817
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557496341
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557496589
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557496657
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557496690
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557497589
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557497596
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_acid_damage_fix.sp]
+Age=1557886062
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_damage_show.sp]
+Age=1557886741
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[FF] Command Utilities.sp]
+Age=1557498004
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\hardai_2.sp]
+Age=1559866701
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\AI_HardSI_new.sp]
+Age=1559932241
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\AI_HardSI_2.sp]
+Age=1559932235
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\ai_spitter_2.sp]
+Age=1559932459
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\ai_tank3.sp]
+Age=1559932501
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\ai_boomer_2.sp]
+Age=1559932427
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\ai_charger_2.sp]
+Age=1559932441
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\ai_hunter_2.sp]
+Age=1559932468
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\ai_jockey_2.sp]
+Age=1559932454
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\ai_smoker3.sp]
+Age=1559932646
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\SI_Target_limit.sp]
+Age=1559932969
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[Tool] DebugDamages.sp]
+Age=1562593442
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\[Tool] DebugDamages.sp]
+Age=1562593525
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\Trails_Projectile.sp]
+Age=1562610866
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\miuwiki_projectilepredict.sp]
+Age=1562611761
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d2_lasersightrework.sp]
+Age=1563582234
+[D:\SteamLibrary\steamapps\common\Left 4 Dead 2\left4dead2\addons\sourcemod\scripting\l4d_tank_painfade.sp]
+Age=1563975171

@@ -19,7 +19,7 @@
 public Plugin myinfo =
 {
     name        = "Ai Hunter 2.0 (fixed)",
-    author      = "夜羽真白",
+    author      = "夜羽真白, patch by ChatGPT",
     description = "Ai Hunter 增强（修正若干编译/运行问题与健壮性）",
     version     = "2025-09-24",
     url         = "https://steamcommunity.com/id/saku_ra/"

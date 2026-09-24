@@ -4,26 +4,12 @@
 	Pawn and SMALL are Copyright (C) 1997-2008 ITB CompuPhase.
 	Source is Copyright (C) Valve Corporation.
 	All trademarks are property of their respective owners.
-
-	This program is free software: you can redistribute it and/or modify it
-	under the terms of the GNU General Public License as published by the
-	Free Software Foundation, either version 3 of the License, or (at your
-	option) any later version.
-
-	This program is distributed in the hope that it will be useful, but
-	WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-	General Public License for more details.
-
-	You should have received a copy of the GNU General Public License along
-	with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #pragma semicolon 1
 #pragma newdecls required
 
 #include <sourcemod>
-#include <sdktools>
 #include <sdktools>
 #define L4D2UTIL_STOCKS_ONLY 1
 #include <l4d2util>
@@ -33,19 +19,19 @@
 int
 	g_GlobalWeaponRules[WEPID_SIZE] = {-1, ...},
 	g_GlobalWeaponChance[WEPID_SIZE],
-	// state tracking for roundstart looping
 	g_bRoundStartHit,
 	g_bConfigsExecuted,
 	g_GlobalWeaponCap[WEPID_SIZE];
 
-
+// Variable global para mantener el estado del generador aleatorio
+int g_iRandomSeed = 0;
 
 public Plugin myinfo =
 {
-	name = "L4D2 Weapon Rules",
-	author = "ProdigySim",
-	version = "1.0.2",
-	description = "^",
+	name = "L4D2 Weapon Rules (Versus Balanced)",
+	author = "ProdigySim (Modified for Melee & Versus Consistency)",
+	version = "1.1.1",
+	description = "Weapon rules with consistent RNG seeds for Versus rounds",
 	url = "https://github.com/SirPlease/L4D2-Competitive-Rework"
 };
 
@@ -62,7 +48,6 @@ public void OnPluginStart()
 Action ResetWeaponRulesCb(int args)
 {
 	ResetWeaponRules();
-
 	return Plugin_Handled;
 }
 
@@ -154,15 +139,51 @@ void AddWeaponRule(int match, int to, int chance, int cap)
 		g_GlobalWeaponRules[match] = to;
 		g_GlobalWeaponChance[match] = chance;
 		g_GlobalWeaponCap[match] = cap;
-
-		#if DEBUG
-		PrintToServer("Rule: %d -> %d (%d%% chance, %d%% cap)", match, to, chance, cap);
-		#endif
 	}
+}
+
+int WeaponNameToId2(const char[] name)
+{
+	if (StrEqual(name, "melee", false) || StrEqual(name, "weapon_melee", false)) {
+		return WEPID_MELEE;
+	}
+
+	char namebuf[64] = "weapon_";
+	int wepid = WeaponNameToId(name);
+	
+	if (wepid == WEPID_NONE) {
+		strcopy(namebuf[7], sizeof(namebuf) - 7, name);
+		wepid = WeaponNameToId(namebuf);
+	}
+
+	return wepid;
+}
+
+// Inicializa la semilla determinista basada en el mapa
+void InitMapSeed()
+{
+	char mapname[64];
+	GetCurrentMap(mapname, sizeof(mapname));
+	
+	int seed = 0;
+	for (int i = 0; mapname[i] != '\0'; i++) {
+		seed = seed * 31 + mapname[i];
+	}
+	g_iRandomSeed = (seed < 0) ? -seed : seed;
+}
+
+// Generador de números aleatorios consistente entre rondas
+int GetCustomRandomInt(int min, int max)
+{
+	g_iRandomSeed = (g_iRandomSeed * 1103515245 + 12345) & 0x7fffffff;
+	return min + (g_iRandomSeed % (max - min + 1));
 }
 
 void WeaponSearchLoop()
 {
+	// Reiniciar la semilla exactamente igual en ambas rondas del mapa
+	InitMapSeed();
+
 	int entcnt = GetEntityCount();
 
 	int count[WEPID_SIZE];
@@ -174,7 +195,6 @@ void WeaponSearchLoop()
 		replaced[i] = 0;
 	}
 
-	// 1. count per weapon type
 	for (int ent = 1; ent <= entcnt; ent++) {
 		int source = IdentifyWeapon(ent);
 
@@ -183,26 +203,22 @@ void WeaponSearchLoop()
 		}
 	}
 
-	// 2. loop again and apply
 	for (int ent = 1; ent <= entcnt; ent++) {
 		int source = IdentifyWeapon(ent);
 
 		if (source > WEPID_NONE && g_GlobalWeaponRules[source] != -1) {
 
-			// individual chance 
-			int roll = GetRandomInt(1, 100);
+			int roll = GetCustomRandomInt(1, 100);
 			if (roll > g_GlobalWeaponChance[source]) {
 				continue;
 			}
 
-			// per-type global cap 
 			int maxReplace = RoundToFloor(float(count[source]) * g_GlobalWeaponCap[source] / 100.0);
 
 			if (replaced[source] >= maxReplace) {
 				continue;
 			}
 
-			// apply 
 			if (g_GlobalWeaponRules[source] == WEPID_NONE) {
 				AcceptEntityInput(ent, "kill");
 			} else {
@@ -212,19 +228,4 @@ void WeaponSearchLoop()
 			replaced[source]++;
 		}
 	}
-}
-
-// Tries the given weapon name directly, and upon failure,
-// tries prepending "weapon_" to the given name
-int WeaponNameToId2(const char[] name)
-{
-	char namebuf[64] = "weapon_";
-	int wepid = WeaponNameToId(name);
-	
-	if (wepid == WEPID_NONE) {
-		strcopy(namebuf[7], sizeof(namebuf) - 7, name);
-		wepid = WeaponNameToId(namebuf);
-	}
-
-	return wepid;
 }
