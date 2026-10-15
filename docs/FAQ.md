@@ -60,7 +60,7 @@ l4d2_addweaponrule sniper_military sniper_awp 50 50
 ```
 - Esta regla hace que la sniper_military (sniper militar) sea reemplazada por la sniper_awp (AWP de CS:S) con un **50% de probabilidad**. Además, afecta al **50% de las armas** de ese tipo presentes en el mapa
 
-## **friendlyfire_weaponbalance**
+## **[friendlyfire_weaponbalance](https://github.com/ShadowInfernoForever/L4D2-FFFBalance/tree/5eb0d77bf72a16d885eab87ddf2da385e5cc9ad6/cfg/friendlyfire_weaponbalance)**
 Contiene las configuraciones relacionadas al balance de armas. Ten en cuenta que estas también pueden verse afectadas por el modo de juego seleccionado. Además, algunos modos modifican el comportamiento del Director respecto a las armas.
 
 ### Ejemplo:
@@ -76,7 +76,7 @@ daño base x daño por headshot vanilla x headshotmult
 500 x 4 x 0.5 = 1000dmg
 ```
 
-## **friendlyfiremodes** 
+## **[friendlyfiremodes](https://github.com/ShadowInfernoForever/L4D2-FFFBalance/tree/5eb0d77bf72a16d885eab87ddf2da385e5cc9ad6/cfg/friendlyfiremodes)** 
 Son los modos de fuego amigo que hay, es decir, podemos votar el porcentaje de FF en la misma partida.
 ### Ejemplo:
 - **brutalfriendlyfire.cfg** => creas un cfg custom para reventar a tus aliados, porque es divertido :D
