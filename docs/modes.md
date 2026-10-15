@@ -18,17 +18,16 @@ El Left 4 Dead 2 clásico, pero con parches, mejoras de calidad de vida (QoL) y 
 - Se pueden agarrar objetos estando incapacitado.
 - El tank al moverse ya no generá sacudidas en la cámara de los jugadores.
 - Los props como (fuegos artificiales, tanques de propano, oxígeno y latas de gasolina) ya no tendrán colisión, para evitar que al desplazarse se muevan de lugar.
-- El Director spawneará mobs enfrente del jugador más adelantado, siempre.
 - El juego anunciará quién fue el que reventó una lata de gasolina (de forma sútil, nada de mensajes en el chat ni hint texts, lo más vanilla posible).
 - El jockey ya no puede capear si no es con su habilidad.
-- Recoger un arma/item/utilidad ya no te cambiará a esta automaticamente.
+- Pasarle un item a un compañero, o recoger un item del suelo ya no te cambiará a esta automaticamente.
 - Se removieron las sombras, tanto para mayor fps, y para no tener un "wallhack" y ver infectados atravez de paredes gracias a sus sombras.
 - Las escaleras se comportan como CS, es decir, se puede disparar estando parado en una escalera.
 - Los espectadores se quedarán como espectadores después de un cambio de niveles.
 - Estar parado en un superviviente siendo infectado, o viceversa, ya no generará temblores en la pantalla, tampoco hará que estos se deslizen.
 - Las armas tendrán skins RNG, (todas las que añadieron en Last Stand).
 - Hay un Sistema Anti-Trampas (Lilac Anti Cheat)
-- Los snipers de cerrojo tienen balas trazadoras (re-utiliza la trazadora de las incendiarias).
+- Los snipers de cerrojo tienen balas trazadoras (re-utiliza la trazadora de las incendiarias, obvio no prenden fuego es solo visual).
 
 ---
 
@@ -64,14 +63,14 @@ Balancea supervivientes, infectados, armas y mecánicas para una dificultad alta
 - Velocidad del tank a 220 (hammer/units)
 - El tank cuando es prendido fuego, ganará velocidad (como en L4D1)
 - Los Commons tienen una reducción de daño del 25%, recibiendo el 75% del impacto.
-- Commons configurados para combate más consistente (sin peleas entre ellos, ni tampoco descansan en el piso, siempre estarán caminando).
+- Commons configurados para combate más consistente (ya no se pelean entre ellos, ni tampoco descansan en el piso, siempre estarán caminando).
 - Los supervivientes tienen los godframes de dificultad normal contra los commons. (Esto aplica a todas las dificultades excepto fácil).
 - Daño de los commons a supervivientes reducido (2dmg en normal; 5dmg en hard; 11dmg en experto).
 - Hordas configuradas manualmente, el director spawneará hordas si los supervivientes van bien en la partida, de lo contrario, si no se mueven, se detendrán las hordas.
 - Uso de "configuración competitiva de armas" (Zonemod Híbrido).
 - Los supervivientes solo tendrán 4 empujones.
 - El stagger de los especiales ahora es de 1.5s.
-
+- 
 ---
 
 > ### HardMode (HM)
